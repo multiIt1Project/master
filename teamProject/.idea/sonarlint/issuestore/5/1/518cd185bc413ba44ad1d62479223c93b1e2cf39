@@ -1,0 +1,6 @@
+
+”	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ºóJ$1adac6d0-55ac-4b06-aad2-df91ee0a712c
+y
+java:S1854	"=Remove this useless assignment to local variable "firstPage".(Æ”‘†J$d9ec38f1-fa5d-4115-b55a-becd7db7860e
+j
+java:S1481	".Remove this unused "firstPage" local variable.(Æ”‘†J$a01c1fc4-19fc-4f8e-b44b-20799f035b1a

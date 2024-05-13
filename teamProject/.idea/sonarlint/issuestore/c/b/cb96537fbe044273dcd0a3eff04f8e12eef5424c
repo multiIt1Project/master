@@ -1,0 +1,114 @@
+
+¡
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜œÀ¶øÿÿÿÿ8ØÖì—÷1J$9a30bf6d-5d31-4390-ad72-86c161de0f12
+¡
+java:S2293["YReplace the type specification in this constructor call with the diamond operator ("<>").(˜œÀ¶øÿÿÿÿ8ØÖì—÷1J$fb028c99-b35f-42d1-b4d7-8ff81d966085
+
+java:S1192D"UDefine a constant instead of duplicating this literal "íŠ¸ëœì­ì…˜ ë¡¤ë°±." 5 times.(ßÒ‚¬øÿÿÿÿ8ÙÖì—÷1J$bf060a96-c05b-4c2f-9840-b07c7f289c19
+¨
+java:S1192"`Define a constant instead of duplicating this literal "1. ë“œë¼ì´ë²„ ì„¤ì • ì„±ê³µ.." 5 times.(©ËÑ½ûÿÿÿÿ8ÙÖì—÷1J$12601163-9d04-48aa-9178-a15fc8e6fb6c
+
+java:S1192("ZDefine a constant instead of duplicating this literal "sqlë¬¸ ì „ì†¡ ì„±ê³µ!! : " 4 times.(…É¨™8ÙÖì—÷1J$134b2a40-415c-4026-9260-0c7becbd9702
+‹
+java:S1192/"HDefine a constant instead of duplicating this literal "USER_ID" 3 times.(î¹Í¨8ÙÖì—÷1J$6b72ed15-7766-4b5a-8db4-6c5b14cba052
+¬
+java:S1192"dDefine a constant instead of duplicating this literal "jdbc:oracle:thin:@localhost:1521:xe" 5 times.(Ú¦Ò¥úÿÿÿÿ8ÙÖì—÷1J$a6a7f55d-82c4-420d-af57-9ed35837c6de
+‰
+java:S1192"FDefine a constant instead of duplicating this literal "tiger" 5 times.(ƒ³Şò8ÙÖì—÷1J$d940b8ff-f7e9-446c-b92e-8f92aca57c47
+©
+java:S11927"aDefine a constant instead of duplicating this literal "sqlë¬¸ ì „ì†¡ ì„±ê³µ, ê²°ê³¼ >> " 5 times.(‡ş²¬ÿÿÿÿÿ8ÙÖì—÷1J$530bd03c-4074-4f33-8d0f-741e5571f48d
+®
+java:S1192 "fDefine a constant instead of duplicating this literal "3. ì˜¤í†  ì»¤ë°‹ ì„¤ì • ë¹„í™œì„±í™”." 5 times.(Õê‹–ùÿÿÿÿ8ÙÖì—÷1J$aae6c729-73a0-49ad-9d9f-5671d1fa9736
+
+java:S11920"KDefine a constant instead of duplicating this literal "WRITE_DATE" 3 times.(–Ö©8ÙÖì—÷1J$930651fd-babe-4bcf-82c9-8f92e4a1e8bf
+—
+java:S1192"TDefine a constant instead of duplicating this literal "2. dbì—°ê²° ì„±ê³µ." 5 times.(Ñ©Ê8ÙÖì—÷1J$e6723216-6c9b-444d-aa1b-661eb260e4a1
+ˆ
+java:S11921"FDefine a constant instead of duplicating this literal "TITLE" 3 times.(ÒÏù!8ÙÖì—÷1J$c8c80754-e7b1-4403-bcba-195c1efcb12b
+
+java:S11922"HDefine a constant instead of duplicating this literal "CONTENT" 3 times.(Ã«˜øÿÿÿÿ8ÙÖì—÷1J$90e26ffb-fd52-4ad5-a9fa-fdbb11e48f4d
+
+java:S1192"FDefine a constant instead of duplicating this literal "scott" 5 times.(ŞßÄÏüÿÿÿÿ8ÙÖì—÷1J$e60612d1-3f59-4eff-85c0-071f5802d000
+¬
+java:S1192;"iDefine a constant instead of duplicating this literal "sql ì—ëŸ¬ ë°œìƒ!! íšŒì› ì¡´ì¬ ì•ˆí•¨" 5 times.(ÿî­«8ÙÖì—÷1J$f163c483-8928-4d1c-81ba-2f8293ef4f09
+£
+java:S1192"`Define a constant instead of duplicating this literal "oracle.jdbc.driver.OracleDriver" 5 times.(ùíÄé8ÙÖì—÷1J$ccfa1848-f848-4e13-8343-8f07e696341d
+³
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(äÙş³8ÙÖì—÷1J$cde325ac-b90a-428d-a718-b1933fab3ea2
+³
+java:S1319V"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ßáı8ÙÖì—÷1J$011df9ee-da6e-46ce-b1ea-982acbbaf324
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•ìºèùÿÿÿÿ8ÛÖì—÷1J$c0b5bc3f-02d9-41f2-8678-7f4f0c67c792
+ƒ
+java:S2259"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8¯Úì—÷1J$aaddb3ab-aefc-4b96-b250-6341124ec0fd
+‚
+java:S2259I"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8®Úì—÷1J$a90ee92a-dad4-46b4-b996-d649ce0b300c
+ƒ
+java:S2259Ò"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8¯Úì—÷1J$d1ff19fd-f2cd-4d37-997a-1969f9bbe84c
+ƒ
+java:S2259•"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8®Úì—÷1J$093d85cd-4313-4313-80b9-73a50efd5aff
+ƒ
+java:S2259İ"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8°Úì—÷1J$fc8bea65-8b7c-4162-b95a-4cc17bcf8ced
+‘
+java:S2095¸"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8°Úì—÷1J$4b4b85aa-b334-41e3-97d6-608f4991cc33
+
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8°Úì—÷1J$f2d25e6a-9e1a-4ba1-8ec4-9654b1973e84
+‘
+java:S2095°"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8°Úì—÷1J$fd2aeb8b-0a56-4e87-bc9d-fbe82577f9bb
+
+java:S2095e"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8°Úì—÷1J$058a25c8-66c6-4f25-b942-0340b2ff8c8f
+‘
+java:S2095ï"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8°Úì—÷1J$fa960d5f-8066-4bff-9f69-446692ca6243
+p
+java:S4925"-Remove this "Class.forName()", it is useless.(ùíÄé8²Úì—÷1J$698f87f5-4251-46b2-85b7-3658da0494a5
+r	java:S106"+Replace this use of System.out by a logger.(©ËÑ½ûÿÿÿÿ8³Úì—÷1J$bfefaa8b-5ee0-4cb7-908f-a2a5f8d6487d
+~
+java:S6437"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8³Úì—÷1J$44f5bc92-14b0-420a-8686-e7dd34c4b5ed
+m	java:S106"+Replace this use of System.out by a logger.(Ñ©Ê8³Úì—÷1J$5d358299-ea87-4581-a6d0-7ecefd0e428b
+r	java:S106 "+Replace this use of System.out by a logger.(Õê‹–ùÿÿÿÿ8³Úì—÷1J$6c5ed474-4c0f-46a2-bd78-7deedf64cd1b
+m	java:S106("+Replace this use of System.out by a logger.(…É¨™8³Úì—÷1J$48c55aa1-9863-43c9-b598-2b93c3f516e1
+r	java:S1067"+Replace this use of System.out by a logger.(‡ş²¬ÿÿÿÿÿ8´Úì—÷1J$b91900ff-2c9d-4add-bf6e-792b7897f9e8
+m	java:S106;"+Replace this use of System.out by a logger.(ÿî­«8´Úì—÷1J$e796cddd-a15a-4aa9-98ec-d97fb5e6703a
+r	java:S106D"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8´Úì—÷1J$9c61d558-4390-480e-a49b-d36e01fef6d0
+p
+java:S4925_"-Remove this "Class.forName()", it is useless.(ùíÄé8µÚì—÷1J$4ac71968-f547-4535-b55b-3740b5aca9b9
+r	java:S106`"+Replace this use of System.out by a logger.(©ËÑ½ûÿÿÿÿ8µÚì—÷1J$5ee3b853-dd04-4c53-a2da-bc7b4ae57f15
+~
+java:S6437e"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8µÚì—÷1J$1f73d626-21f9-4f7f-8378-b2b1e7a83890
+m	java:S106f"+Replace this use of System.out by a logger.(Ñ©Ê8µÚì—÷1J$9dc2c1d8-1bfc-400c-a2e6-18b4531bc161
+r	java:S106j"+Replace this use of System.out by a logger.(Õê‹–ùÿÿÿÿ8µÚì—÷1J$b29e2f47-5d63-4e7d-abba-c80bb8ceb6ac
+m	java:S106t"+Replace this use of System.out by a logger.(…É¨™8µÚì—÷1J$10c57f8c-ab27-42e3-9401-61e5a6abdaef
+s	java:S106ƒ"+Replace this use of System.out by a logger.(‡ş²¬ÿÿÿÿÿ8¶Úì—÷1J$31dee984-2bf0-470d-b45c-314b72d6c3c0
+n	java:S106‡"+Replace this use of System.out by a logger.(ÿî­«8¶Úì—÷1J$0cfedf83-32a5-4ffe-bb44-f80532c83173
+s	java:S106"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8¶Úì—÷1J$a0bf6f1d-bf24-4665-be34-f5a94257a135
+q
+java:S4925ª"-Remove this "Class.forName()", it is useless.(ùíÄé8¶Úì—÷1J$784abe9e-f395-45f5-8146-cbbe6429eb8a
+s	java:S106«"+Replace this use of System.out by a logger.(©ËÑ½ûÿÿÿÿ8·Úì—÷1J$ead2a078-6514-46ae-bd0e-f1c373d34844
+
+java:S6437°"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8·Úì—÷1J$bc3fc461-512f-404e-9b17-b16a01a3714b
+n	java:S106±"+Replace this use of System.out by a logger.(Ñ©Ê8·Úì—÷1J$1c047a48-367f-4a99-9a1a-7c9cada1b7dd
+s	java:S106µ"+Replace this use of System.out by a logger.(Õê‹–ùÿÿÿÿ8·Úì—÷1J$a7b5a84e-339b-4255-b609-4c1a41a65073
+n	java:S106À"+Replace this use of System.out by a logger.(È®ß8·Úì—÷1J$80f66727-811e-44b6-b409-bec4e4792f9d
+n	java:S106Ä"+Replace this use of System.out by a logger.(ÿî­«8·Úì—÷1J$e69fdc69-5365-49f3-8ba3-787385be0c73
+s	java:S106Í"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8·Úì—÷1J$19185d20-d2fe-4e66-aea3-6866e8a40c0f
+q
+java:S4925é"-Remove this "Class.forName()", it is useless.(ùíÄé8¸Úì—÷1J$d7be968c-02bc-49a9-8177-a1f912dfc4be
+s	java:S106ê"+Replace this use of System.out by a logger.(©ËÑ½ûÿÿÿÿ8¸Úì—÷1J$25be73ea-fd58-41e0-ae1b-71fda9e5826c
+
+java:S6437ï"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8¸Úì—÷1J$367c97d2-a8f8-4700-9315-77ad03e69f65
+n	java:S106ğ"+Replace this use of System.out by a logger.(Ñ©Ê8¸Úì—÷1J$4d349f1a-7416-4327-af25-5896cc93bae6
+s	java:S106ô"+Replace this use of System.out by a logger.(Õê‹–ùÿÿÿÿ8¸Úì—÷1J$1f327347-2c09-41de-aee0-3a521166b4ef
+n	java:S106ş"+Replace this use of System.out by a logger.(…É¨™8¸Úì—÷1J$4f45361c-6809-4b62-9485-dc3111d64c8f
+s	java:S106‹"+Replace this use of System.out by a logger.(‡ş²¬ÿÿÿÿÿ8¹Úì—÷1J$080030a9-d216-4c04-8d5e-a558f5472c16
+n	java:S106"+Replace this use of System.out by a logger.(ÿî­«8¹Úì—÷1J$2ebaad3c-ed00-4c33-bfa5-e500f0db90b4
+s	java:S106˜"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8¹Úì—÷1J$96244bc9-8ccf-4f1f-92c1-3474c28bd867
+q
+java:S4925²"-Remove this "Class.forName()", it is useless.(ùíÄé8¹Úì—÷1J$157e0b7d-95bf-4c63-b89f-0e03594b7f11
+s	java:S106³"+Replace this use of System.out by a logger.(©ËÑ½ûÿÿÿÿ8¹Úì—÷1J$33473f0c-5933-4433-a3a6-870c1f8b5893
+
+java:S6437¸"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8¹Úì—÷1J$212b7a1a-df22-4142-931a-f96d06bf709a
+n	java:S106¹"+Replace this use of System.out by a logger.(Ñ©Ê8ºÚì—÷1J$e8b6d876-abb8-4fe8-a707-101aaf1e2203
+s	java:S106½"+Replace this use of System.out by a logger.(Õê‹–ùÿÿÿÿ8ºÚì—÷1J$8beeb246-e6cc-4e7c-9b0b-96264f12bf6b
+n	java:S106Ç"+Replace this use of System.out by a logger.(”Ïÿ´8ºÚì—÷1J$e7f676aa-f02f-40ed-827f-fee98b242813
+n	java:S106Ë"+Replace this use of System.out by a logger.(È®ß8ºÚì—÷1J$227adeb0-e08b-4222-884c-92f3cee77c25
+n	java:S106Ï"+Replace this use of System.out by a logger.(ÿî­«8ºÚì—÷1J$36bead83-7bb5-4d97-8410-b891cbb82e2b
+s	java:S106Ø"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8ºÚì—÷1J$10dae914-25c3-40d4-ba81-744f293908a9

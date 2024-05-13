@@ -1,0 +1,8 @@
+
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÃÆ¬ûÿÿÿÿ8¡ÔÍö1J$d61f7bee-1a36-4670-ba6b-db6041a5644c
+V
+java:S1854"9Remove this useless assignment to local variable "font1".(ã«ä‹8ö½Íö1
+f
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8÷½Íö1
+G
+java:S1481"*Remove this unused "font1" local variable.(ã«ä‹8ù½Íö1
