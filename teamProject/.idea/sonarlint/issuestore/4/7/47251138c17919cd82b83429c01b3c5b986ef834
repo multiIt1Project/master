@@ -1,0 +1,40 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ş¸…Äüÿÿÿÿ8şğ°Áõ1J$5fdfc384-78f3-4d00-936c-7e2972e4f41c
+“
+java:S1450	"PRemove the "f" field and declare it as a local variable in the relevant methods.(ŞÍÌ’8“À¿Áõ1J$a90c7f98-ce82-4207-9899-b920730bb52d
+y
+java:S2696$"6Make the enclosing method "static" or remove this set.(ğª¥‘8‡ñ°Áõ1J$d3918acf-4971-41c5-9877-8df4b0a0b0a1
+‘
+java:S3252%"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ8‡ñ°Áõ1J$c1d9f245-b115-44ef-99ce-235204efc6cc
+x
+java:S2696C"6Make the enclosing method "static" or remove this set.(µ•»8ˆñ°Áõ1J$23d9f32a-8e1f-42bb-a3c5-64f29f7fecb8
+~
+java:S2696I"6Make the enclosing method "static" or remove this set.(Ò³ ¯ıÿÿÿÿ8ˆñ°Áõ1J$fbfc25cb-f32e-4827-b7c6-c1c2cd3697cc
+~
+java:S2696N"6Make the enclosing method "static" or remove this set.(¸–öÔûÿÿÿÿ8ˆñ°Áõ1J$16972380-0078-417a-a32f-3e282b409319
+y
+java:S2696R"6Make the enclosing method "static" or remove this set.(Éº›â8ˆñ°Áõ1J$ce4c3bac-0f88-453c-b75c-b38d6549b559
+y
+java:S2696^"6Make the enclosing method "static" or remove this set.(ã€áğ8ˆñ°Áõ1J$8dbbf4d0-4b3b-4161-a0a8-379126a2d483
+~
+java:S2696c"6Make the enclosing method "static" or remove this set.(ù¢Íòùÿÿÿÿ8ˆñ°Áõ1J$96fafaac-8d96-4adb-8623-52f9aefe62d2
+~
+java:S2696o"6Make the enclosing method "static" or remove this set.(€€Îúÿÿÿÿ8‰ñ°Áõ1J$4099abe9-fe17-42ec-bbe5-febb2bc83f05
+~
+java:S2696u"6Make the enclosing method "static" or remove this set.(ª ÄÖÿÿÿÿÿ8³ªÜÁõ1J$41813f6e-8f8e-439f-9f9b-96f2a5ea140f
+~
+java:S2696z"6Make the enclosing method "static" or remove this set.(ŞòäÁüÿÿÿÿ8³ªÜÁõ1J$8b2849b4-e863-4444-b0ac-9668a29a54c8
+~
+java:S2696"6Make the enclosing method "static" or remove this set.(šçÃüÿÿÿÿ8»¼¡Ãõ1J$c4d171ea-1fe7-4510-8f08-72164bf758b2
+
+java:S2696„"6Make the enclosing method "static" or remove this set.(§ÄÌïüÿÿÿÿ8³ªÜÁõ1J$b99e67e5-3bd9-4119-97ab-e682f971086e
+
+java:S2696‰"6Make the enclosing method "static" or remove this set.(ïÔßìıÿÿÿÿ8ê‘ÁÃõ1J$1c2ef486-e33c-4de2-9c88-00f0f318f40d
+
+java:S2696"6Make the enclosing method "static" or remove this set.(Í±§’ùÿÿÿÿ8³ªÜÁõ1J$3209ed5d-c76d-4e19-9ec5-dbba0ae9fa88
+
+java:S2696”"6Make the enclosing method "static" or remove this set.(¯§ÛÌüÿÿÿÿ8ƒó×Áõ1J$20d20e98-d2af-4ac9-9901-2b2840b677f3
+
+java:S2696Ÿ"6Make the enclosing method "static" or remove this set.(Ìì¼ıÿÿÿÿ8Šñ°Áõ1J$814e7f6b-838a-446f-bf19-8a3c9dc3b986
+
+java:S2696¥"6Make the enclosing method "static" or remove this set.(È„ığüÿÿÿÿ8Šñ°Áõ1J$f8d09c70-d126-4eda-82e5-9040c3ecb9b3
