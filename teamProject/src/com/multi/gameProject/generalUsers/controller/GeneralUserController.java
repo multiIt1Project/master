@@ -1,4 +1,4 @@
-package com.multi.gameProject.generalUsers.model.controller;
+package com.multi.gameProject.generalUsers.controller;
 
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 import com.multi.gameProject.generalUsers.service.GeneralUserService;

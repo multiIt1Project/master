@@ -1,0 +1,7 @@
+
+‘	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Î¯øÿÿÿÿJ$920554e7-9da1-4f2b-b284-8db20bdf3e01
+¡
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "loginDto".(Ì‚Ê‹şÿÿÿÿJ$b8f56856-93ee-426c-9717-cf6ff15ee33c
+£
+java:S1488."bImmediately return this expression instead of assigning it to the temporary variable "selectUser".(ğÁ÷•şÿÿÿÿJ$4b2b57d2-b0c9-4b30-8fd0-63463e77a594
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×ÉøÿÿÿÿJ$0f03a24d-7dfa-4303-946e-dc0d6c91f833
