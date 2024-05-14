@@ -38,12 +38,15 @@ public class InvtService {
     public int changeScoreToCoin(String userId, int inputScore) {
 
         int result = 0;
-
+        int score = inputScore;
+        int coin = inputScore/100;
         Connection conn = getConnection();
-        result = invtDao.changeScoreToCoin(conn, userId, inputScore);
+        int result1 = invtDao.changeScore(conn, userId, score);
+        int result2 = invtDao.changeCoin(conn, userId, coin);
 
-        if (result > 0) {
+        if (result1 > 0 && result2 > 0) {
             commit(conn);
+            result = 1;
         } else {
             rollback(conn);
         }

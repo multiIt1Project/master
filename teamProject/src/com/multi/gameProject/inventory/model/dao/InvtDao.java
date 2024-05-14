@@ -116,26 +116,37 @@ public class InvtDao {
         return score;
     }
 
-    public int changeScoreToCoin(Connection conn, String userId, int inputScore) {
+    public int changeScore(Connection conn, String userId, int score) {
         int result = 0;
 
         PreparedStatement ps = null;
-        String sql1 = prop.getProperty("changeScore");
-        String sql2 = prop.getProperty("changeCoin");
+        String sql = prop.getProperty("changeScore");
+
         try {
-            ps = conn.prepareStatement(sql1);
-            ps.setInt(1, inputScore);
+            ps = conn.prepareStatement(sql);
+            ps.setInt(1, score);
             ps.setString(2, userId);
-            int result1 = ps.executeUpdate();
+            result = ps.executeUpdate();
 
-            ps = conn.prepareStatement(sql2);
-            ps.setInt(1, inputScore/100);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            close(ps);
+        }
+
+        return result;
+    }
+
+    public int changeCoin(Connection conn, String userId, int coin) {
+        int result = 0;
+
+        PreparedStatement ps = null;
+        String sql = prop.getProperty("changeCoin");
+        try {
+            ps = conn.prepareStatement(sql);
+            ps.setInt(1, coin);
             ps.setString(2, userId);
-            int result2 = ps.executeUpdate();
-
-            if(result1 >= 1 && result2 >= 1){
-                result = 1;
-            }
+            result = ps.executeUpdate();
 
         } catch (SQLException e) {
             e.printStackTrace();
