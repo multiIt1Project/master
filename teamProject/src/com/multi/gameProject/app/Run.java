@@ -1,8 +1,8 @@
-package com.multi.gameProject.generalUsers.app;
+package com.multi.gameProject.app;
 
 import com.multi.gameProject.generalUsers.view.GeneralUserBeforeLoginPage;
 
-public class GeneralUserRun {
+public class Run {
 	
 	public static void main(String[] args) {
 		

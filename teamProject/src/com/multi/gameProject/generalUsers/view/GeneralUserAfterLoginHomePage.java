@@ -1,11 +1,11 @@
-package com.multi.gameProject.generalUsers.view.generalUser;
+package com.multi.gameProject.generalUsers.view;
 
 import com.multi.gameProject.generalUsers.controller.GeneralUserController;
-import com.multi.gameProject.generalUsers.model.generalUserBoardDAO.GeneralUserBoardDao;
-import com.multi.gameProject.generalUsers.model.generalUserBoardDTO.GeneralUserBoardDto;
-import com.multi.gameProject.generalUsers.model.generalUserDTO.GeneralUserDto;
-import com.multi.gameProject.generalUsers.model.generalUserRecordDAO.GeneralUserRecordDao;
-import com.multi.gameProject.generalUsers.model.generalUserRecordDTO.GeneralUserRecordDto;
+import com.multi.gameProject.generalUsers.model.dao.GeneralUserBoardDao;
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserBoardDto;
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
+import com.multi.gameProject.generalUsers.model.dao.GeneralUserRecordDao;
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserRecordDto;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

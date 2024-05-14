@@ -1,6 +1,6 @@
-package com.multi.gameProject.generalUsers.model.generalUserBoardDAO;
+package com.multi.gameProject.generalUsers.model.dao;
 
-import com.multi.gameProject.generalUsers.model.generalUserBoardDTO.GeneralUserBoardDto;
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserBoardDto;
 
 import java.sql.*;
 import java.util.ArrayList;

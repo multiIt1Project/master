@@ -1,4 +1,4 @@
-package com.multi.gameProject.generalUsers.model.generalUserBoardDTO;
+package com.multi.gameProject.generalUsers.model.dto;
 
 import java.util.Date;
 

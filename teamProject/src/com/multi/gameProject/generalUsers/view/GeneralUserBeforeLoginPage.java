@@ -1,7 +1,7 @@
-package com.multi.gameProject.generalUsers.view.generalUser;
+package com.multi.gameProject.generalUsers.view;
 
 import com.multi.gameProject.generalUsers.controller.GeneralUserController;
-import com.multi.gameProject.generalUsers.model.generalUserDTO.GeneralUserDto;
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 
 import javax.swing.*;
 import java.awt.*;
@@ -17,14 +17,14 @@ public class GeneralUserBeforeLoginPage {
 	private Font font2 = new Font("굴림", Font.BOLD, 20);
 	private JPanel headerP;
 	
-	private JButton menuBtn1=new JButton("초기화면");
-	private JButton menuBtn2=new JButton("회원가입");
-	private JButton menuBtn3=new JButton("로그인");
-	private JButton menuBtn4=new JButton("제출");
+	private JButton menuBtn1 = new JButton("초기화면");
+	private JButton menuBtn2 = new JButton("회원가입");
+	private JButton menuBtn3 = new JButton("로그인");
+	private JButton menuBtn4 = new JButton("제출");
 	
-	private JPanel midP1=new JPanel();
-	private JPanel midP2=new JPanel();
-	private JPanel midP3=new JPanel();
+	private JPanel midP1 = new JPanel();
+	private JPanel midP2 = new JPanel();
+	private JPanel midP3 = new JPanel();
 	
 	
 	JTextField idField;
@@ -158,7 +158,7 @@ public class GeneralUserBeforeLoginPage {
 	
 	// 초기화면
 	private void initMidP1() {
-
+		
 		midP1.setBackground(new Color(40, 60, 79));
 		midP1.setBorder(BorderFactory.createEmptyBorder(50, 0, 0, 0)); // 여백(=padding)
 		
@@ -179,7 +179,7 @@ public class GeneralUserBeforeLoginPage {
 	
 	// 회원가입
 	private void initMidP2() {
-
+		
 		midP2.setBackground(new Color(40, 60, 79));
 		midP2.setBorder(BorderFactory.createEmptyBorder(50, 10, 0, 10)); // 여백(=padding)
 		midP2.setLayout(new GridLayout(6, 2, 10, 10));
@@ -236,7 +236,7 @@ public class GeneralUserBeforeLoginPage {
 	
 	
 	private void initMidP3() {
-
+		
 		midP3.setBackground(new Color(40, 60, 79));
 		midP3.setBorder(BorderFactory.createEmptyBorder(0, 10, 0, 10)); // 여백(=padding)
 		midP3.setLayout(new GridBagLayout());
@@ -317,7 +317,7 @@ public class GeneralUserBeforeLoginPage {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				
-				String userId= loginIdField.getText();
+				String userId = loginIdField.getText();
 				String userPw = loginPwField.getText();
 				
 				GeneralUserDto loginDto = controller.userLogin(userId, userPw);
@@ -325,17 +325,25 @@ public class GeneralUserBeforeLoginPage {
 				
 				// 로그인 디티오가 널이 아니라서 로그인이 문제 없으면 현재 창 닫고 로그인이 되어있는 화면으로 이동함
 				
-				if(loginDto!=null){
+				if (loginDto != null) {
 					
 					System.out.println(loginDto);
 					JOptionPane.showMessageDialog(null, loginDto);
 					
-					GeneralUserAfterLoginHomePage home = new GeneralUserAfterLoginHomePage(loginDto);
-		
+					if (loginDto.getUser_Id().length()>=5) {
+						if (loginDto.getUser_Id().substring(0, 5).equals("ADMIN")){
+							// 관리자 페이지 연결
+						}
+						
+					} else {
+						GeneralUserAfterLoginHomePage home = new GeneralUserAfterLoginHomePage(loginDto);
+					}
+					
+					
 					f.dispose();
 					
 					
-				}else {
+				} else {
 					textArea.setText("아이디가 존재하지 않거나 비밀번호가 틀립니다!!");
 					
 					
@@ -344,10 +352,6 @@ public class GeneralUserBeforeLoginPage {
 				
 			}
 		});
-		
-		
-		
-		
 		
 		
 	}
@@ -359,7 +363,7 @@ public class GeneralUserBeforeLoginPage {
 		footerP.setBorder(BorderFactory.createEmptyBorder(0, 0, 100, 0)); // 여백(=padding)
 		
 		menuBtn4.setFont(font2);
-		menuBtn4.setBackground(new Color(63,228,192));
+		menuBtn4.setBackground(new Color(63, 228, 192));
 		footerP.add(menuBtn4);
 		
 		//회원가입 제출버튼 클릭
@@ -368,7 +372,7 @@ public class GeneralUserBeforeLoginPage {
 			public void actionPerformed(ActionEvent e) {
 				
 				// 텍스트 필드의 값을 받아 컨트롤러의 함수의 인자로 전달함
-				String user_Id= idField.getText();
+				String user_Id = idField.getText();
 				String Pw = pwField.getText();
 				String name = nameField.getText();
 				int age = Integer.parseInt(ageField.getText());
@@ -378,8 +382,6 @@ public class GeneralUserBeforeLoginPage {
 				controller.insertUser(user_Id, Pw, name, age, tel, email);
 				
 				// 회원가입에 문제 없으면 콘솔에 문제없다고 표시된다
-				
-				
 				
 				
 			}

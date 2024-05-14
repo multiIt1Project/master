@@ -47,3 +47,15 @@ n
 [src/com/multi/gameProject/generalUsers/model/generalUserRecordDAO/GeneralUserRecordDAO.java,d\e\de4cede6c924ab05e96109cafaa3484c5b451177
 ‹
 [src/com/multi/gameProject/generalUsers/model/generalUserRecordDAO/GeneralUserRecordDao.java,9\7\974f5afa4e33e412aeeb68c678161edbbfc7039a
+S
+#resources/AJY/boardQuery.properties,c\b\cb3447b71478112bcf7129f98e9b93e63609f0f1
+Y
+)resources/AJY/generlUsersQuery.properties,7\a\7a0a32095c93f0ba1a923245b8d2c8ac7a4cfb64
+^
+.src/com/multi/gameProject/run/Application.java,1\6\1632c704eea0a4c774ce65c3b4d7ff32949f4858
+^
+.src/com/multi/gameProject/app/Application.java,b\3\b3d0ee94f53f65a4c3ecca663e5b48b1c7fb437b
+V
+&src/com/multi/gameProject/app/Run.java,6\8\6858c06f3dc2d636c736628426757be41f94c79a
+<
+sql/GAME.sql,2\5\2571be97960e3e2909ddaaa509542bdeb9e76b70

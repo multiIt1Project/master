@@ -1,6 +1,6 @@
 package com.multi.gameProject.generalUsers.controller;
 
-import com.multi.gameProject.generalUsers.model.generalUserDTO.GeneralUserDto;
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 import com.multi.gameProject.generalUsers.service.GeneralUserService;
 
 import javax.swing.*;

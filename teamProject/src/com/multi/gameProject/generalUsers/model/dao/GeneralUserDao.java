@@ -1,6 +1,6 @@
-package com.multi.gameProject.generalUsers.model.generalUserDAO;
+package com.multi.gameProject.generalUsers.model.dao;
 
-import com.multi.gameProject.generalUsers.model.generalUserDTO.GeneralUserDto;
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 
 import java.sql.*;
 // java.sql.SQLRecoverableException: 접속 종료

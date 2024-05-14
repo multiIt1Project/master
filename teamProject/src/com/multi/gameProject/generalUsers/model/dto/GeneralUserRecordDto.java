@@ -1,4 +1,4 @@
-package com.multi.gameProject.generalUsers.model.generalUserRecordDTO;
+package com.multi.gameProject.generalUsers.model.dto;
 
 public class GeneralUserRecordDto {
 

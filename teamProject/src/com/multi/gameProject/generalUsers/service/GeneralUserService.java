@@ -1,8 +1,8 @@
 package com.multi.gameProject.generalUsers.service;
 
 import com.multi.gameProject.common.JDBCTemplate;
-import com.multi.gameProject.generalUsers.model.generalUserDAO.GeneralUserDao;
-import com.multi.gameProject.generalUsers.model.generalUserDTO.GeneralUserDto;
+import com.multi.gameProject.generalUsers.model.dao.GeneralUserDao;
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 
 import javax.swing.*;
 import java.sql.Connection;
