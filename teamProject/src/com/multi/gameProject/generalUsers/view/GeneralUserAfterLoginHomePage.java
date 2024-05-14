@@ -1,6 +1,6 @@
 package com.multi.gameProject.generalUsers.view;
 
-import com.multi.gameProject.generalUsers.controller.GeneralUserController;
+import com.multi.gameProject.generalUsers.model.controller.GeneralUserController;
 import com.multi.gameProject.generalUsers.model.dao.GeneralUserBoardDao;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserBoardDto;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
