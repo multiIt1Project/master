@@ -40,20 +40,20 @@ java:S1143›"4Remove this throw statement from this finally block.(Ò‚Òéüÿÿÿÿ8ÿ
 }
 java:S1143"4Remove this throw statement from this finally block.(Ò‚Òéüÿÿÿÿ8²ºüëö1J$dcfce41d-e9f6-4239-a1fc-37c1d3e3bd27
 ¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Šá¾ûÿÿÿÿ8ÿ»éö1J$98a1435a-1e05-42cf-8d2e-986869fcc016
-‚
-java:S2259M"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8ÇÜë™÷1J$8386382d-7019-4775-9e85-1836a6023a45
-ƒ
-java:S2259ç"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8ÇÜë™÷1J$34ed6eb5-ab84-41a9-b558-d45757b12cbc
-ƒ
-java:S2259¹"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8ÇÜë™÷1J$a17558cc-c71c-478c-a16a-765168bcfe5a
 ƒ
 java:S2259"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8ÆÜë™÷1J$1149e218-3d26-4317-8ba8-2b367650dcaf
 ƒ
+java:S2259¹"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8ÇÜë™÷1J$a17558cc-c71c-478c-a16a-765168bcfe5a
+‚
+java:S2259M"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8ÇÜë™÷1J$8386382d-7019-4775-9e85-1836a6023a45
+ƒ
 java:S2259˜"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8ˆë´éö1J$3314a1be-fd75-43a7-ae8b-fa89ebfe12ba
-‘
-java:S2095¶"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8ÈÜë™÷1J$8c3753bf-06a2-42f4-bff7-4d505c110174
+ƒ
+java:S2259ç"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8ÇÜë™÷1J$34ed6eb5-ab84-41a9-b558-d45757b12cbc
 ‘
 java:S2095‡"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8ÈÜë™÷1J$952e0721-4001-421d-abbe-b6ed179733ae
+‘
+java:S2095¶"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8ÈÜë™÷1J$8c3753bf-06a2-42f4-bff7-4d505c110174
 m	java:S106"+Replace this use of System.out by a logger.(šŸû»8„¼éö1J$eead1905-13d7-4990-a265-bcb6823cf4d7
 ~
 java:S6437"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8íóŸéö1J$2b7b844b-300d-4726-b3b1-cb146bdad797

@@ -4,6 +4,10 @@ java:S2293"YReplace the type specification in this constructor call with the d
 ³
 java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(˜àøœ8ª ë™÷1J$fac528e6-26a8-4586-b171-9506bf9b7d0d
 •	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª‚‘´J$2ef08f0b-8df6-4aea-b3ef-f6c9b5f41f16
+\
+java:S2259G"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8¦Áè­÷1
+j
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅþÿÿÿÿ8¦Áè­÷1
 p
 java:S4925"-Remove this "Class.forName()", it is useless.(ùíÄé8£•ð™÷1J$ec64af52-8f40-4392-b244-9f38e0d48b72
 r	java:S106"+Replace this use of System.out by a logger.(©ËÑ½ûÿÿÿÿ8£•ð™÷1J$d91d8b8b-5624-48ef-86f0-63c52dbd2a03

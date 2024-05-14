@@ -561,17 +561,19 @@ public class GeneralUserAfterLoginHomePage {
 				String content = (String) boardListTable.getModel().getValueAt(rowNum, 4);
 				
 				currentBoardDto = new GeneralUserBoardDto(no, user_Id, write_Date, title, content);
-				JOptionPane.showMessageDialog(null, currentBoardDto.toString());
+		
 				// 이제 특정 행에 해당하는 데이터를 새로운 midpage에 넣은 페이지 만들기: MidBoardEditP
 				// 글 내용은 textarea, 나머지는 textfield에 /로 구분할 것
 				
-				initMidBoardEditP(currentBoardDto);
+				initMidBoardEditP();
 				
 				
 			}
 		});
 		
 		f.add(midBoardListP, BorderLayout.CENTER);
+		
+		
 	}
 	
 	// 아예 글을 처음 쓰는 페이지
@@ -628,7 +630,7 @@ public class GeneralUserAfterLoginHomePage {
 	}
 	
 	// 특정 행에 해당하는 글을 보고 수정할 수 있는 페이지
-	private void initMidBoardEditP(GeneralUserBoardDto boardDto) {
+	private void initMidBoardEditP() {
 		
 		// 기존 남아있던 글 요소 제거해 오류 방지
 		midBoardEditP.removeAll();
@@ -640,8 +642,6 @@ public class GeneralUserAfterLoginHomePage {
 		f.remove(midMyInfoP);
 		f.remove(midBoardRankingP);
 		
-		// 해당 미드 페이지를 넣기
-		f.add(midBoardEditP, BorderLayout.CENTER);
 		
 		// 셋 비지블도 마찬가지로 해준다
 		midMyInfoP.setVisible(false);
@@ -655,11 +655,29 @@ public class GeneralUserAfterLoginHomePage {
 		// 아래 7개의 버튼 중 보여야하는 것을 고른다
 		logoutBtn.setVisible(false);
 		gameBtn.setVisible(false);
+		writeBtn.setVisible(false);
+		editBtn.setVisible(false);
+		selectByIdBtn.setVisible(false);
+		deleteBtn.setVisible(false);
+		writeSaveBtn.setVisible(false);
 		
 		
-		edit2Btn.setVisible(true);
 		homeBtn.setVisible(true);
 		
+		JOptionPane.showMessageDialog(null, " 게시글 작성자 정보 : " + currentBoardDto.getUser_Id());
+		JOptionPane.showMessageDialog(null, "로그인 사용자 정보" + loginDto.getUser_Id());
+		
+		if (loginDto.getUser_Id().equals(currentBoardDto.getUser_Id())) {
+			edit2Btn.setVisible(true);
+			JOptionPane.showMessageDialog(null, "글 수정 권한이 있습니다.");
+		}else {
+			edit2Btn.setVisible(false);
+			JOptionPane.showMessageDialog(null, "글 수정 권한이 없습니다.");
+			
+		}
+		
+		// 해당 미드 페이지를 넣기
+		f.add(midBoardEditP, BorderLayout.CENTER);
 		
 		midBoardEditP.setBackground(new Color(40, 60, 79));
 		midBoardEditP.setBorder(BorderFactory.createEmptyBorder(50, 10, 0, 10)); // 여백(=padding)
@@ -670,15 +688,19 @@ public class GeneralUserAfterLoginHomePage {
 		
 		// 목록 마우스 클릭으로 해서 넘어온 dto를 이용해 텍스트를 넣어준다.
 		// 번호 | 제목 | 유저아이디 | 작성일자
-		titlesArea.setText(boardDto.getNo() + " | " + boardDto.getTitle() + " | " + boardDto.getUser_Id() + boardDto.getWrite_Date());
+		titlesArea.setText(currentBoardDto.getNo() + " | " + currentBoardDto.getTitle() + " | " + currentBoardDto.getUser_Id() + currentBoardDto.getWrite_Date());
 		titlesArea.setEnabled(false);
 		
 		// 내용은 textarea에 넣는다
-		contentArea.setText(boardDto.getContent());
+		contentArea.setText(currentBoardDto.getContent());
 		
 		
 		midBoardEditP.add(titlesArea);
 		midBoardEditP.add(contentArea);
+		
+		
+		
+		f.setVisible(true);
 		
 		
 	}
@@ -861,7 +883,7 @@ public class GeneralUserAfterLoginHomePage {
 						// 이제 특정 행에 해당하는 데이터를 새로운 midpage에 넣은 페이지 만들기: MidBoardEditP
 						// 글 내용은 textarea, 나머지는 textfield에 /로 구분할 것
 						
-						initMidBoardEditP(currentBoardDto);
+						initMidBoardEditP();
 						
 						
 					}

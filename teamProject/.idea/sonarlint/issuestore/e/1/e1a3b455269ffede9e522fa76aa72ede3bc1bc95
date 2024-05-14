@@ -1,29 +1,29 @@
 
-™	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÑÖ¹ÿÿÿÿÿ8ŞÙ¦âö1J$84789cab-5276-481a-b4bd-fa1045d0324f
-™	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åü§÷úÿÿÿÿ8ŞÙ¦âö1J$258e337d-411b-4166-a189-ff35db68708f
+™	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÑÖ¹ÿÿÿÿÿ8ŞÙ¦âö1J$1479ad84-58ff-4c6f-9f3a-19e1e66cec38
+™	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åü§÷úÿÿÿÿ8ŞÙ¦âö1J$3295c586-880b-48f7-a8ed-2ed7392b0553
 p
-java:S1604X"(Make this anonymous inner class a lambda(½Ÿûºùÿÿÿÿ8ŞÙ¦âö1J$e5d5302c-91d6-4489-a881-e3cc420aa0dd
+java:S1604X"(Make this anonymous inner class a lambda(½Ÿûºùÿÿÿÿ8ŞÙ¦âö1J$40d8191e-02f5-4222-8536-dbd82c1c9c2d
 p
-java:S1604m"(Make this anonymous inner class a lambda(¯šæØøÿÿÿÿ8ŞÙ¦âö1J$138aa8ab-9cca-49d9-ba30-99c073af67dc
+java:S1604m"(Make this anonymous inner class a lambda(¯šæØøÿÿÿÿ8ŞÙ¦âö1J$e118165d-e577-4cd4-b835-7d4b71acd9f3
 l
-java:S1604‡"(Make this anonymous inner class a lambda(§Ùšá8ŞÙ¦âö1J$13983253-12d7-4f7a-aff1-9b2452f64cc4
+java:S1604‡"(Make this anonymous inner class a lambda(§Ùšá8ŞÙ¦âö1J$ce16be06-c79d-475b-bff1-79c675ab7731
 k
-java:S1604¼"(Make this anonymous inner class a lambda(ÄÏ”98ŞÙ¦âö1J$2fe9290f-ebb9-40f6-86e1-30bb40b32f01
+java:S1604¼"(Make this anonymous inner class a lambda(ÄÏ”98ŞÙ¦âö1J$53366d74-fcb1-4781-a566-8784c7941480
 l
-java:S1604î"(Make this anonymous inner class a lambda(é«¬ª8ŞÙ¦âö1J$dfd466d7-1b0b-4f9b-a1c7-99d1080ba304
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†‘™Á8àÙ¦âö1J$53825d80-9daf-43f5-b20d-103dbcad4f9e
+java:S1604î"(Make this anonymous inner class a lambda(é«¬ª8ŞÙ¦âö1J$34405857-82d2-4cfd-82db-7b0437e28cfc
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†‘™Á8àÙ¦âö1J$94b4ec31-a1e5-4840-b221-646db9411b23
 ‘
-java:S3252,"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ8ïÙ¦âö1J$8137d599-e922-4a19-a0ce-8b2ae1d50ab6
+java:S3252,"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ8ïÙ¦âö1J$6ae84e3c-6e71-4872-bfb1-c5418861bee7
 €
-java:S1854ó"7Remove this useless assignment to local variable "gbc".(Ø‰¬çøÿÿÿÿ8õÙ¦âö1J$c449d93a-61e5-487e-90d4-e68cf2b68317
+java:S1854ó"7Remove this useless assignment to local variable "gbc".(Ø‰¬çøÿÿÿÿ8õÙ¦âö1J$4126de34-8b0c-460c-943f-d979db972174
 q
-java:S1481ó"(Remove this unused "gbc" local variable.(Ø‰¬çøÿÿÿÿ8öÙ¦âö1J$3176b531-9c72-4a83-b30c-cf9c206559b8
+java:S1481ó"(Remove this unused "gbc" local variable.(Ø‰¬çøÿÿÿÿ8öÙ¦âö1J$bedb14e0-67ad-40bd-892c-e5edd6df1215
 y
-java:S2209«"5Change this instance-reference to a static reference.(âùâŒ8÷Ù¦âö1J$28ce9248-17e0-452a-bcc7-7238b87525a4
+java:S2209«"5Change this instance-reference to a static reference.(âùâŒ8÷Ù¦âö1J$5f9a9dfe-6faf-44c4-a61b-90a49dc33c0a
 ~
-java:S2209¸"5Change this instance-reference to a static reference.(Íˆ¸ëşÿÿÿÿ8–äö1J$ae757826-db26-4f8b-a948-f2e6f4957bfe
+java:S2209¸"5Change this instance-reference to a static reference.(Íˆ¸ëşÿÿÿÿ8–äö1J$1327e47c-74ae-467d-a720-8c4a11269aec
 |
-java:S1854Í"8Remove this useless assignment to local variable "home".(×äı8øÙ¦âö1J$5445c4bf-1c89-4fc5-8c69-b2231d54c9f7
-s	java:S106Ê"+Replace this use of System.out by a logger.(şü“¡ûÿÿÿÿ8øÙ¦âö1J$99c01dc9-084c-4d9d-a1ac-66023087e008
+java:S1854Í"8Remove this useless assignment to local variable "home".(×äı8øÙ¦âö1J$5ab07c75-1305-495c-9e96-3042c47ea056
+s	java:S106Ê"+Replace this use of System.out by a logger.(şü“¡ûÿÿÿÿ8øÙ¦âö1J$12430b08-f040-4cfe-93d8-abc0bf40ef51
 m
-java:S1481Í")Remove this unused "home" local variable.(×äı8øÙ¦âö1J$9b518888-caca-4d1e-aeb1-1d5995c8f6bf
+java:S1481Í")Remove this unused "home" local variable.(×äı8øÙ¦âö1J$2da937cb-c4a8-47f2-8be0-26b074d3aecf

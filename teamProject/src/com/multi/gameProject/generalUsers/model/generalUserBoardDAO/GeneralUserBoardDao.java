@@ -191,6 +191,17 @@ public class GeneralUserBoardDao {
 			
 			System.out.println("sql문 전송 성공, 결과 >> " + result);
 			
+			// 커밋하는 부분 생성!!
+			if (result > 0) {
+				System.out.println("게시판 수정 완료");
+				con.commit();
+				System.out.println("커밋 완료");
+				
+			} else {
+				System.out.println("데이터 수정 실패,,, result=0");
+				con.rollback();
+			}
+			
 			
 		} catch (SQLException | ClassNotFoundException e) {
 			System.out.println("sql 에러 발생!! 회원 존재 안함");
@@ -329,6 +340,17 @@ public class GeneralUserBoardDao {
 			result = ps.executeUpdate();
 			
 			System.out.println("sql문 전송 성공, 결과 >> " + result);
+			
+			if (result > 0) {
+				System.out.println("데이글 삽입 완료");
+				con.commit();
+				System.out.println("커밋 완료");
+				
+			} else {
+				System.out.println("게시글 삽입 실패,,, result=0");
+				con.rollback();
+			}
+			
 			
 			
 		} catch (SQLException | ClassNotFoundException e) {
