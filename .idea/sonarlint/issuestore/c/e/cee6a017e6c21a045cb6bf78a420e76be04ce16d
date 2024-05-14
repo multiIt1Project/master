@@ -1,0 +1,11 @@
+
+~
+java:S1659"BDeclare "blank" and all following declarations on a separate line.(ÐÆêÌJ$cda067ca-5f60-4c9c-b1ab-19a6c3d60540
+‘
+java:S1450"URemove the "titleL" field and declare it as a local variable in the relevant methods.(ÐÆêÌJ$46d5416b-cd32-46e8-912b-252f657797c7
+Š
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿJ$cbd013fd-bae2-425c-a323-44245856f794
+q
+java:S1854{"5Remove this useless assignment to local variable "g".(¥‡ØàJ$73f70713-0c57-433b-ac92-f7edc6a5f485
+b
+java:S1481{"&Remove this unused "g" local variable.(¥‡ØàJ$8453ccf8-2b48-415a-b519-c8fbe81b8ebe
