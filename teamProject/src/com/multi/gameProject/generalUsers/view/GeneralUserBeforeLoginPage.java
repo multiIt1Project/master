@@ -26,6 +26,9 @@ public class GeneralUserBeforeLoginPage {
 	private JPanel midP2 = new JPanel();
 	private JPanel midP3 = new JPanel();
 	
+	// 로그인 창에서 로그인의 결과를 보여주는 텍스트 에어리어
+	JTextArea textArea;
+	
 	
 	JTextField idField;
 	JTextField pwField;
@@ -301,7 +304,7 @@ public class GeneralUserBeforeLoginPage {
 		midP3.add(loginBtn, gbcLoginBtn);
 		
 		
-		JTextArea textArea = new JTextArea();
+		textArea = new JTextArea();
 		textArea.setFont(font2);
 		textArea.setRows(10);
 		GridBagConstraints gbcTextArea = new GridBagConstraints();
@@ -320,34 +323,9 @@ public class GeneralUserBeforeLoginPage {
 				String userId = loginIdField.getText();
 				String userPw = loginPwField.getText();
 				
-				GeneralUserDto loginDto = controller.userLogin(userId, userPw);
-				
 				
 				// 로그인 디티오가 널이 아니라서 로그인이 문제 없으면 현재 창 닫고 로그인이 되어있는 화면으로 이동함
-				
-				if (loginDto != null) {
-					
-					System.out.println(loginDto);
-					JOptionPane.showMessageDialog(null, loginDto);
-					
-					if (loginDto.getUser_Id().length()>=5) {
-						if (loginDto.getUser_Id().substring(0, 5).equals("ADMIN")){
-							// 관리자 페이지 연결
-						}
-						
-					} else {
-						GeneralUserAfterLoginHomePage home = new GeneralUserAfterLoginHomePage(loginDto);
-					}
-					
-					
-					f.dispose();
-					
-					
-				} else {
-					textArea.setText("아이디가 존재하지 않거나 비밀번호가 틀립니다!!");
-					
-					
-				}
+				GeneralUserDto loginDto = controller.userLogin(f, textArea, userId, userPw);
 				
 				
 			}
@@ -379,9 +357,8 @@ public class GeneralUserBeforeLoginPage {
 				String tel = telField.getText();
 				String email = emailField.getText();
 				
-				controller.insertUser(user_Id, Pw, name, age, tel, email);
-				
 				// 회원가입에 문제 없으면 콘솔에 문제없다고 표시된다
+				controller.insertUser(user_Id, Pw, name, age, tel, email);
 				
 				
 			}

@@ -1,10 +1,10 @@
 package com.multi.gameProject.generalUsers.view;
 
+import com.multi.gameProject.generalUsers.controller.GeneralUserBoardController;
 import com.multi.gameProject.generalUsers.controller.GeneralUserController;
-import com.multi.gameProject.generalUsers.model.dao.GeneralUserBoardDao;
+import com.multi.gameProject.generalUsers.model.dao.GeneralUserRecordDao;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserBoardDto;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
-import com.multi.gameProject.generalUsers.model.dao.GeneralUserRecordDao;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserRecordDto;
 
 import javax.swing.*;
@@ -427,29 +427,9 @@ public class GeneralUserAfterLoginHomePage {
 				
 				// String userId, String pw,String name, int age, String tel, String email, String user_Pre_Id
 				System.out.println("user_pre_id: " + user_Pre_Id);
-				int result = controller.updateUser(user_Id, Pw, name, age, tel, email, user_Pre_Id);
+				controller.updateUser(user_Id, Pw, name, age, tel, email, user_Pre_Id);
 				
 				// 회원가입에 문제 없으면 콘솔에 문제없다고 표시된다
-				
-				if (result > 0) {
-					JOptionPane.showMessageDialog(null, "회원 정보를 수정했습니다!");
-					GeneralUserDto newUser = controller.selectUser(user_Id);
-					loginDto = newUser;
-					
-					
-					idField.setText(loginDto.getUser_Id());
-					pwField.setText(loginDto.getPw());
-					coin_CountField.setText(String.valueOf(loginDto.getCoin_Count()));
-					nameField.setText(loginDto.getName());
-					ageField.setText(String.valueOf(loginDto.getAge()));
-					telField.setText(loginDto.getTel());
-					emailField.setText(loginDto.getEmail());
-					signUpField.setText(String.valueOf(loginDto.getSingup_Date()));
-					
-					
-				} else {
-					System.out.println("result: " + result);
-				}
 				
 				
 			}
@@ -470,18 +450,11 @@ public class GeneralUserAfterLoginHomePage {
 				
 				if (answer == true) {
 					
-					int result = controller.deleteUser(loginDto.getUser_Id(), loginDto.getPw());
+					int result = controller.deleteUser(loginDto);
 					
 					if (result > 0) {
-						JOptionPane.showMessageDialog(null, "회원을 삭제했습니다!!! 초기화면으로 돌아갑니다.");
 						loginDto = null;
-						
-						GeneralUserBeforeLoginPage home = new GeneralUserBeforeLoginPage();
-						
 						f.dispose();
-						
-					} else {
-						JOptionPane.showMessageDialog(null, "회원을 삭제할 수 없습니다!!");
 						
 					}
 					
@@ -508,9 +481,8 @@ public class GeneralUserAfterLoginHomePage {
 		midBoardListP.setBackground(new Color(40, 60, 79));
 		midBoardListP.setBorder(BorderFactory.createEmptyBorder(50, 10, 0, 10)); // 여백(=padding)
 		
-		
-		GeneralUserBoardDao boardDao = new GeneralUserBoardDao();
-		ArrayList<GeneralUserBoardDto> list = boardDao.allList();
+		GeneralUserBoardController boardController = new GeneralUserBoardController();
+		ArrayList<GeneralUserBoardDto> list = boardController.selectAllBoard();
 		Object[][] tableData = new Object[list.size()][5];
 		
 		// 2차원 배열에 담기
@@ -561,7 +533,7 @@ public class GeneralUserAfterLoginHomePage {
 				String content = (String) boardListTable.getModel().getValueAt(rowNum, 4);
 				
 				currentBoardDto = new GeneralUserBoardDto(no, user_Id, write_Date, title, content);
-		
+				
 				// 이제 특정 행에 해당하는 데이터를 새로운 midpage에 넣은 페이지 만들기: MidBoardEditP
 				// 글 내용은 textarea, 나머지는 textfield에 /로 구분할 것
 				
@@ -670,7 +642,7 @@ public class GeneralUserAfterLoginHomePage {
 		if (loginDto.getUser_Id().equals(currentBoardDto.getUser_Id())) {
 			edit2Btn.setVisible(true);
 			JOptionPane.showMessageDialog(null, "글 수정 권한이 있습니다.");
-		}else {
+		} else {
 			edit2Btn.setVisible(false);
 			JOptionPane.showMessageDialog(null, "글 수정 권한이 없습니다.");
 			
@@ -699,7 +671,6 @@ public class GeneralUserAfterLoginHomePage {
 		midBoardEditP.add(contentArea);
 		
 		
-		
 		f.setVisible(true);
 		
 		
@@ -714,6 +685,7 @@ public class GeneralUserAfterLoginHomePage {
 		rankingArea = new JTextArea(20, 20);
 		
 		// 데이터 리스트를 가져올 레코드 다오 생성
+		// 레코드 다오는 전체 조회 기능만 있으므로 서비스, 컨트롤러 없이 dao로만 처리함
 		GeneralUserRecordDao recordDAO = new GeneralUserRecordDao();
 		
 		ArrayList<GeneralUserRecordDto> recordList = recordDAO.selectAll();
@@ -831,9 +803,10 @@ public class GeneralUserAfterLoginHomePage {
 				
 				midBoardListP.removeAll();
 				
+				GeneralUserBoardController boardController = new GeneralUserBoardController();
 				String id = JOptionPane.showInputDialog("검색할 아이디를 입력하세요.");
-				GeneralUserBoardDao boardDao = new GeneralUserBoardDao();
-				ArrayList<GeneralUserBoardDto> list = boardDao.selectList(id);
+				
+				ArrayList<GeneralUserBoardDto> list = boardController.selectList(id);
 				
 				Object[][] tableData = new Object[list.size()][5];
 				
@@ -918,17 +891,17 @@ public class GeneralUserAfterLoginHomePage {
 				
 				String edit2Content = contentArea.getText();
 				int no = currentBoardDto.getNo();
+				GeneralUserBoardController boardController = new GeneralUserBoardController();
 				
-				GeneralUserBoardDao boardDao = new GeneralUserBoardDao();
-				int result = boardDao.editBoard(no, edit2Content);
+				int result = boardController.editBoard(no, edit2Content);
 				if (result > 0) {
 					JOptionPane.showMessageDialog(null, "게시글 내용이 수정되었습니다.");
 					
 				} else {
 					JOptionPane.showMessageDialog(null, "게시글 내용을 수정할 수 없습니다.");
 				}
-				
-				currentBoardDto = boardDao.selectOne(no);
+			
+				currentBoardDto = boardController.selectOneBoard(no);
 				
 				// 수정한 내용으로 바꿈
 				titlesArea.setText(currentBoardDto.getTitle());
@@ -960,14 +933,8 @@ public class GeneralUserAfterLoginHomePage {
 				String title = titlesField2.getText();
 				String content = contentArea2.getText();
 				
-				GeneralUserBoardDao boardDao = new GeneralUserBoardDao();
-				int result = boardDao.insertBoard(title, content, loginDto.getUser_Id());
-				if (result > 0) {
-					JOptionPane.showMessageDialog(null, "게시글 저장 성공 ^^.");
-					
-				} else {
-					JOptionPane.showMessageDialog(null, "게시글 저장 실패!!");
-				}
+				GeneralUserBoardController boardController = new GeneralUserBoardController();
+				int result = boardController.insertBoard(title, content, loginDto.getUser_Id());
 				
 				
 			}

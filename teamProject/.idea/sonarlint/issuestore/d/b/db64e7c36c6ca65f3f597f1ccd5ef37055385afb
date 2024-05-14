@@ -1,17 +1,25 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ãË²Œ8Ò½Õäö1J$e3964676-df29-4524-9a5b-3111cb605179
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ãË²Œ8Ò½Õäö1J$3b16d370-8349-4fa1-9273-248bb109cfe9
 ‹
-java:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(™’œ§8Ù½Õäö1J$5b1cbe8a-84db-4f78-a808-988cf78c8aaa
+java:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(™’œ§8Ù½Õäö1J$6685cfbb-551a-4297-8a16-fe98d2c35d5a
 |
-java:S1118	":Add a private constructor to hide the implicit public one.(ø“ç88Ú½Õäö1J$3572c136-0a40-4a0a-b7fe-79f2d7aeb9fe
+java:S1118	":Add a private constructor to hide the implicit public one.(ø“ç88Ú½Õäö1J$57f8668b-9203-43b4-9d34-612a42e333b3
 €
-java:S1854"8Remove this useless assignment to local variable "user".(…øŠùÿÿÿÿ8ûó£åö1J$30b948c6-6736-49a4-8e97-2cd82f662bd3
+java:S1854"8Remove this useless assignment to local variable "user".(…øŠùÿÿÿÿ8ûó£åö1J$33e704e1-b55c-4012-92f6-c5ce9913191c
 „
-java:S1854"<Remove this useless assignment to local variable "password".(£‘¬«ùÿÿÿÿ8üó£åö1J$c6319344-2182-449f-948e-1ccc8ff0e4b1
-m	java:S106"+Replace this use of System.out by a logger.(ß„…8Ü½Õäö1J$e33bfdba-2ed1-427a-9120-14ff5b02d9a7
+java:S1854"<Remove this useless assignment to local variable "password".(£‘¬«ùÿÿÿÿ8üó£åö1J$15f7159b-3a60-4ee1-8aba-aa87c148ddce
+m	java:S106"+Replace this use of System.out by a logger.(ß„…8Ü½Õäö1J$66469bac-67d4-4540-87b7-7a484f77f059
 q
-java:S1481")Remove this unused "user" local variable.(…øŠùÿÿÿÿ8ÿó£åö1J$dae29d2b-ec1e-47f2-bf40-621f9241190a
+java:S1481")Remove this unused "user" local variable.(…øŠùÿÿÿÿ8ÿó£åö1J$7ac85cb8-249e-4d46-8bd1-60495f852abc
 u
-java:S1481"-Remove this unused "password" local variable.(£‘¬«ùÿÿÿÿ8€ô£åö1J$2264bb9d-2b53-4754-9123-f01190f13f7d
-r	java:S106"+Replace this use of System.out by a logger.(öóù»ûÿÿÿÿ8İ½Õäö1J$e9be8724-4103-4303-a60c-2ee8cbd06933
-m	java:S1065"+Replace this use of System.out by a logger.(©ÈØ¹8Ş½Õäö1J$930835d5-696a-4983-a53a-3f05a4e2e69a
+java:S1481"-Remove this unused "password" local variable.(£‘¬«ùÿÿÿÿ8€ô£åö1J$36dd71a4-c590-4e77-9f8f-76c97f3f4c83
+r	java:S106"+Replace this use of System.out by a logger.(öóù»ûÿÿÿÿ8İ½Õäö1J$0632e68d-a445-4ffd-b7e8-e2b4cb3ce8d8
+m	java:S1065"+Replace this use of System.out by a logger.(©ÈØ¹8Ş½Õäö1J$27d6c260-7c6e-4b66-a0a0-c89efb518104
+T
+java:S1135B"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8¸ç‚Â÷1
+T
+java:S1135N"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8¸ç‚Â÷1
+T
+java:S1135Z"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8¸ç‚Â÷1
+T
+java:S1135g"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8¸ç‚Â÷1

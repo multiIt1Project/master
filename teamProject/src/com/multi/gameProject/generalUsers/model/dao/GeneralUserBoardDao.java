@@ -1,37 +1,40 @@
 package com.multi.gameProject.generalUsers.model.dao;
 
+import com.multi.gameProject.common.JDBCTemplate;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserBoardDto;
 
+import java.io.FileReader;
+import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Properties;
 
 public class GeneralUserBoardDao {
 	
+	private Properties prop = null;
 	
-	public ArrayList<GeneralUserBoardDto> allList() {
+	public GeneralUserBoardDao() {
+		
+		prop = new Properties();
+		try {
+			prop = new Properties();
+			prop.load(new FileReader("resources/query.properties"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
 		
-		Connection con = null;
+	}
+	
+	public ArrayList<GeneralUserBoardDto> selectAllBoard(Connection con) throws Exception {
+		
 		PreparedStatement ps = null;
 		ResultSet rset = null;
 		ArrayList<GeneralUserBoardDto> list = new ArrayList<GeneralUserBoardDto>();
 		
+		
+		String sql = prop.getProperty("selectAllBoard");
 		try {
-			
-			Class.forName("oracle.jdbc.driver.OracleDriver");
-			System.out.println("1. 드라이버 설정 성공..");
-			
-			String url = "jdbc:oracle:thin:@localhost:1521:xe";
-			String user = "scott";
-			String password = "tiger";
-			con = DriverManager.getConnection(url, user, password);
-			System.out.println("2. db연결 성공." + con);
-			
-			// 오토커밋을 false로 설정
-			con.setAutoCommit(false);
-			System.out.println("3. 오토 커밋 설정 비활성화.");
-			
-			String sql = "SELECT * FROM BOARD ORDER BY NO ASC";
 			
 			ps = con.prepareStatement(sql);
 			
@@ -55,27 +58,15 @@ public class GeneralUserBoardDao {
 			System.out.println("sql문 전송 성공, 결과 >> " + rset);
 			
 			
-		} catch (SQLException | ClassNotFoundException e) {
-			System.out.println("sql 에러 발생!! 회원 존재 안함");
-			e.printStackTrace();
+		} catch (SQLException e) {
+			/*System.out.println("sql 에러 발생!! 회원 존재 안함");
+			e.printStackTrace();*/
+			throw new Exception("sql에러 발생!!" + e.getMessage());
 			
-			if (con != null) {
-				try {
-					con.rollback(); // 예외 발생 시 롤백
-				} catch (SQLException ex) {
-					ex.printStackTrace();
-				}
-				System.out.println("트랜잭션 롤백.");
-			}
 			
 		} finally {
-			try {
-				ps.close();
-				con.close();
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
-			
+			JDBCTemplate.close(rset);
+			JDBCTemplate.close(ps);
 			
 		}
 		return list;
@@ -83,29 +74,14 @@ public class GeneralUserBoardDao {
 		
 	}
 	
-	public ArrayList<GeneralUserBoardDto> selectList(String id) {
+	public ArrayList<GeneralUserBoardDto> selectList(Connection con, String id) throws Exception {
 		
-		Connection con = null;
 		PreparedStatement ps = null;
 		ResultSet rset = null;
 		ArrayList<GeneralUserBoardDto> list = new ArrayList<GeneralUserBoardDto>();
 		
+		String sql = prop.getProperty("selectBoard");
 		try {
-			
-			Class.forName("oracle.jdbc.driver.OracleDriver");
-			System.out.println("1. 드라이버 설정 성공..");
-			
-			String url = "jdbc:oracle:thin:@localhost:1521:xe";
-			String user = "scott";
-			String password = "tiger";
-			con = DriverManager.getConnection(url, user, password);
-			System.out.println("2. db연결 성공." + con);
-			
-			// 오토커밋을 false로 설정
-			con.setAutoCommit(false);
-			System.out.println("3. 오토 커밋 설정 비활성화.");
-			
-			String sql = "SELECT * FROM BOARD WHERE USER_ID = ? ORDER BY NO ASC";
 			
 			ps = con.prepareStatement(sql);
 			
@@ -131,26 +107,24 @@ public class GeneralUserBoardDao {
 			System.out.println("sql문 전송 성공, 결과 >> " + rset);
 			
 			
-		} catch (SQLException | ClassNotFoundException e) {
-			System.out.println("sql 에러 발생!! 회원 존재 안함");
-			e.printStackTrace();
+		} catch (SQLException e) {
+			/*System.out.println("sql 에러 발생!! 회원 존재 안함");
+			e.printStackTrace();*/
 			
-			if (con != null) {
+			throw new Exception("sql에러 발생!!" + e.getMessage());
+			
+			/*if (con != null) {
 				try {
 					con.rollback(); // 예외 발생 시 롤백
 				} catch (SQLException ex) {
 					ex.printStackTrace();
 				}
 				System.out.println("트랜잭션 롤백.");
-			}
+			}*/
 			
 		} finally {
-			try {
-				ps.close();
-				con.close();
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
+			JDBCTemplate.close(rset);
+			JDBCTemplate.close(ps);
 			
 			
 		}
@@ -159,37 +133,21 @@ public class GeneralUserBoardDao {
 		
 	}
 	
-	public int editBoard(int no, String edit2Content) {
+	public int editBoard(Connection con, int no, String edit2Content) throws Exception {
 		
-		Connection con = null;
 		PreparedStatement ps = null;
 		int result = 0;
 		
+		String sql = prop.getProperty("editBoard");
 		try {
 			
-			Class.forName("oracle.jdbc.driver.OracleDriver");
-			System.out.println("1. 드라이버 설정 성공..");
-			
-			String url = "jdbc:oracle:thin:@localhost:1521:xe";
-			String user = "scott";
-			String password = "tiger";
-			con = DriverManager.getConnection(url, user, password);
-			System.out.println("2. db연결 성공." + con);
-			
-			// 오토커밋을 false로 설정
-			con.setAutoCommit(false);
-			System.out.println("3. 오토 커밋 설정 비활성화.");
-			
-			String sql = "UPDATE BOARD SET CONTENT = ? WHERE NO = ?";
-			
 			ps = con.prepareStatement(sql);
-			
 			ps.setString(1, edit2Content);
 			ps.setInt(2, no);
 			
 			result = ps.executeUpdate();
 			
-			System.out.println("sql문 전송 성공, 결과 >> " + result);
+			/*System.out.println("sql문 전송 성공, 결과 >> " + result);
 			
 			// 커밋하는 부분 생성!!
 			if (result > 0) {
@@ -200,13 +158,14 @@ public class GeneralUserBoardDao {
 			} else {
 				System.out.println("데이터 수정 실패,,, result=0");
 				con.rollback();
-			}
+			}*/
 			
 			
-		} catch (SQLException | ClassNotFoundException e) {
-			System.out.println("sql 에러 발생!! 회원 존재 안함");
-			e.printStackTrace();
-			
+		} catch (SQLException e) {
+			/*System.out.println("sql 에러 발생!! 회원 존재 안함");
+			e.printStackTrace();*/
+			throw new Exception("sql에러 발생!!" + e.getMessage());
+			/*
 			if (con != null) {
 				try {
 					con.rollback(); // 예외 발생 시 롤백
@@ -214,16 +173,10 @@ public class GeneralUserBoardDao {
 					ex.printStackTrace();
 				}
 				System.out.println("트랜잭션 롤백.");
-			}
+			}*/
 			
 		} finally {
-			try {
-				ps.close();
-				con.close();
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
-			
+			JDBCTemplate.close(ps);
 			
 		}
 		return result;
@@ -231,30 +184,15 @@ public class GeneralUserBoardDao {
 		
 	}
 	
-	public GeneralUserBoardDto selectOne(int no) {
+	public GeneralUserBoardDto selectOneBoard(Connection con, int no) throws Exception {
 		
-		
-		Connection con = null;
 		PreparedStatement ps = null;
 		ResultSet rset = null;
 		GeneralUserBoardDto generalUserBoardDto = null;
 		
+		
+		String sql = prop.getProperty("selectOneBoard");
 		try {
-			
-			Class.forName("oracle.jdbc.driver.OracleDriver");
-			System.out.println("1. 드라이버 설정 성공..");
-			
-			String url = "jdbc:oracle:thin:@localhost:1521:xe";
-			String user = "scott";
-			String password = "tiger";
-			con = DriverManager.getConnection(url, user, password);
-			System.out.println("2. db연결 성공." + con);
-			
-			// 오토커밋을 false로 설정
-			con.setAutoCommit(false);
-			System.out.println("3. 오토 커밋 설정 비활성화.");
-			
-			String sql = "SELECT * FROM BOARD WHERE NO = ?";
 			
 			ps = con.prepareStatement(sql);
 			
@@ -278,26 +216,29 @@ public class GeneralUserBoardDao {
 			System.out.println("sql문 전송 성공, 결과 >> " + rset);
 			
 			
-		} catch (SQLException | ClassNotFoundException e) {
-			System.out.println("sql 에러 발생!! 회원 존재 안함");
-			e.printStackTrace();
+		} catch (SQLException e) {
+			/*System.out.println("sql 에러 발생!! 회원 존재 안함");
+			e.printStackTrace();*/
+			throw new Exception("sql에러 발생!!" + e.getMessage());
 			
-			if (con != null) {
+			/*if (con != null) {
 				try {
 					con.rollback(); // 예외 발생 시 롤백
 				} catch (SQLException ex) {
 					ex.printStackTrace();
 				}
 				System.out.println("트랜잭션 롤백.");
-			}
+			}*/
 			
 		} finally {
-			try {
+			/*try {
 				ps.close();
 				con.close();
 			} catch (SQLException e) {
 				e.printStackTrace();
-			}
+			}*/
+			JDBCTemplate.close(rset);
+			JDBCTemplate.close(ps);
 			
 			
 		}
@@ -306,28 +247,13 @@ public class GeneralUserBoardDao {
 		
 	}
 	
-	public int insertBoard(String title, String content, String userId) {
+	public int insertBoard(Connection con, String title, String content, String userId) throws Exception {
 		
-		Connection con = null;
 		PreparedStatement ps = null;
 		int result = 0;
 		
+		String sql = prop.getProperty("insertBoard");
 		try {
-			
-			Class.forName("oracle.jdbc.driver.OracleDriver");
-			System.out.println("1. 드라이버 설정 성공..");
-			
-			String url = "jdbc:oracle:thin:@localhost:1521:xe";
-			String user = "scott";
-			String password = "tiger";
-			con = DriverManager.getConnection(url, user, password);
-			System.out.println("2. db연결 성공." + con);
-			
-			// 오토커밋을 false로 설정
-			con.setAutoCommit(false);
-			System.out.println("3. 오토 커밋 설정 비활성화.");
-			
-			String sql = "INSERT INTO BOARD VALUES (BOARD_SEQ.NEXTVAL, ?, SYSDATE, ?, ?)";
 			
 			ps = con.prepareStatement(sql);
 			
@@ -339,7 +265,7 @@ public class GeneralUserBoardDao {
 			
 			result = ps.executeUpdate();
 			
-			System.out.println("sql문 전송 성공, 결과 >> " + result);
+			/*System.out.println("sql문 전송 성공, 결과 >> " + result);
 			
 			if (result > 0) {
 				System.out.println("데이글 삽입 완료");
@@ -349,35 +275,37 @@ public class GeneralUserBoardDao {
 			} else {
 				System.out.println("게시글 삽입 실패,,, result=0");
 				con.rollback();
-			}
+			}*/
 			
 			
+		} catch (SQLException e) {
+			/*System.out.println("sql 에러 발생!! 회원 존재 안함");
+			e.printStackTrace();*/
+			throw new Exception("sql 에러 발생!!" + e.getMessage());
 			
-		} catch (SQLException | ClassNotFoundException e) {
-			System.out.println("sql 에러 발생!! 회원 존재 안함");
-			e.printStackTrace();
-			
-			if (con != null) {
+			/*if (con != null) {
 				try {
 					con.rollback(); // 예외 발생 시 롤백
 				} catch (SQLException ex) {
 					ex.printStackTrace();
 				}
 				System.out.println("트랜잭션 롤백.");
-			}
+			}*/
 			
 		} finally {
-			try {
+			
+			JDBCTemplate.close(ps);
+			
+			/*try {
 				ps.close();
 				con.close();
 			} catch (SQLException e) {
 				e.printStackTrace();
-			}
+			}*/
 			
 			
 		}
 		return result;
-		
 		
 		
 	}

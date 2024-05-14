@@ -4,7 +4,6 @@ import com.multi.gameProject.common.JDBCTemplate;
 import com.multi.gameProject.generalUsers.model.dao.GeneralUserDao;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 
-import javax.swing.*;
 import java.sql.Connection;
 
 public class GeneralUserService {
@@ -23,60 +22,52 @@ public class GeneralUserService {
 	}
 	
 	
-	public void insertUser(String userId, String pw, String name, int age, String tel, String email) {
-		
-		GeneralUserDto newUser = new GeneralUserDto();
-		newUser.setUser_Id(userId);
-		newUser.setPw(pw);
-		newUser.setName(name);
-		newUser.setAge(age);
-		newUser.setTel(tel);
-		newUser.setEmail(email);
+	public int insertUser(GeneralUserDto newUser) throws Exception {
 		
 		
+		Connection con = JDBCTemplate.getConnection();
 		
-		int result = generalUserDao.insertUser(newUser);
+		int result = generalUserDao.insertUser(con, newUser);
 		
 		if (result > 0) {
-			JOptionPane.showMessageDialog(null, "회원가입 성공!!");
+			JDBCTemplate.commit(con);
 		}else {
-			JOptionPane.showMessageDialog(null, "회원가입 실패!! 아이디 중복 또는 아이디, 비번 값 미기입일 수 있으니 확인 바랍니다.");
+			JDBCTemplate.rollback(con);
 		}
+		
+		return result;
 		
 	}
 	
-	public GeneralUserDto userLogin(String userId, String userPw) {
+	public GeneralUserDto userLogin(String userId, String userPw) throws Exception {
+		
+		Connection con = JDBCTemplate.getConnection();
 		
 		GeneralUserDto loginDto = new GeneralUserDto();
 		
-		loginDto = generalUserDao.userLogin(userId, userPw);
+		loginDto = generalUserDao.userLogin(con, userId, userPw);
 		
-		if (loginDto != null) {
-			// 로그인 성공 시 로그인 정보를 전역으로 선언했으므로 늘 그 정보를 이용할 수 있다.
-			// 로그인은 성공하면 afterloginpage로 이동한다.
-			JOptionPane.showMessageDialog(null, "로그인 성공!!");
-			
-		}
+		
 		
 		
 		return loginDto;
 		
 	}
 	
-	public int updateUser(String userId, String pw, String name, int age, String tel, String email, String user_Pre_Id) {
+	public int updateUser(GeneralUserDto updatedUser) throws Exception {
 		
-		GeneralUserDto updatedUser = new GeneralUserDto();
+		Connection con = JDBCTemplate.getConnection();
 		
-		updatedUser.setUser_Id(userId);
-		updatedUser.setPw(pw);
-		updatedUser.setName(name);
-		updatedUser.setAge(age);
-		updatedUser.setTel(tel);
-		updatedUser.setEmail(email);
-		updatedUser.setUser_Pre_Id(user_Pre_Id);
+		int result = generalUserDao.updateUser(con, updatedUser);
 		
-		int result = generalUserDao.updateUser(updatedUser);
+		if(result>0) {
+			JDBCTemplate.commit(con);
+		}else {
+			JDBCTemplate.rollback(con);
+			
+		}
 		
+		System.out.println(result);
 		return result;
 	}
 	
@@ -92,14 +83,19 @@ public class GeneralUserService {
 		
 	}
 	
-	public int deleteUser(String userId, String userPw) {
+	public int deleteUser(String userId, String userPw) throws Exception {
 		
-		GeneralUserDto deletedUser = new GeneralUserDto();
+		Connection con = JDBCTemplate.getConnection();
 		
-		deletedUser.setUser_Id(userId);
-		deletedUser.setPw(userPw);
+		int result = generalUserDao.deleteUser(con, userId, userPw);
 		
-		int result = generalUserDao.deleteUser(deletedUser.getUser_Id(), deletedUser.getPw());
+		if(result>0) {
+			JDBCTemplate.commit(con);
+		}else {
+			JDBCTemplate.rollback(con);
+		}
+		
+		
 		
 		return result;
 		
