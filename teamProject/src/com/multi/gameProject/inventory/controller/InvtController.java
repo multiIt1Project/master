@@ -1,7 +1,7 @@
 package com.multi.gameProject.inventory.controller;
 
-import com.multi.gameProject.inventory.model.dao.InvtDao;
 import com.multi.gameProject.inventory.model.dto.InvtDto;
+import com.multi.gameProject.inventory.model.dto.ItemDto;
 import com.multi.gameProject.inventory.service.InvtService;
 import com.multi.gameProject.inventory.view.CoinInvt;
 import com.multi.gameProject.inventory.view.Store;
@@ -14,16 +14,13 @@ public class InvtController {
     private InvtService invtService = new InvtService();
 
     public int getUserCoin(String userId) {
-        int coin = invtService.getMyCoin(userId);
+        int coin = invtService.getUserCoin(userId);
 
         return coin;
     }
 
     public int getUserScore(String userId) {
-        int score = invtService.getMyScore(userId);
-
-        // 레코드에서 가져오기
-//        score = invtDao.getMyScore(id);
+        int score = invtService.getUserScore(userId);
 
         return score;
     }
@@ -59,21 +56,30 @@ public class InvtController {
         return result;
     }
 
+    public int buyItem(InvtDto invtDto) {
+        int result = invtService.buyItem(invtDto);
 
-    public ArrayList<InvtDao> getMyItems(String userId) {
+        return result;
+    }
 
-        ArrayList<InvtDao> list = null;
+    public int getItemPrice(int itemNo) {
+
+        int price = invtService.getItemPrice(itemNo);
+
+        return price;
+    }
+
+    public ArrayList<ItemDto> getItems() {
+        ArrayList<ItemDto> list = null;
+        list = invtService.getItems();
 
         return list;
     }
 
-    public int buyItem(InvtDto invtDto) {
-        int result = 0;
-        String userId = invtDto.getUserId();
+    public int getUserItemCount(InvtDto invtDto) {
+        int itemCount = invtService.getUserItemCount(invtDto);
 
+        return itemCount;
 
-
-
-        return result;
     }
 }

@@ -2,34 +2,26 @@ package com.multi.gameProject.inventory.view;
 
 import com.multi.gameProject.game.FirstPage;
 import com.multi.gameProject.inventory.controller.InvtController;
-import com.multi.gameProject.inventory.model.dao.InvtDao;
 import com.multi.gameProject.inventory.model.dto.InvtDto;
+import com.multi.gameProject.inventory.model.dto.ItemDto;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 
 public class Store {
-
+    private static String userId = "ID";
     private InvtController invtController = new InvtController();
-
-    private static JFrame f;
-    private Font font1 = new Font("굴림", Font.BOLD, 50);
+    private JFrame f;
     private Font font2 = new Font("굴림", Font.BOLD, 30);
     private Font font3 = new Font("굴림", Font.BOLD, 20);
-    private static JPanel headerP;
-    private static JPanel midP;
-    private static JPanel footerP;
-    private static String userId = "ID";
+    private JPanel headerP;
+    private JPanel midP;
+    private JPanel footerP;
     private JLabel myCoin2;
-    private JButton addB1;
-    private JButton addB2;
-    private JButton addB3;
-    private JLabel itemPrice1;
-    private JLabel itemPrice2;
-    private JLabel itemPrice3;
 
     public void storeView() {
         f = new JFrame();
@@ -51,7 +43,7 @@ public class Store {
     private void initHeaderP() {
         headerP = new JPanel(new GridLayout(0, 4, 10, 10)); // 위
         headerP.setBackground(new Color(40, 60, 79));
-        headerP.setBorder(BorderFactory.createEmptyBorder(20, 10, 0, 10)); // 여백(=padding)
+        headerP.setBorder(BorderFactory.createEmptyBorder(30, 10, 40, 10)); // 여백(=padding)
 
         JButton menuBtn1 = new JButton("내정보");
         JButton menuBtn2 = new JButton("상점");
@@ -73,17 +65,12 @@ public class Store {
     }
 
     private void initMidP() {
-        midP = new JPanel(new GridLayout(0, 1)); // 가운데
+        midP = new JPanel(new GridLayout(0, 1, 0, 0)); // 가운데
         midP.setBackground(new Color(40, 60, 79));
         midP.setBorder(BorderFactory.createEmptyBorder(0, 20, 0, 20)); // 여백(=padding)
 
-        JLabel titleL = new JLabel("아이템 구매");
-        titleL.setFont(font2);
-        titleL.setForeground(Color.white);
-        titleL.setHorizontalAlignment(0);
-        midP.add(titleL);
-
         JPanel myCoinP = new JPanel(new GridLayout(0, 2));
+        myCoinP.setBackground(Color.CYAN);
         JLabel myCoin1 = new JLabel("나의 코인", 0);
         int coin = invtController.getUserCoin(userId);
         myCoin2 = new JLabel(coin + "개", 0);
@@ -93,106 +80,50 @@ public class Store {
         myCoinP.add(myCoin2);
         midP.add(myCoinP);
 
-        JPanel itemP1 = new JPanel(new FlowLayout(0, 50, 0));
-        JPanel itemP2 = new JPanel(new FlowLayout(0, 50, 0));
-        JPanel itemP3 = new JPanel(new FlowLayout(0, 50, 0));
+        ArrayList<ItemDto> list = invtController.getItems();
 
-        ImageIcon itemImg1 = new ImageIcon("img/double.png");
-        ImageIcon itemImg2 = new ImageIcon("img/time.png");
-        ImageIcon itemImg3 = new ImageIcon("img/pass.png");
+        if (list != null) {
+            for (int i = 0; i < list.size(); i++) {
+                JPanel itemP = new JPanel(new FlowLayout(0, 30, 0));
+                itemP.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20));
+                itemP.setBackground(Color.white);
+                ImageIcon itemImg = new ImageIcon("img/" + list.get(i).getImg());
+                JLabel itemL = new JLabel("    " + list.get(i).getItemName(), itemImg, 0);
+                JLabel itemPrice = new JLabel("코인 " + list.get(i).getItemPrice() + "개", 0);
+                itemL.setFont(font3);
+                itemPrice.setFont(font3);
+                JButton addBtn = new JButton("구매");
+                addBtn.setActionCommand(String.valueOf(list.get(i).getItemNo()));
+                addBtn.setFont(font2);
+                itemP.add(itemL);
+                itemP.add(itemPrice);
+                itemP.add(addBtn);
+                midP.add(itemP);
 
-        JLabel itemName1 = new JLabel("  점수두배", itemImg1, 0);
-        JLabel itemName2 = new JLabel("  시간연장", itemImg2, 0);
-        JLabel itemName3 = new JLabel("  문제패스", itemImg3, 0);
+                addBtn.addActionListener(new ActionListener() {
+                    @Override
+                    public void actionPerformed(ActionEvent e) {
+                        int itemNo = Integer.parseInt(e.getActionCommand());
+                        InvtDto invtDto = new InvtDto(userId, itemNo, 1);
+                        int result = invtController.buyItem(invtDto);
 
-        itemName1.setFont(font3);
-        itemName2.setFont(font3);
-        itemName3.setFont(font3);
-
-        itemPrice1 = new JLabel("코인 10개", 0);
-        itemPrice2 = new JLabel("코인 10개", 0);
-        itemPrice3 = new JLabel("코인 10개", 0);
-
-        itemPrice1.setFont(font3);
-        itemPrice2.setFont(font3);
-        itemPrice3.setFont(font3);
-
-        JButton addB1 = new JButton("구매");
-        JButton addB2 = new JButton("구매");
-        JButton addB3 = new JButton("구매");
-
-        addB1.setFont(font2);
-        addB2.setFont(font2);
-        addB3.setFont(font2);
-
-        itemP1.add(itemName1);
-        itemP1.add(itemPrice1);
-        itemP1.add(addB1);
-
-        itemP2.add(itemName2);
-        itemP2.add(itemPrice2);
-        itemP2.add(addB2);
-
-        itemP3.add(itemName3);
-        itemP3.add(itemPrice3);
-        itemP3.add(addB3);
-
-        addB1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-                InvtDto invtDto = new InvtDto(userId, 1, 1);
-
-
-                int result = invtController.buyItem(invtDto);
-                String comment = null;
-                if (result == 1) {
-                    comment = "아이템 구입 성공!";
-                } else {
-                    comment = "아이템 구입 실패";
-                }
-                showDialog(comment);
+                        if (result > 0) {
+                            showDialog("아이템 구매 성공");
+                            myCoin2.setText(invtController.getUserCoin(userId) + "개");
+                        } else {
+                            showDialog("아이템 구매 실패");
+                        }
+                    }
+                });
             }
-        });
-
-        addB2.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                InvtDao invtDao = new InvtDao();
-
-                int result = invtDao.buyItem(2);
-                String comment = null;
-                if (result == 1) {
-                    comment = "아이템 구입 성공!";
-                } else {
-                    comment = "아이템 구입 실패";
-                }
-                showDialog(comment);
-            }
-        });
-
-        addB3.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                InvtDao invtDao = new InvtDao();
-
-                int result = invtDao.buyItem(3);
-                String comment = null;
-                if (result == 1) {
-                    comment = "아이템 구입 성공!";
-                } else {
-                    comment = "아이템 구입 실패";
-                }
-                showDialog(comment);
-            }
-        });
-
-        midP.add(itemP1);
-        midP.add(itemP2);
-        midP.add(itemP3);
-
+        }
     }
 
+
+    private int getItemPrice(int itemNo) {
+        int price = invtController.getItemPrice(itemNo);
+        return price;
+    }
 
     private void initFooterP() {
         footerP = new JPanel(new BorderLayout()); // 아래
@@ -203,7 +134,7 @@ public class Store {
             @Override
             public void actionPerformed(ActionEvent e) {
                 f.setVisible(false);
-                FirstPage firstPage = new FirstPage();
+                new FirstPage();
             }
         });
         goHomeBtn.setBorderPainted(false);

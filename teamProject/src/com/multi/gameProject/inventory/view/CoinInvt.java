@@ -8,19 +8,16 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class CoinInvt {
-
+    private String userId = "ID";
     private InvtController invtController = new InvtController();
-
-    private static JFrame f;
-    private Font font1 = new Font("굴림", java.awt.Font.BOLD, 50);
+    private JFrame f;
     private Font font2 = new Font("굴림", Font.BOLD, 30);
     private Font font3 = new Font("굴림", java.awt.Font.BOLD, 20);
-    private static JPanel headerP;
-    private static JPanel midP;
-    private static JPanel footerP;
-    private static String userId = "ID";
-    private static JTextField input;
-    private static JTextField output;
+    private JPanel headerP;
+    private JPanel midP;
+    private JPanel footerP;
+    private JTextField input;
+    private JTextField output;
     private int coin;
     private int score;
     private JLabel myCoin2;
@@ -48,7 +45,7 @@ public class CoinInvt {
     private void initHeaderP() {
         headerP = new JPanel(new GridLayout(0, 2, 50, 50)); // 위
         headerP.setBackground(new Color(40, 60, 79));
-        headerP.setBorder(BorderFactory.createEmptyBorder(20, 100, 0, 100)); // 여백(=padding)
+        headerP.setBorder(BorderFactory.createEmptyBorder(30, 100, 40, 100)); // 여백(=padding)
 
         menuBtn1 = new JButton("코인");
         menuBtn2 = new JButton("아이템");
@@ -70,13 +67,12 @@ public class CoinInvt {
                 new ItemInvt().ItemInvtView();
             }
         });
-
     }
 
     private void initMidP() {
         midP = new JPanel(new GridLayout(0, 1)); // 가운데
         midP.setBackground(new Color(40, 60, 79));
-        midP.setBorder(BorderFactory.createEmptyBorder(50, 20, 0, 20)); // 여백(=padding)
+        midP.setBorder(BorderFactory.createEmptyBorder(0, 20, 0, 20)); // 여백(=padding)
 
         JPanel myCoinP = new JPanel(new GridLayout(0, 2));
         JPanel myScoreP = new JPanel(new GridLayout(0, 2));
@@ -214,8 +210,6 @@ public class CoinInvt {
                 new Store().storeView();
             }
         });
-
-
     }
 
     public void showDialog(String inform) {

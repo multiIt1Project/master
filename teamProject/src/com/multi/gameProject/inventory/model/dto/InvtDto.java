@@ -9,6 +9,11 @@ public class InvtDto {
     public InvtDto() {
     }
 
+    public InvtDto(String userId, int itemNo) {
+        this.userId = userId;
+        this.itemNo = itemNo;
+    }
+
     public InvtDto(String userId, int itemNo, int itemCount) {
         this.userId = userId;
         this.itemNo = itemNo;
@@ -41,7 +46,7 @@ public class InvtDto {
 
     @Override
     public String toString() {
-        return "ItemIntvDto{" +
+        return "InvtDto{" +
                 "userId='" + userId + '\'' +
                 ", itemNo=" + itemNo +
                 ", itemCount=" + itemCount +
