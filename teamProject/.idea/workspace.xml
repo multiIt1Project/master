@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/518cd185bc413ba44ad1d62479223c93b1e2cf39" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/518cd185bc413ba44ad1d62479223c93b1e2cf39" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61901c0cdec3727a041144c103b17eef96f49164" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61901c0cdec3727a041144c103b17eef96f49164" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1a3b455269ffede9e522fa76aa72ede3bc1bc95" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1a3b455269ffede9e522fa76aa72ede3bc1bc95" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/board/boardQuery.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/AJY/boardQuery.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/driver.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/AJY/driver.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/generalUser/generlUsersQuery.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/AJY/generlUsersQuery.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/query.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/app/GeneralUserRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/app/GeneralUserRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/controller/GeneralUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/controller/GeneralUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/generalUserBoardDAO/GeneralUserBoardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/dao/GeneralUserBoardDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/generalUserBoardDTO/GeneralUserBoardDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/dto/GeneralUserBoardDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/generalUserDAO/GeneralUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/dao/GeneralUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/generalUserDTO/GeneralUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/dto/GeneralUserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/generalUserRecordDAO/GeneralUserRecordDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/dao/GeneralUserRecordDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/generalUserRecordDTO/GeneralUserRecordDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/dto/GeneralUserRecordDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/service/GeneralUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/service/GeneralUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/view/generalUser/GeneralUserAfterLoginHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/view/GeneralUserAfterLoginHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/view/generalUser/GeneralUserBeforeLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/view/GeneralUserBeforeLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/page_swing/GamePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/page_swing/Run.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/page_swing/sdsd.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +51,7 @@
     "com.google.cloudcode.ide_session_index": "20240515_0001",
     "git-widget-placeholder": "AJY",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject/sql",
+    "last_opened_file_path": "C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject/src/com/multi/gameProject/store/service",
     "onboarding.tips.debug.path": "C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
@@ -85,17 +61,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\sql" />
-      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\web-workspace\teamProject\src\com\multi\gameProject\common" />
-      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\web-workspace\teamProject\resources\GeneralUser" />
-      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\web-workspace\teamProject\lib" />
-      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\web-workspace\teamProject\resources\user" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\service" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\model\dto" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\model\dao" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\controller" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\record\app" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\game\model\dao" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\adminUsers\model\dao" />
       <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\resources\AJY" />
       <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\web-workspace\teamProject2_try\src\com\multi\page_swing" />
-      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\web-workspace\teamProject\img" />
-      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\web-workspace\teamProject\src\com\multi\gameProject\users\page_swing" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.multi.gameProject.app" />
