@@ -77,3 +77,13 @@ Ksrc/com/multi/gameProject/generalUsers/view/GeneralUserBeforeLoginPage.java,f\
 Lsrc/com/multi/gameProject/generalUsers/controller/GeneralUserController.java,8\8\8873a6ff066a2f8dcbc8c965ceaba62d778628e5
 Å
 Qsrc/com/multi/gameProject/generalUsers/controller/GeneralUserBoardController.java,3\4\34591fbac871c091aff35b0dbdb6fc4b213e827c
+t
+Dsrc/com/multi/gameProject/generalUsers/model/dao/GeneralUserDao.java,e\c\ec93527111d05410687aa69b862f482d82731eae
+~
+Nsrc/com/multi/gameProject/generalUsers/view/GeneralUserAfterLoginHomePage.java,7\9\793c921e19512a1053cd8fef1153aec4f733f20d
+y
+Isrc/com/multi/gameProject/generalUsers/model/dao/GeneralUserBoardDao.java,9\7\97c2685384773397d1d72fb5fa5df3c84d909b53
+T
+$resources/AJY/recordQuery.properties,f\5\f5792998332c1cf70a65dbfd4e1468881c620e94
+z
+Jsrc/com/multi/gameProject/generalUsers/model/dao/GeneralUserRecordDao.java,8\e\8ef41e91bdc9f0b49dcb250d067ae63c396153fd

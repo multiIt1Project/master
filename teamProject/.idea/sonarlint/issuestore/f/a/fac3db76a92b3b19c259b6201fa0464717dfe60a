@@ -1,29 +1,28 @@
 
-’	java:S117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÑÖ¹ÿÿÿÿÿJ$4327342f-4d75-4713-a4c3-2a834ec8ab25
-’	java:S117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åü§÷úÿÿÿÿJ$0c51a494-837d-4e97-92c7-a949884eb76b
+’	java:S117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÑÖ¹ÿÿÿÿÿJ$e36b221d-16b9-4e9c-8dac-ffc8ebefbbce
+’	java:S117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åü§÷úÿÿÿÿJ$5751082d-7930-4da0-a5f9-d89222409a96
 i
-java:S1604X"(Make this anonymous inner class a lambda(½ŸûºùÿÿÿÿJ$5c5057f2-c24b-44fb-acc8-0c174415d39d
+java:S1604["(Make this anonymous inner class a lambda(½ŸûºùÿÿÿÿJ$b935bb77-4c83-4f0a-b8e0-58e12211698c
 i
-java:S1604m"(Make this anonymous inner class a lambda(¯šæØøÿÿÿÿJ$e261e1d6-34b7-46a7-9bf2-67c6e7fa9ec3
+java:S1604p"(Make this anonymous inner class a lambda(¯šæØøÿÿÿÿJ$b188f96e-4bdb-4f37-b5dc-ab76ef0dc403
 e
-java:S1604‡"(Make this anonymous inner class a lambda(§ÙšáJ$9741da2f-9590-4d44-ac23-d10490b1294f
+java:S1604Š"(Make this anonymous inner class a lambda(§ÙšáJ$ddda6fbc-feb3-435b-8bc3-55856aa97125
 d
-java:S1604¼"(Make this anonymous inner class a lambda(ÄÏ”9J$d5e00e5e-124a-4099-b16d-12df7704ba2a
+java:S1604¿"(Make this anonymous inner class a lambda(ÄÏ”9J$f1e44808-c71e-4531-93fc-36b20e2eebc9
 e
-java:S1604ò"(Make this anonymous inner class a lambda(é«¬ªJ$19e6b8cf-defe-4bc9-b21a-dcd05a1fd310
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òÔ¢ñùÿÿÿÿJ$3a89b634-902e-4e07-bf16-dc9b3a3f1b97
+java:S1604Ü"(Make this anonymous inner class a lambda(é«¬ªJ$2f23b948-f799-47b9-975b-83ac28181a78
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òÔ¢ñùÿÿÿÿJ$f277a133-7228-4a37-976a-d3e309adae8c
 Š
-java:S3252,"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿJ$84c992aa-b1dd-4c83-a9af-6bd715f95b4e
+java:S3252/"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿJ$f3a14e1e-e7dd-4ad5-8c8a-0bc49b8a26a8
 y
-java:S1854ó"7Remove this useless assignment to local variable "gbc".(Ø‰¬çøÿÿÿÿJ$7245c293-051b-4458-b39c-b92d0631034c
+java:S1854ö"7Remove this useless assignment to local variable "gbc".(Ø‰¬çøÿÿÿÿJ$b6079564-582d-470f-9ec0-2d283177c646
 j
-java:S1481ó"(Remove this unused "gbc" local variable.(Ø‰¬çøÿÿÿÿJ$1cfbf02c-38be-4f94-a3f5-1e04457ae87c
+java:S1481ö"(Remove this unused "gbc" local variable.(Ø‰¬çøÿÿÿÿJ$7bf9ca97-9caf-40d9-ab3c-6c424b74fa31
 r
-java:S2209«"5Change this instance-reference to a static reference.(âùâŒJ$bf06d695-930f-42bf-bdf6-51f298cd4567
+java:S2209®"5Change this instance-reference to a static reference.(âùâŒJ$6fb06203-27c7-4b69-9695-83d7df5452f0
 w
-java:S2209¸"5Change this instance-reference to a static reference.(Íˆ¸ëşÿÿÿÿJ$fa13e3b8-0d58-4922-ba1f-e5ce807cf794
-u
-java:S1854Ó"8Remove this useless assignment to local variable "home".(×äıJ$38a2a47b-201d-4e4a-b3f2-558bcbdee0a0
-l	java:S106Ê"+Replace this use of System.out by a logger.(şü“¡ûÿÿÿÿJ$4d7848b4-b9fc-4fcf-95ec-beddb33d644b
-f
-java:S1481Ó")Remove this unused "home" local variable.(×äıJ$6b8b6ef2-4a86-4126-94c8-d4c05927e627
+java:S2209»"5Change this instance-reference to a static reference.(Íˆ¸ëşÿÿÿÿJ$410cf284-20c7-4c2a-ae7e-04a9922f33d7
+…
+java:S1854È"<Remove this useless assignment to local variable "loginDto".(ÂËÃØıÿÿÿÿ8·ÿ²Â÷1J$2ed3c6bb-9cce-4de8-8f47-711579f9aadf
+v
+java:S1481È"-Remove this unused "loginDto" local variable.(ÂËÃØıÿÿÿÿ8¸ÿ²Â÷1J$357e2f46-e3c9-4cab-935c-46b8b7efe9c6
