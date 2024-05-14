@@ -1,0 +1,29 @@
+
+™	java:S117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÑÖ¹ÿÿÿÿÿ8²ø´÷1J$1c295646-60c1-4501-875e-34740f240569
+™	java:S117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åü§÷úÿÿÿÿ8²ø´÷1J$16f5199e-004f-4036-a373-9c95192070c3
+p
+java:S1604X"(Make this anonymous inner class a lambda(½Ÿûºùÿÿÿÿ8³ø´÷1J$10cff956-c66a-4eff-89f3-f3d1180a9481
+p
+java:S1604m"(Make this anonymous inner class a lambda(¯šæØøÿÿÿÿ8³ø´÷1J$cb267d5a-5239-414e-a2e3-8d529c28e05f
+l
+java:S1604‡"(Make this anonymous inner class a lambda(§Ùšá8³ø´÷1J$6383d982-f20f-445c-a2a2-733d007dc868
+k
+java:S1604¼"(Make this anonymous inner class a lambda(ÄÏ”98³ø´÷1J$ea39ca74-a041-4b15-88de-cce5d9feaf2b
+l
+java:S1604ò"(Make this anonymous inner class a lambda(é«¬ª8³ø´÷1J$39076047-2a7c-4b6d-97a0-1aeeddc53da3
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†‘™Á8´ø´÷1J$475d26d2-5f5d-445f-bef1-30c684ddc718
+‘
+java:S3252,"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ8Êø´÷1J$0a340a9e-594b-44ed-bfe3-d6b8e1576aa1
+€
+java:S1854ó"7Remove this useless assignment to local variable "gbc".(Ø‰¬çøÿÿÿÿ8Ñø´÷1J$76a5bde3-6873-4338-8518-62429c563427
+q
+java:S1481ó"(Remove this unused "gbc" local variable.(Ø‰¬çøÿÿÿÿ8Òø´÷1J$81e1fb27-a04d-4289-96ff-d308f15675af
+y
+java:S2209«"5Change this instance-reference to a static reference.(âùâŒ8Ôø´÷1J$1a9c1d2d-23ad-4bae-b77a-94737f9462a8
+~
+java:S2209¸"5Change this instance-reference to a static reference.(Íˆ¸ëşÿÿÿÿ8Õø´÷1J$e02714ef-d025-4b70-85f6-230ef30c0bc1
+|
+java:S1854Ó"8Remove this useless assignment to local variable "home".(×äı8Õø´÷1J$0ecd740d-ad08-46de-bd72-b06131d862ca
+s	java:S106Ê"+Replace this use of System.out by a logger.(şü“¡ûÿÿÿÿ8Öø´÷1J$fb00b229-1272-4f9a-9507-982a5f4e4f39
+m
+java:S1481Ó")Remove this unused "home" local variable.(×äı8×ø´÷1J$bca189b5-082f-470b-a979-761c4991dce4

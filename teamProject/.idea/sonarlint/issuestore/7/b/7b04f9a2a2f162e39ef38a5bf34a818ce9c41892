@@ -1,0 +1,113 @@
+
+	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ô»éö1J$058da13c-a1cc-4620-8728-bab6052387d9
+	java:S112›"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ù»éö1J$bbc2e23e-6823-4c00-ab17-fa4816f6c472
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8«ºüëö1J$75a7df3b-950a-4056-9127-0b0e80e2ebdc
+
+java:S1192G"UDefine a constant instead of duplicating this literal "íŠ¸ëœì­ì…˜ ë¡¤ë°±." 5 times.(ßÒ‚¬øÿÿÿÿ8şŸÅéö1J$cdc7b49b-c35c-4a8f-bb63-e19d37d66a65
+©
+java:S1192±"`Define a constant instead of duplicating this literal "1. ë“œë¼ì´ë²„ ì„¤ì • ì„±ê³µ.." 3 times.(©ËÑ½ûÿÿÿÿ8¢‚œëö1J$3c4d0628-b880-4cf8-b7af-1161a039f382
+¬
+java:S1192"dDefine a constant instead of duplicating this literal "jdbc:oracle:thin:@localhost:1521:xe" 5 times.(Ú¦Ò¥úÿÿÿÿ8®ê·éö1J$9ac48a4f-4456-40b2-84a9-fbe84498c301
+
+java:S1192"FDefine a constant instead of duplicating this literal "scott" 5 times.(ŞßÄÏüÿÿÿÿ8²ê·éö1J$5fd852fa-1abe-49cb-b669-83e8ccb3f74f
+¢
+java:S11921"_Define a constant instead of duplicating this literal "sqlë¬¸ ì „ì†¡ ê²°ê³¼ result : " 3 times.(åÒ«—8°ºüëö1J$4f84618b-411c-4716-af6a-847440aaadb0
+–
+java:S11926"NDefine a constant instead of duplicating this literal "ì»¤ë°‹ ì™„ë£Œ" 3 times.(â©›¨ûÿÿÿÿ8±ºüëö1J$0788c34a-c8d8-489e-9701-7d1024fce2b8
+œ
+java:S1192>"TDefine a constant instead of duplicating this literal "sql ì—ëŸ¬ ë°œìƒ!!" 3 times.(ö½×Ÿıÿÿÿÿ8±ºüëö1J$869892f3-d986-4855-ad97-254f2925bd5d
+‰
+java:S1192"FDefine a constant instead of duplicating this literal "tiger" 5 times.(ƒ³Şò8·ê·éö1J$f68a148b-b4af-42e1-8d5a-69411af2e045
+¯
+java:S1192»"fDefine a constant instead of duplicating this literal "3. ì˜¤í†  ì»¤ë°‹ ì„¤ì • ë¹„í™œì„±í™”." 3 times.(Õê‹–ùÿÿÿÿ8¢‚œëö1J$1573e8bc-b8bf-4d00-8bc1-b637eea81bda
+˜
+java:S1192·"TDefine a constant instead of duplicating this literal "2. dbì—°ê²° ì„±ê³µ." 3 times.(Ñ©Ê8¢‚œëö1J$67fe6d44-8bfb-4520-b547-252bef304c52
+¤
+java:S1192°"`Define a constant instead of duplicating this literal "oracle.jdbc.driver.OracleDriver" 3 times.(ùíÄé8¢‚œëö1J$c8a2316b-13e4-409a-a2b2-05706b5af6ee
+˜	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÖ³æûÿÿÿÿ8ş»éö1J$61828c20-52b0-46ef-9c92-a32d35998549
+”	java:S117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö›¬8ş»éö1J$36e30481-7dca-4b66-abb1-452bbae401de
+”	java:S117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¢Òß8ş»éö1J$ca4390c6-366b-491b-94f4-9c8dcdf268ba
+…
+java:S1163P"=Refactor this code to not throw exceptions in finally blocks.(Ò‚Òéüÿÿÿÿ8ş»éö1J$982963dd-39dc-4639-9ed8-f687cd5a54b7
+†
+java:S1163›"=Refactor this code to not throw exceptions in finally blocks.(Ò‚Òéüÿÿÿÿ8ş»éö1J$37267cf1-ab12-4b07-8708-2d65d98db2ee
+†
+java:S1163"=Refactor this code to not throw exceptions in finally blocks.(Ò‚Òéüÿÿÿÿ8²ºüëö1J$dc82e88c-44b4-4fe5-9dab-b4e248053e42
+|
+java:S1143P"4Remove this throw statement from this finally block.(Ò‚Òéüÿÿÿÿ8ş»éö1J$72b76cb7-91ce-4fa5-a67e-6ae28e1ddb9b
+}
+java:S1143›"4Remove this throw statement from this finally block.(Ò‚Òéüÿÿÿÿ8ÿ»éö1J$5d134540-0971-4add-8298-092817c8a2c8
+}
+java:S1143"4Remove this throw statement from this finally block.(Ò‚Òéüÿÿÿÿ8²ºüëö1J$dcfce41d-e9f6-4239-a1fc-37c1d3e3bd27
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Šá¾ûÿÿÿÿ8ÿ»éö1J$98a1435a-1e05-42cf-8d2e-986869fcc016
+ƒ
+java:S2259"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8ÆÜë™÷1J$1149e218-3d26-4317-8ba8-2b367650dcaf
+ƒ
+java:S2259¹"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8ÇÜë™÷1J$a17558cc-c71c-478c-a16a-765168bcfe5a
+‚
+java:S2259M"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8ÇÜë™÷1J$8386382d-7019-4775-9e85-1836a6023a45
+ƒ
+java:S2259˜"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8ˆë´éö1J$3314a1be-fd75-43a7-ae8b-fa89ebfe12ba
+ƒ
+java:S2259ç"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8ÇÜë™÷1J$34ed6eb5-ab84-41a9-b558-d45757b12cbc
+‘
+java:S2095‡"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8ÈÜë™÷1J$952e0721-4001-421d-abbe-b6ed179733ae
+‘
+java:S2095¶"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8ÈÜë™÷1J$8c3753bf-06a2-42f4-bff7-4d505c110174
+m	java:S106"+Replace this use of System.out by a logger.(šŸû»8„¼éö1J$eead1905-13d7-4990-a265-bcb6823cf4d7
+~
+java:S6437"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8íóŸéö1J$2b7b844b-300d-4726-b3b1-cb146bdad797
+r	java:S106"+Replace this use of System.out by a logger.(œûÃ¤şÿÿÿÿ8…¼éö1J$916d2975-9759-40dc-92a2-b4332b680323
+r	java:S106-"+Replace this use of System.out by a logger.(¬¸úÿÿÿÿ8…¼éö1J$b92cc1f1-70ac-434d-9e69-e09422449a73
+m	java:S1061"+Replace this use of System.out by a logger.(åÒ«—8…¼éö1J$ce2b2105-853f-4715-9dba-ac3620216553
+r	java:S1064"+Replace this use of System.out by a logger.(õ¢İÅÿÿÿÿÿ8…¼éö1J$0f0f150a-511b-4426-9c06-39083e44e1dd
+r	java:S1066"+Replace this use of System.out by a logger.(â©›¨ûÿÿÿÿ8…¼éö1J$537bbc2c-feef-4374-8c74-4a7a22f00660
+r	java:S1069"+Replace this use of System.out by a logger.(õ‰ûÿÿÿÿ8†¼éö1J$f8c4271f-e04e-4677-9326-aeaa5ecf7f8d
+r	java:S106>"+Replace this use of System.out by a logger.(ö½×Ÿıÿÿÿÿ8†¼éö1J$03589076-4df2-47c7-8c5d-148bd6ab50a3
+r	java:S106G"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8‡¼éö1J$0fb0a38d-1b63-4ebd-84fe-ccbbd825cc7c
+m	java:S106f"+Replace this use of System.out by a logger.(šŸû»8Œ¼éö1J$fb8b5369-0962-4c60-8b22-c479eac4c5d7
+~
+java:S6437l"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8š†®éö1J$9a93fbf6-aa27-43cb-b702-ec93d6f9666c
+r	java:S106m"+Replace this use of System.out by a logger.(œûÃ¤şÿÿÿÿ8Œ¼éö1J$af65f3e6-3223-41c6-87bb-c2ce04f6a9e2
+r	java:S106x"+Replace this use of System.out by a logger.(¬¸úÿÿÿÿ8¼éö1J$7bd19eea-e9d8-4468-964f-6d7b7d121511
+m	java:S106|"+Replace this use of System.out by a logger.(åÒ«—8¼éö1J$1015d793-09f0-4d83-9da0-d4f9d3b7db94
+r	java:S106"+Replace this use of System.out by a logger.(½Ù®üûÿÿÿÿ8õóŸéö1J$41ec2838-153d-466a-b227-1c6234d6eac7
+s	java:S106"+Replace this use of System.out by a logger.(â©›¨ûÿÿÿÿ8¤Í£éö1J$2dc5bf4a-a9a0-42ee-b09b-c8d815e0311d
+n	java:S106„"+Replace this use of System.out by a logger.(¬°Æè8Á§éö1J$65572623-b5b3-4f90-8772-3253abf602f9
+s	java:S106‰"+Replace this use of System.out by a logger.(ö½×Ÿıÿÿÿÿ8œ†®éö1J$6a03a6f4-84ca-461f-9b08-b882f1e99b2e
+s	java:S106’"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8œ†®éö1J$8a589b9b-0590-4b81-86a4-90f2e3a1cdf8
+q
+java:S4925°"-Remove this "Class.forName()", it is useless.(ùíÄé8™†®éö1J$e36a46b0-381e-4486-9cb2-b3c1aaf7ca88
+s	java:S106±"+Replace this use of System.out by a logger.(©ËÑ½ûÿÿÿÿ8œ†®éö1J$643c20b2-09c3-4a69-b4c1-ee3769bf0aa3
+
+java:S6437¶"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8İë·éö1J$4a66c497-83c1-480b-9d73-f07abbcf2b25
+n	java:S106·"+Replace this use of System.out by a logger.(Ñ©Ê8ì’³éö1J$40c90ac3-b54d-43a3-b695-b049c6c23cc4
+s	java:S106»"+Replace this use of System.out by a logger.(Õê‹–ùÿÿÿÿ8ë†´éö1J$2f10146b-9410-43a1-97b7-79a5ca555aaa
+n	java:S106Å"+Replace this use of System.out by a logger.(…É¨™8Şë·éö1J$f9c7d3a2-0a9d-4f93-a266-d4f1b5b46e1c
+s	java:S106Õ"+Replace this use of System.out by a logger.(‡ş²¬ÿÿÿÿÿ8Şë·éö1J$79b2a131-a95d-44a5-b60c-3e371af6a59a
+n	java:S106Ù"+Replace this use of System.out by a logger.(ÿî­«8Şë·éö1J$29b0dfed-54d9-4878-ae80-74768d68f957
+s	java:S106â"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8Â¡Åéö1J$06d8244b-6908-4f8d-9873-7c519067d284
+q
+java:S4925"-Remove this "Class.forName()", it is useless.(ùíÄé8İë·éö1J$796ed881-a8a2-414a-a754-64169c7d23f6
+s	java:S106‚"+Replace this use of System.out by a logger.(©ËÑ½ûÿÿÿÿ8ğƒœëö1J$1e7be922-6c8c-4881-836a-f6aa4a1acaeb
+
+java:S6437‡"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8ğƒœëö1J$6230b5f2-a822-4db9-9910-e9274780adbb
+n	java:S106ˆ"+Replace this use of System.out by a logger.(Ñ©Ê8ğƒœëö1J$1380ba30-12b8-43c6-b3d4-7f0abdcbe0bb
+s	java:S106Œ"+Replace this use of System.out by a logger.(Õê‹–ùÿÿÿÿ8ğƒœëö1J$703431a7-37db-4d3f-9269-ff25c8a2ec7b
+n	java:S106—"+Replace this use of System.out by a logger.(…É¨™8ğƒœëö1J$deec7f38-c6b0-4716-a5f0-352bb98b2a56
+s	java:S106§"+Replace this use of System.out by a logger.(‡ş²¬ÿÿÿÿÿ8ğƒœëö1J$e015023d-768d-4f75-b3b8-810e6bc2424e
+n	java:S106«"+Replace this use of System.out by a logger.(ÿî­«8ğƒœëö1J$789db8a3-6feb-49a1-9e9e-b4a8e6c52589
+s	java:S106´"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8ğƒœëö1J$7e85cd4b-a12f-4c30-9c05-ed276972a459
+q
+java:S4925Õ"-Remove this "Class.forName()", it is useless.(ùíÄé8ïƒœëö1J$6bbac320-92ca-44f9-8f90-ad9e85e49223
+s	java:S106Ö"+Replace this use of System.out by a logger.(©ËÑ½ûÿÿÿÿ8Ô¼üëö1J$da7c5850-ca6d-439a-9517-6fdb5019e5dc
+
+java:S6437Û"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8Ô¼üëö1J$582be15c-f456-4697-8928-9119b755a19b
+n	java:S106Ü"+Replace this use of System.out by a logger.(Ñ©Ê8Ô¼üëö1J$c2116830-f4ea-4f93-8c6a-14dc449abf04
+s	java:S106à"+Replace this use of System.out by a logger.(Õê‹–ùÿÿÿÿ8Ô¼üëö1J$8c24c887-6199-4d68-ab78-3ce57e6abf58
+n	java:S106ñ"+Replace this use of System.out by a logger.(åÒ«—8Õ¼üëö1J$9d7730e0-dd2b-4c84-bdb6-de9adcb09cb0
+n	java:S106ô"+Replace this use of System.out by a logger.(Â —¯8Õ¼üëö1J$07fb67a4-2eb6-459f-8767-258ede840690
+s	java:S106ö"+Replace this use of System.out by a logger.(â©›¨ûÿÿÿÿ8Õ¼üëö1J$7ec83edb-32a6-45fe-b36c-83f1342631a4
+n	java:S106ù"+Replace this use of System.out by a logger.(Şÿ·Ğ8Õ¼üëö1J$b551559a-fe8b-4b38-916e-51dda8895ae4
+s	java:S106ş"+Replace this use of System.out by a logger.(ö½×Ÿıÿÿÿÿ8Õ¼üëö1J$e4273d6c-f0a7-43bf-9566-86563de0bc85
+s	java:S106‡"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8Õ¼üëö1J$a100573e-7cf5-45e2-a1f1-c8c738e9120e

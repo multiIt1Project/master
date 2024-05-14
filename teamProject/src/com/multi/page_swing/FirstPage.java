@@ -2,9 +2,7 @@ package com.multi.page_swing;
 
 import javax.swing.*;
 import java.awt.*;
-
-// 참고로 메뉴 클릭하면 해당 페이지를 setVisible(true)로 나머지는 setVisible(false)로 바꾸면 마치 페이지 이동처럼 창 전환이 된다고 합니다.
-// JTABLE
+import java.awt.event.ActionEvent;
 
 public class FirstPage {
     private JFrame f;
@@ -13,7 +11,8 @@ public class FirstPage {
     private JPanel headerP;
     private JPanel midP;
     private JPanel footerP;
-
+    private JLabel titleL,blank,imgL;
+    private int level=0;
     public FirstPage() {
         f = new JFrame();
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -36,27 +35,55 @@ public class FirstPage {
         headerP.setBackground(new Color(40, 60, 79));
         headerP.setBorder(BorderFactory.createEmptyBorder(20 , 0,  0, 0)); // 여백(=padding)
 
-        JButton menuBtn1 = new JButton("menu1");
-        JButton menuBtn2 = new JButton("menu2");
-        JButton menuBtn3 = new JButton("menu3");
-        JButton menuBtn4 = new JButton("menu4");
-        JButton menuBtn5 = new JButton("menu5");
+        JButton menuBtn1 = new JButton("난이도1:");
+        JButton menuBtn2 = new JButton("난이도2");
+        JButton menuBtn3 = new JButton("난이도3");
+        menuBtn1.addActionListener(new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                blank.setText("난이도1");
+                ImageIcon mainImg = new ImageIcon("");
+
+                imgL.setIcon(mainImg);
+                level=1;
+            }
+        });
+        menuBtn2.addActionListener(new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                blank.setText("난이도2");
+                ImageIcon mainImg = new ImageIcon("");
+
+                imgL.setIcon(mainImg);
+
+                level=2;
+            }
+        });
+        menuBtn3.addActionListener(new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ImageIcon mainImg = new ImageIcon("");
+
+                imgL.setIcon(mainImg);
+                blank.setText("난이도3");
+                level=3;
+            }
+        });
         menuBtn1.setFont(font2);
         menuBtn2.setFont(font2);
         menuBtn3.setFont(font2);
-        menuBtn4.setFont(font2);
-        menuBtn5.setFont(font2);
+
+
         menuBtn1.setBackground(new Color(63,228,192));
         menuBtn2.setBackground(new Color(63,228,192));
         menuBtn3.setBackground(new Color(63,228,192));
-        menuBtn4.setBackground(new Color(63,228,192));
-        menuBtn5.setBackground(new Color(63,228,192));
+
 
         headerP.add(menuBtn1);
         headerP.add(menuBtn2);
         headerP.add(menuBtn3);
-        headerP.add(menuBtn4);
-        headerP.add(menuBtn5);
+
     }
 
     private void initMidP() {
@@ -64,16 +91,22 @@ public class FirstPage {
         midP.setBackground(new Color(40, 60, 79));
         midP.setBorder(BorderFactory.createEmptyBorder(50 , 0, 0 , 0)); // 여백(=padding)
 
-        JLabel titleL = new JLabel("코마에 사칙연산 게임");
+        titleL = new JLabel("코마에 사칙연산 게임");
         titleL.setFont(font1);
         titleL.setForeground(Color.white);
         titleL.setBorder(BorderFactory.createEmptyBorder(0 , 0, 20 , 0)); // 여백(=padding)
         midP.add(titleL);
 
         ImageIcon mainImg = new ImageIcon("img/img.png");
-        JLabel imgL = new JLabel();
+        imgL = new JLabel();
         imgL.setIcon(mainImg);
         midP.add(imgL);
+
+        blank=new JLabel("  ");
+        blank.setFont(font1);
+        blank.setForeground(Color.white);
+        blank.setBorder(BorderFactory.createEmptyBorder(0 , 0, 20 , 0)); // 여백(=padding)
+        midP.add(blank);
 
     }
 
@@ -83,10 +116,31 @@ public class FirstPage {
         footerP.setBackground(new Color(40, 60, 79));
         footerP.setBorder(BorderFactory.createEmptyBorder(0 , 0, 100 , 0)); // 여백(=padding)
         JButton startBtn = new JButton("START");
+        startBtn.addActionListener(new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(0<level){
+                GamePage g = new GamePage(level);
+                    f.setVisible(false);
+
+                }
+                else {
+                    JOptionPane.showMessageDialog(f,"난이도를 선택하시오");
+                }
+            }
+        });
         startBtn.setBorderPainted(false);
         startBtn.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10)); // 여백(=padding)
         startBtn.setFont(font1);
         startBtn.setBackground(new Color(63,228,192));
         footerP.add(startBtn);
+
+
+        JButton exitBtn = new JButton("EXIT");
+        exitBtn.setBorderPainted(false);
+        exitBtn.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20)); // 여백(=padding)
+        exitBtn.setFont(font1);
+        exitBtn.setBackground(new Color(63,228,192));
+        footerP.add(exitBtn);
     }
 }

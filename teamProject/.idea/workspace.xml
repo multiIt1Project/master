@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2g8QzTjwwibcvEaeMFWfH6H4Osy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GamePage.executor": "Run",
+    "Application.GeneralUserRun.executor": "Run",
+    "Application.Run.executor": "Run",
+    "Application.UserRun.executor": "Run",
+    "Application.com.multi.gameProject.users.page_swing.Run.executor": "Run",
+    "Application.com.multi.page_swing.Run.executor": "Run",
+    "Application.sdsd.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.google.cloudcode.ide_session_index": "20240515_0001",
+    "git-widget-placeholder": "AJY",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject/src/com/multi/gameProject/store/service",
+    "onboarding.tips.debug.path": "C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "File.Encoding"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\service" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\model\dto" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\model\dao" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\controller" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\record\app" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\game\model\dao" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\adminUsers\model\dao" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\resources\AJY" />
+      <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\web-workspace\teamProject2_try\src\com\multi\page_swing" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.multi.gameProject.app" />
+      <recent name="com.multi.gameProject.users.view" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GeneralUserRun">
+    <configuration name="GamePage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multi.page_swing.GamePage" />
+      <module name="teamProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.multi.page_swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneralUserRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multi.gameProject.generalUsers.app.GeneralUserRun" />
+      <module name="teamProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.multi.gameProject.generalUsers.view.board.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multi.Run" />
+      <module name="teamProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.multi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.multi.page_swing.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multi.page_swing.Run" />
+      <module name="teamProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.multi.page_swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sdsd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multi.page_swing.sdsd" />
+      <module name="teamProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.multi.page_swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GeneralUserRun" />
+        <item itemvalue="Application.GamePage" />
+        <item itemvalue="Application.sdsd" />
+        <item itemvalue="Application.com.multi.page_swing.Run" />
+        <item itemvalue="Application.Run" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="" />
+      <created>1713230649533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713230649533</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/view/GeneralUserAfterLoginHomePage.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

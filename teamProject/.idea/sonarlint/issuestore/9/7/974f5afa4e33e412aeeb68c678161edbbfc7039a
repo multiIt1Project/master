@@ -1,0 +1,21 @@
+
+¡
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÄªË–ıÿÿÿÿ8•ğ™÷1J$151995ac-01a5-4208-95d4-311d21146ae2
+³
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(˜àøœ8ª ë™÷1J$fac528e6-26a8-4586-b171-9506bf9b7d0d
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª‚‘´J$2ef08f0b-8df6-4aea-b3ef-f6c9b5f41f16
+\
+java:S2259G"@A "NullPointerException" could be thrown; "ps" is nullable here.(ä›ª8¦Áè­÷1
+j
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8¦Áè­÷1
+p
+java:S4925"-Remove this "Class.forName()", it is useless.(ùíÄé8£•ğ™÷1J$ec64af52-8f40-4392-b244-9f38e0d48b72
+r	java:S106"+Replace this use of System.out by a logger.(©ËÑ½ûÿÿÿÿ8£•ğ™÷1J$d91d8b8b-5624-48ef-86f0-63c52dbd2a03
+~
+java:S6437"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8£•ğ™÷1J$17b15a46-790c-49c0-bc69-9d4b75b13b64
+m	java:S106"+Replace this use of System.out by a logger.(Ñ©Ê8£•ğ™÷1J$413b4124-05d0-4a69-a82e-1bac6938ae32
+r	java:S106"+Replace this use of System.out by a logger.(Õê‹–ùÿÿÿÿ8£•ğ™÷1J$530a2655-46ff-47c5-a028-bce63eb42f79
+m	java:S106'"+Replace this use of System.out by a logger.(…É¨™8£•ğ™÷1J$aa123df8-df10-458d-b2d1-acbd9a14c811
+r	java:S1065"+Replace this use of System.out by a logger.(‡ş²¬ÿÿÿÿÿ8¥•ğ™÷1J$5d515d97-ec5c-4d92-aeb2-711033b6ce75
+m	java:S1069"+Replace this use of System.out by a logger.(ÿî­«8¥•ğ™÷1J$c3f572ff-e71b-488b-8676-0b1f78aff975
+r	java:S106B"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8¥•ğ™÷1J$e40dc39b-03a1-48ea-ba8a-5f6b34f734fb

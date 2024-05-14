@@ -1,0 +1,40 @@
+
+€
+java:S1659"DDeclare "resultL" and all following declarations on a separate line.(óœŠ¬J$2e2fc93b-81e2-4387-bd56-8c4edf3eb7d6
+|
+java:S1659"@Declare "sum" and all following declarations on a separate line.(¦È±ûJ$4eb4fb82-f4bb-4f31-8d33-cfbebc6cedd3
+~
+java:S1659 "BDeclare "ietm2" and all following declarations on a separate line.(à—’J$30fd94b1-45fe-4134-8617-f499babfdaaa
+c
+java:S1948!"'Make "gameT" transient or serializable.( š»ìJ$f9361333-8274-47e3-8e04-d3afe585ba75
+R
+java:S1854"5Remove this useless assignment to local variable "g".(¸ ¥õ8¸ÿ±†÷1
+C
+java:S1481"&Remove this unused "g" local variable.(¸ ¥õ8¸ÿ±†÷1
+Š
+java:S3252&"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿJ$5d90d18e-8cc3-47fd-84d4-f50a828d7742
+	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶è§öşÿÿÿÿJ$b0c0db5c-a11d-4b7d-a0f9-25d119dc48ef
+\	java:S131?""Add a default case to this switch.(ìúÇVJ$3e28da1a-c9b4-498b-984a-bd0b1e351813
+
+java:S1450O"RRemove the "now" field and declare it as a local variable in the relevant methods.(™â‡‚J$825cba93-3d52-4fda-b5f4-1526a586b1df
+
+java:S1450N"TRemove the "start" field and declare it as a local variable in the relevant methods.(ç¥ûJ$dfbedfbf-d3d0-4670-bb1c-ae9dd5241e10
+š
+java:S2142["^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€J$21f18532-52ca-4df0-8a0d-1fab6506e2d9
+k	java:S106\"+Replace this use of System.out by a logger.(áçÎëúÿÿÿÿJ$15e9661b-a271-4b63-b0b2-bf273d80dc3e
+‰	java:S100i"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àç¬àJ$51650681-095b-44d7-93aa-c056c8bc4552
+Z
+java:S2119j"Save and re-use this "Random".(¡Å”¦J$5bad7b1b-6fb7-49e3-af0a-2e21df0122d4
+]	java:S131o""Add a default case to this switch.(‡È®ÎJ$7b1f6c4a-49c4-4868-9e74-1b436755af37
+e	java:S108Å")Either remove or fill this block of code.(ô›ûîJ$3eeebcd4-a683-4b42-b0fd-8ee90f91c3af
+j	java:S108Ñ")Either remove or fill this block of code.(´ÊëŠûÿÿÿÿJ$7c67ee6b-b996-4ca8-96fa-6508c620119f
+j	java:S108Û")Either remove or fill this block of code.(êú±¥ıÿÿÿÿJ$b6e794ef-ceea-4fac-a0ec-8b5e65feabb0
+j	java:S108“")Either remove or fill this block of code.(ˆ¥ñ“ÿÿÿÿÿJ$cb2a2e26-1e90-4b23-ad12-77da39b1999a
+w
+java:S1854º"5Remove this useless assignment to local variable "s".(ÑÕÅ÷ùÿÿÿÿJ$d8d3eeb3-8e6a-4bd9-8ba3-032867aa21b0
+h
+java:S1481º"&Remove this unused "s" local variable.(ÑÕÅ÷ùÿÿÿÿJ$64f5fa21-bcd5-47e5-a0f4-13cb75e07c37
+e	java:S108¾")Either remove or fill this block of code.(ô›ûîJ$ffc87582-ffe1-47d9-9096-79e613951db6
+y
+java:S3972À"7Move this "if" to a new line or add the missing "else".(›ÉÃùÿÿÿÿJ$590dc593-c540-44c4-bcc3-442bf4d95241
+j	java:S108Ã")Either remove or fill this block of code.(êú±¥ıÿÿÿÿJ$fb1ff7e8-f202-4de3-a94e-dc93878f43b9
