@@ -1,5 +1,6 @@
 package com.multi.gameProject.inventory.service;
 
+import com.multi.gameProject.common.InvtException;
 import com.multi.gameProject.inventory.model.dao.InvtDao;
 import com.multi.gameProject.inventory.model.dto.InvtDto;
 import com.multi.gameProject.inventory.model.dto.ItemDto;
@@ -17,21 +18,21 @@ public class InvtService {
         invtDao = new InvtDao();
     }
 
-    public int getUserCoin(String userId) {
+    public int getUserCoin(String userId) throws InvtException {
         Connection conn = getConnection();
         int coin = invtDao.getUserCoin(conn, userId);
 
         return coin;
     }
 
-    public int getUserScore(String userId) {
+    public int getUserScore(String userId) throws InvtException {
         Connection conn = getConnection();
         int score = invtDao.getUserScore(conn, userId);
 
         return score;
     }
 
-    public int changeScoreToCoin(String userId, int inputScore) {
+    public int changeScoreToCoin(String userId, int inputScore) throws InvtException {
         Connection conn = getConnection();
         int result = 0;
         int score = inputScore;
@@ -49,7 +50,7 @@ public class InvtService {
         return result;
     }
 
-    public int getItemPrice(int itemNo) {
+    public int getItemPrice(int itemNo) throws InvtException {
         Connection conn = getConnection();
 
         int price = invtDao.getItemPrice(conn, itemNo);
@@ -57,7 +58,7 @@ public class InvtService {
         return price;
     }
 
-    public ArrayList<ItemDto> getItems() {
+    public ArrayList<ItemDto> getItems() throws InvtException {
         Connection conn = getConnection();
 
         ArrayList<ItemDto> list = invtDao.getItems(conn);
@@ -65,7 +66,7 @@ public class InvtService {
         return list;
     }
 
-    public int getUserItemCount(InvtDto invtDto) {
+    public int getUserItemCount(InvtDto invtDto) throws InvtException {
         Connection conn = getConnection();
         int count = 0;
         InvtDto userInvt = invtDao.getUserInvt(conn, invtDto);
@@ -78,24 +79,24 @@ public class InvtService {
 
     }
 
-    public int buyItem(InvtDto invtDto) {
+    public int buyItem(InvtDto invtDto) throws InvtException {
+        Connection conn = getConnection();
         int result = 0;
         int result1;
         int result2;
-        Connection conn = getConnection();
         String userId = invtDto.getUserId();
         int itemNo = invtDto.getItemNo();
-        int coin = getItemPrice(itemNo);
+        int price = getItemPrice(itemNo);
 
         // 기존 인벤토리 존재 여부 확인
         InvtDto userInvt = invtDao.getUserInvt(conn, invtDto);
 
         if(userInvt == null){
             result1 = invtDao.insertInvt(conn, invtDto);
-            result2 = invtDao.changeCoin(conn, userId, -coin);
+            result2 = invtDao.changeCoin(conn, userId, -price);
         } else{
             result1 = invtDao.updateInvt(conn, invtDto);
-            result2 = invtDao.changeCoin(conn, userId, -coin);
+            result2 = invtDao.changeCoin(conn, userId, -price);
         }
 
         if (result1 > 0 && result2 > 0) {

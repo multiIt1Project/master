@@ -79,8 +79,9 @@ public class CoinInvt {
         JPanel changeP = new JPanel(new GridLayout(0, 3, 10, 0));
 
         JLabel myCoin1 = new JLabel("나의 코인", 0);
+        myCoin2 = new JLabel("개", 0);
         coin = invtController.getUserCoin(userId);
-        myCoin2 = new JLabel(coin + "개", 0);
+        myCoin2.setText(coin+"개");
         myCoin1.setFont(font3);
         myCoin2.setFont(font2);
         myCoinP.add(myCoin1);

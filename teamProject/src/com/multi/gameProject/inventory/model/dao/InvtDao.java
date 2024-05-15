@@ -1,5 +1,6 @@
 package com.multi.gameProject.inventory.model.dao;
 
+import com.multi.gameProject.common.InvtException;
 import com.multi.gameProject.inventory.model.dto.InvtDto;
 import com.multi.gameProject.inventory.model.dto.ItemDto;
 
@@ -29,7 +30,7 @@ public class InvtDao {
         }
     }
 
-    public int getUserCoin(Connection conn, String userId) {
+    public int getUserCoin(Connection conn, String userId) throws InvtException {
         int coin = 0;
 
         PreparedStatement ps = null;
@@ -47,6 +48,7 @@ public class InvtDao {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+            throw new InvtException("getUserCoin 에러 : " + e.getMessage());
         } finally {
             close(rs);
             close(ps);
@@ -55,7 +57,7 @@ public class InvtDao {
         return coin;
     }
 
-    public int getUserScore(Connection conn, String userId) {
+    public int getUserScore(Connection conn, String userId) throws InvtException {
         int score = 0;
 
         PreparedStatement ps = null;
@@ -73,6 +75,8 @@ public class InvtDao {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+            throw new InvtException("getUserScore 에러 : " + e.getMessage());
+
         } finally {
             close(rs);
             close(ps);
@@ -80,7 +84,7 @@ public class InvtDao {
         return score;
     }
 
-    public int changeScore(Connection conn, String userId, int score) {
+    public int changeScore(Connection conn, String userId, int score) throws InvtException {
         int result = 0;
 
         PreparedStatement ps = null;
@@ -94,6 +98,7 @@ public class InvtDao {
 
         } catch (SQLException e) {
             e.printStackTrace();
+            throw new InvtException("changeScore 에러 : " + e.getMessage());
         } finally {
             close(ps);
         }
@@ -101,19 +106,20 @@ public class InvtDao {
         return result;
     }
 
-    public int changeCoin(Connection conn, String userId, int coin) {
+    public int changeCoin(Connection conn, String userId, int price) throws InvtException {
         int result = 0;
 
         PreparedStatement ps = null;
         String sql = prop.getProperty("changeCoin");
         try {
             ps = conn.prepareStatement(sql);
-            ps.setInt(1, coin);
+            ps.setInt(1, price);
             ps.setString(2, userId);
             result = ps.executeUpdate();
 
         } catch (SQLException e) {
             e.printStackTrace();
+            throw new InvtException("changeCoin 에러 : " + e.getMessage());
         } finally {
             close(ps);
         }
@@ -121,7 +127,7 @@ public class InvtDao {
         return result;
     }
 
-    public int getItemPrice(Connection conn, int itemNo) {
+    public int getItemPrice(Connection conn, int itemNo) throws InvtException {
         int price = 0;
 
         PreparedStatement ps = null;
@@ -138,6 +144,7 @@ public class InvtDao {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+            throw new InvtException("getItemPrice 에러 : " + e.getMessage());
         } finally {
             close(rs);
             close(ps);
@@ -146,7 +153,7 @@ public class InvtDao {
         return price;
     }
 
-    public ArrayList<ItemDto> getItems(Connection conn) {
+    public ArrayList<ItemDto> getItems(Connection conn) throws InvtException {
         ArrayList<ItemDto> list = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -168,6 +175,7 @@ public class InvtDao {
 
         } catch (SQLException e) {
             e.printStackTrace();
+            throw new InvtException("getItems 에러 : " + e.getMessage());
         } finally {
             close(rs);
             close(ps);
@@ -176,7 +184,7 @@ public class InvtDao {
 
     }
 
-    public InvtDto getUserInvt(Connection conn, InvtDto invtDto) {
+    public InvtDto getUserInvt(Connection conn, InvtDto invtDto) throws InvtException {
 
         InvtDto rsDto = null;
         PreparedStatement ps = null;
@@ -197,6 +205,7 @@ public class InvtDao {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+            throw new InvtException("getUserInvt 에러 : " + e.getMessage());
         } finally {
             close(rs);
             close(ps);

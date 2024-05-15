@@ -74,6 +74,7 @@ public class Store {
         JLabel myCoin1 = new JLabel("나의 코인", 0);
         int coin = invtController.getUserCoin(userId);
         myCoin2 = new JLabel(coin + "개", 0);
+        myCoin2.setText(coin+"개");
         myCoin1.setFont(font3);
         myCoin2.setFont(font2);
         myCoinP.add(myCoin1);
@@ -110,19 +111,11 @@ public class Store {
                         if (result > 0) {
                             showDialog("아이템 구매 성공");
                             myCoin2.setText(invtController.getUserCoin(userId) + "개");
-                        } else {
-                            showDialog("아이템 구매 실패");
                         }
                     }
                 });
             }
         }
-    }
-
-
-    private int getItemPrice(int itemNo) {
-        int price = invtController.getItemPrice(itemNo);
-        return price;
     }
 
     private void initFooterP() {
