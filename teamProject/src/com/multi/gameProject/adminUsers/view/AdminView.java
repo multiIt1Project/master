@@ -1,6 +1,7 @@
 package com.multi.gameProject.adminUsers.view;
 
 import com.multi.gameProject.adminUsers.controller.AdminController;
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 
 import javax.swing.*;
 import java.awt.*;
@@ -19,8 +20,9 @@ public class AdminView {
     private DefaultListModel<String> listModel;
 
     private AdminController adminController = new AdminController();
+    private GeneralUserDto dto;
 
-    public AdminView() {
+    public AdminView(GeneralUserDto dto) {
         f = new JFrame();
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(600, 800);
