@@ -18,7 +18,7 @@ public class GeneralUserBoardDao {
 		prop = new Properties();
 		try {
 			prop = new Properties();
-			prop.load(new FileReader("resources/query.properties"));
+			prop.load(new FileReader("resources/AJY/generalboardQuery.properties"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
