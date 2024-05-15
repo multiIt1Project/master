@@ -1,5 +1,5 @@
 
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÁù¤úÿÿÿÿJ$c604a5d5-8fd6-49cc-9e55-3017ef9e2150
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(²«Çûýÿÿÿÿ8«þòÝ÷1J$e2be360c-ad28-4649-967b-efd4af73d3c6
-”
-java:S1128"LRemove this unused import 'com.multi.gameProject.adminUsers.view.AdminView'.(§‹ìëýÿÿÿÿ8ÝÔôÝ÷1J$8867adb2-ce1c-4627-9256-446e34437aa6
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÁù¤úÿÿÿÿ8ûÌŒÞ÷1
+]	java:S125"<This block of commented-out lines of code should be removed.(²«Çûýÿÿÿÿ8þÌŒÞ÷1
+n
+java:S1128"LRemove this unused import 'com.multi.gameProject.adminUsers.view.AdminView'.(§‹ìëýÿÿÿÿ8ÿÌŒÞ÷1
