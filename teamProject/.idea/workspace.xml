@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="">
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28608ab5f51b0beaae44c7d11bf71ef37dfc8154" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28608ab5f51b0beaae44c7d11bf71ef37dfc8154" afterDir="false" />
+<!--<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28608ab5f51b0beaae44c7d11bf71ef37dfc8154" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28608ab5f51b0beaae44c7d11bf71ef37dfc8154" afterDir="false" />-->
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/controller/AdminController.java" afterDir="false" />

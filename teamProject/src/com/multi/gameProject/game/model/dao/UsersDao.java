@@ -1,9 +1,8 @@
-package com.multi.hdbc_h.dao;
+package com.multi.gameProject.game.model.dao;
 
-import com.multi.hdbc_h.dto.Item_invt;
-import com.multi.hdbc_h.dto.Levels;
-import com.multi.hdbc_h.dto.Record;
-import com.multi.jdbc.common.exception.MemberException;
+import com.multi.gameProject.common.MemberException;
+import com.multi.gameProject.game.model.dto.Item_invt;
+import com.multi.gameProject.game.model.dto.Levels;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -13,7 +12,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Properties;
 
-import static com.multi.jdbc.common.JDBCTemplate.close;
+import static com.multi.gameProject.common.JDBCTemplate.close;
+
 
 public class UsersDao {
 
