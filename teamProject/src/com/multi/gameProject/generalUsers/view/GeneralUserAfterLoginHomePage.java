@@ -978,6 +978,7 @@ public class GeneralUserAfterLoginHomePage {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				
+				f.remove(midHomeP);
 				f.remove(midBoardListP);
 				f.remove(midBoardRankingP);
 				f.remove(midBoardEditP);
