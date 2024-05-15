@@ -332,6 +332,7 @@ public class GeneralUserAfterMyInfoPage {
 	// 홈화면
 	private void initHome() {
 		
+		f.remove(midHomeP);
 		f.add(midHomeP, BorderLayout.CENTER);
 		// 가운데
 		midHomeP.setBackground(new Color(40, 60, 79));
@@ -993,8 +994,6 @@ public class GeneralUserAfterMyInfoPage {
 				f.remove(midMyInfoP);
 				
 				initHome();
-				
-				f.add(midHomeP);
 				
 				midMyInfoP.setVisible(false);
 				midHomeP.setVisible(true);

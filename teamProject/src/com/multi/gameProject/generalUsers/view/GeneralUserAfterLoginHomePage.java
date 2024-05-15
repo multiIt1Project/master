@@ -325,6 +325,8 @@ public class GeneralUserAfterLoginHomePage {
 	// 홈화면
 	private void initHome() {
 		
+		f.remove(midHomeP);
+		
 		f.add(midHomeP, BorderLayout.CENTER);
 		// 가운데
 		midHomeP.setBackground(new Color(40, 60, 79));
@@ -985,8 +987,7 @@ public class GeneralUserAfterLoginHomePage {
 				f.remove(midBoardWriteP);
 				f.remove(midMyInfoP);
 				
-				
-				f.add(midHomeP);
+				initHome();
 				
 				midMyInfoP.setVisible(false);
 				midHomeP.setVisible(true);
