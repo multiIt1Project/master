@@ -2,6 +2,9 @@ package com.multi.gameProject.inventory.view;
 
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 import com.multi.gameProject.generalUsers.view.GeneralUserAfterLoginHomePage;
+import com.multi.gameProject.generalUsers.view.GeneralUserAfterLoginRankingPage;
+import com.multi.gameProject.generalUsers.view.GeneralUserAfterMyBoardPage;
+import com.multi.gameProject.generalUsers.view.GeneralUserAfterMyInfoPage;
 import com.multi.gameProject.inventory.controller.InvtController;
 import com.multi.gameProject.inventory.model.dto.InvtDto;
 import com.multi.gameProject.inventory.model.dto.ItemDto;
@@ -69,6 +72,31 @@ public class GeneralUserStorePage {
         headerP.add(menuBtn2);
         headerP.add(menuBtn3);
         headerP.add(menuBtn4);
+
+        menuBtn1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new GeneralUserAfterMyInfoPage(loginDto);
+                f.dispose();
+            }
+        });
+
+        menuBtn3.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new GeneralUserAfterMyBoardPage(loginDto);
+                f.dispose();
+            }
+        });
+
+        menuBtn4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new GeneralUserAfterLoginRankingPage(loginDto);
+                f.dispose();
+            }
+        });
+
     }
 
     private void initMidP() {
