@@ -26,6 +26,7 @@ public class GeneralUserStorePage {
     private JLabel myCoin2;
 
     public GeneralUserStorePage(GeneralUserDto loginDto) {
+        this.loginDto = loginDto;
         userId = loginDto.getUser_Id();
     }
 

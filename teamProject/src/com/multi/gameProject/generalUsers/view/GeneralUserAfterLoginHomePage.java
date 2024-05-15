@@ -217,6 +217,7 @@ public class GeneralUserAfterLoginHomePage {
 				GeneralUserStorePage userStorePage = new GeneralUserStorePage(loginDto);
 				userStorePage.storeView();
 				System.out.println("hi");
+				f.dispose();
 				
 			}
 		});
