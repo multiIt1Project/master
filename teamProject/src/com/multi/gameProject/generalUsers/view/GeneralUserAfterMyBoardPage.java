@@ -981,6 +981,7 @@ public class GeneralUserAfterMyBoardPage {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				
+				
 				f.remove(midBoardListP);
 				f.remove(midBoardRankingP);
 				f.remove(midBoardEditP);
