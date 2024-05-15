@@ -7,7 +7,7 @@ public class Run {
 	public static void main(String[] args) {
 		
 		GeneralUserBeforeLoginPage firstPage = new GeneralUserBeforeLoginPage();
-		
+		System.out.println("hi");
 	
 		
 		
