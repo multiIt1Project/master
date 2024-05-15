@@ -1,4 +1,5 @@
 
+<<<<<<< Updated upstream
 d
 java:S1604h"(Make this anonymous inner class a lambda(ÙÒí¼J$446f6b59-9d08-43a8-ad7a-797cb6c47a55
 d
@@ -8,3 +9,14 @@ java:S1604‘"(Make this anonymous inner class a lambda(æˆªòùÿÿÿÿJ$f4395ddd-dd2
 š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘ş¼·ıÿÿÿÿJ$faa4d084-ea60-4678-aa7a-a489cb35268e
 Š
 java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿJ$0eb2fefc-37df-4fab-a748-1d13dcf89f71
+=======
+>
+java:S1604h"(Make this anonymous inner class a lambda(ÙÒí¼
+>
+java:S1604~"(Make this anonymous inner class a lambda(ƒ——Ù
+D
+java:S1604‘"(Make this anonymous inner class a lambda(æˆªòùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘ş¼·ıÿÿÿÿ
+d
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ
+>>>>>>> Stashed changes
