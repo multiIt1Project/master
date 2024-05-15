@@ -5,8 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/15bd341072e786fba580f9059b6c668e83bafb84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71e146ff425563e8bc8638d5df4e772caefa8787" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97c2685384773397d1d72fb5fa5df3c84d909b53" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97c2685384773397d1d72fb5fa5df3c84d909b53" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a266e9a6825942de1c08dbd34536dfe69d07ccdd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebb0bb7076a3ab1e9dc9a34b128cb7d8b964341d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec93527111d05410687aa69b862f482d82731eae" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec93527111d05410687aa69b862f482d82731eae" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/5/15bd341072e786fba580f9059b6c668e83bafb84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/1/71e146ff425563e8bc8638d5df4e772caefa8787" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/2/a266e9a6825942de1c08dbd34536dfe69d07ccdd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/b/ebb0bb7076a3ab1e9dc9a34b128cb7d8b964341d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/teamProject/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/AJY/boardQuery.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/AJY/generalboardQuery.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/AJY/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/AJY/test111ㅅㅌㅅ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/AJY/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/AJY/test3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/AJY/test555.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/query.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/app/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/app/hi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/dao/GeneralUserBoardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/dao/GeneralUserBoardDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/dao/GeneralUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/dao/GeneralUserDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +57,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="AJY" />
-                    <option name="lastUsedInstant" value="1715753022" />
+                    <option name="lastUsedInstant" value="1715754711" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1715752962" />
+                    <option name="lastUsedInstant" value="1715753919" />
                   </RecentBranch>
                 </list>
               </option>
@@ -62,28 +85,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.GamePage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GeneralUserRun.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserRun.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.multi.gameProject.app.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.multi.gameProject.users.page_swing.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.multi.page_swing.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sdsd.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20240515_0004&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;AJY&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GamePage.executor": "Run",
+    "Application.GeneralUserRun.executor": "Run",
+    "Application.Run.executor": "Run",
+    "Application.UserRun.executor": "Run",
+    "Application.com.multi.gameProject.app.Run.executor": "Run",
+    "Application.com.multi.gameProject.users.page_swing.Run.executor": "Run",
+    "Application.com.multi.page_swing.Run.executor": "Run",
+    "Application.sdsd.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.google.cloudcode.ide_session_index": "20240515_0005",
+    "git-widget-placeholder": "AJY",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject",
+    "onboarding.tips.debug.path": "C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\service" />
@@ -104,7 +127,7 @@
       <recent name="com.multi.gameProject.users.view" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.multi.gameProject.app.Run">
+  <component name="RunManager" selected="Application.GeneralUserRun">
     <configuration name="GamePage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.multi.page_swing.GamePage" />
       <module name="teamProject" />
@@ -172,8 +195,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.multi.gameProject.app.Run" />
         <item itemvalue="Application.GeneralUserRun" />
+        <item itemvalue="Application.com.multi.gameProject.app.Run" />
         <item itemvalue="Application.GamePage" />
         <item itemvalue="Application.sdsd" />
         <item itemvalue="Application.com.multi.page_swing.Run" />

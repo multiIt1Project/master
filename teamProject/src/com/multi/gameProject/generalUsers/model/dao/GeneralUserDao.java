@@ -21,7 +21,7 @@ public class GeneralUserDao {
 		
 		try {
 			prop = new Properties();
-			prop.load(new FileReader("resources/query.properties"));
+			prop.load(new FileReader("resources/AJY/generlUsersQuery.properties"));
 		} catch (FileNotFoundException e) {
 			System.out.println("query file not found");
 			e.printStackTrace();
