@@ -214,8 +214,8 @@ public class CoinInvtPage {
         GoToStoreBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                f.dispose();
                 new GeneralUserStorePage(loginDto).storeView();
+                f.dispose();
             }
         });
     }
