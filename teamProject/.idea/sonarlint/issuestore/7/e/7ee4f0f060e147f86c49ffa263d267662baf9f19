@@ -1,11 +1,0 @@
-
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ïðüˆûÿÿÿÿ8ï¦ØÃ÷1J$07902872-cf0b-41e0-bcc5-bd6c9acdf362
-p
-java:S1481"-Remove this unused "loginDto" local variable.(ë€Á„8ó¦ØÃ÷1J$f4f03f82-7908-47e3-8442-357337a3b650
-
-java:S1854."<Remove this useless assignment to local variable "loginDto".(‚šóÕ8ô¦ØÃ÷1J$45615479-933e-4177-81b2-168287960b85
-r	java:S106F"+Replace this use of System.out by a logger.(®ýáëûÿÿÿÿ8ô¦ØÃ÷1J$4b191c54-5974-4a10-9880-b9d036669526
-Š
-java:S1854L"BRemove this useless assignment to local variable "generalUserDto".(ß²³Žúÿÿÿÿ8õ¦ØÃ÷1J$849c728e-4e6c-4135-aa85-ade63498f679
-k
-java:S1068"(Remove this unused "conn" private field.(ô’¦ª8õ¦ØÃ÷1J$b96433c5-29f7-4ba0-9b5a-bfcdbcc9633b

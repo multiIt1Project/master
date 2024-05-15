@@ -1,0 +1,40 @@
+
+i
+java:S16044"(Make this anonymous inner class a lambda(½ŸûºùÿÿÿÿJ$ea7eac45-0a9e-4cfd-a905-f9528edc2087
+i
+java:S1604<"(Make this anonymous inner class a lambda(¯šæØøÿÿÿÿJ$d167ffa3-8939-4edb-9079-cefab525466f
+i
+java:S1604N"(Make this anonymous inner class a lambda(Ì­›àÿÿÿÿÿJ$a9879fd7-9b67-4701-8685-15920c0f5ad6
+i
+java:S1604`"(Make this anonymous inner class a lambda(íæôþÿÿÿÿJ$c52ff5d7-7814-4b96-b3e0-5f4e49c397e5
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²¢ùôýÿÿÿÿJ$49bf2a3d-2600-4bf5-a895-56d533603df7
+Ã
+java:S1186¥"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(üé—ûÿÿÿÿJ$19b8ee3d-9bc6-46e3-9241-bf6fe38b8455
+¾
+java:S1186¨"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ë«áÉJ$7e6d97f0-d80c-482d-a6b6-e0d3c4cb9d8c
+k
+java:S1197"*Move the array designators [] to the type.(Íš‡þÿÿÿÿJ$4a706eeb-74db-417e-b8fa-03ee599eacb1
+Ž	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øã—õýÿÿÿÿJ$fd80ac46-93b8-4689-8b07-068b9de9d118
+Š
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿJ$9e0611b4-a1dc-4d92-887a-7046ce18d1b6
+j
+java:S1905T")Remove this unnecessary cast to "Object".(Ô›ªÚÿÿÿÿÿJ$79be94bb-ae58-4282-a862-9d15dea0b41a
+f	java:S106{"+Replace this use of System.out by a logger.(˜¬Ì‰J$2aee6267-cfa9-4fae-b32e-5a356edb3968
+g	java:S106‚"+Replace this use of System.out by a logger.(à°„¨J$92ff9c50-f926-40c7-9d4b-00123440d2dd
+f	java:S106…"+Replace this use of System.out by a logger.(¿ó’6J$1fc47770-f280-4379-87f5-ef847ab85813
+f
+java:S1905–")Remove this unnecessary cast to "Object".(Þì¾ÎJ$7327436c-9c85-4a12-bef5-8108d4558afa
+l	java:S106—"+Replace this use of System.out by a logger.(‚é€ÞûÿÿÿÿJ$da476a35-5b66-4fc2-8d13-01520d535bae
+k
+java:S1905š")Remove this unnecessary cast to "Object".(Ô›ªÚÿÿÿÿÿJ$c4434f3b-0073-4a23-833c-c9cb993defd6
+f
+java:S1905›")Remove this unnecessary cast to "Object".(ž¥ÏìJ$8f7a130d-6bb0-49d4-9620-5bec2b0af440
+k
+java:S1905œ")Remove this unnecessary cast to "Object".(þÑÄ°øÿÿÿÿJ$0df1c8fd-6e4d-4a3c-ac8a-c6e0fd11d1c7
+k
+java:S1905")Remove this unnecessary cast to "Object".(ÖÄÎ‡üÿÿÿÿJ$a067d973-ab8a-44d3-998f-a9c105152f25
+k
+java:S1905ž")Remove this unnecessary cast to "Object".(‰ØÔôüÿÿÿÿJ$b4651176-3c2c-4206-8c16-d93dec81c8cd
+g	java:S106Ÿ"+Replace this use of System.out by a logger.(®à­ïJ$3f38c372-a3cb-4311-93cf-af918740b1c5
+j
+java:S1068")Remove this unused "font1" private field.(ÔôƒîûÿÿÿÿJ$c81358fc-88e9-4dba-83a4-d22d23b37955

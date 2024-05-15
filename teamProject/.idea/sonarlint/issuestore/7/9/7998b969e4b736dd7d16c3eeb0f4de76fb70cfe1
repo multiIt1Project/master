@@ -1,15 +1,0 @@
-
-‘	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨áŽáûÿÿÿÿJ$ba497b83-94ab-4b30-94db-581a871f2960
-‘	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…éÐéûÿÿÿÿJ$77108c66-c8a0-4529-8938-11e588f23353
-‘	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…éÐéûÿÿÿÿJ$12e3ee25-649b-446f-8df6-64e9bfa3bca0
-
-java:S1598"ÓThis file "UsersController.java" should be located in "com\multi\hdbc_h\controller" directory, not in "C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\game\controller".(¦ØŽŒJ$c257a42c-c845-4fe9-a987-40ea3470a561
-k	java:S106"+Replace this use of System.out by a logger.(í ÂõøÿÿÿÿJ$1d14c511-7370-4048-86e7-48764d7ccfa6
-‰	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¿Ù¢J$96fe3f5c-c035-47b0-b23e-27d4bf57fe5e
-{
-java:S6213":Rename this variable to not match a restricted identifier.(ü³‚‘ûÿÿÿÿJ$ec2c1a0a-34b9-4c59-9cd7-16812d9b60f9
-k	java:S106 "+Replace this use of System.out by a logger.(í ÂõøÿÿÿÿJ$53f51daa-9c0f-4917-aa90-bcf2ba9af5bc
-k	java:S106-"+Replace this use of System.out by a logger.(í ÂõøÿÿÿÿJ$3b317359-f7bf-41e0-90a5-b84811be872a
-Ž	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Û¡ŠýÿÿÿÿJ$76bbd733-de29-4143-a5d5-49dadc8ac60b
-i	java:S108>")Either remove or fill this block of code.(ˆˆ¦„þÿÿÿÿJ$e87c8d22-3272-481c-9e12-6bae27a81c64
-i	java:S108K")Either remove or fill this block of code.(ˆˆ¦„þÿÿÿÿJ$c39938f0-62d1-481c-8cd2-ec36ed42f453
