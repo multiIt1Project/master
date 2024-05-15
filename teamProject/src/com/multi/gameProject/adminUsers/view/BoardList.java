@@ -1,8 +1,8 @@
-package com.multi.miniProject.admin.view;
+package com.multi.gameProject.adminUsers.view;
 
-import com.multi.miniProject.admin.Controller.AdminController;
-import com.multi.miniProject.admin.model.dto.AdminDto;
-import com.multi.miniProject.admin.service.AdminService;
+import com.multi.gameProject.adminUsers.controller.AdminController;
+import com.multi.gameProject.adminUsers.model.dto.AdminDto;
+import com.multi.gameProject.adminUsers.service.AdminService;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

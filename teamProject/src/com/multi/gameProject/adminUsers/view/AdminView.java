@@ -1,6 +1,7 @@
-package com.multi.miniProject.admin.view;
+package com.multi.gameProject.adminUsers.view;
 
-import com.multi.miniProject.admin.Controller.AdminController;
+import com.multi.gameProject.adminUsers.controller.AdminController;
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 
 import javax.swing.*;
 import java.awt.*;
@@ -20,7 +21,7 @@ public class AdminView {
 
     private AdminController adminController = new AdminController();
 
-    public AdminView() {
+    public AdminView(GeneralUserDto dto) {
         f = new JFrame();
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(600, 800);
@@ -117,6 +118,13 @@ public class AdminView {
         logout.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         logout.setFont(font1);
         logout.setBackground(new Color(63,228,192));
+
+        logout.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
 
         footerP.add(logout);
         footerP.add(startBtn);
