@@ -18,20 +18,9 @@ import static com.multi.gameProject.common.JDBCTemplate.close;
 
 public class UsersDao {
 
-    private Properties prop = null;
 
 
     public UsersDao() {
-
-
-        try {
-            prop = new Properties();
-            prop.load(new FileReader("resources/query.properties"));
-          //  prop.loadFromXML(new FileInputStream("mapper/query.xml"));
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
     }
 
     public int selectlevel(int level, Connection conn) throws MemberException {
