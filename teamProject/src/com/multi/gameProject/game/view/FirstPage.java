@@ -13,7 +13,12 @@ public class FirstPage {
     private JPanel footerP;
     private JLabel titleL,blank,imgL;
     private int level=0;
-    public FirstPage() {
+
+    private GeneralUserDto loginDto;
+
+    
+    public FirstPage(GeneralUserDto loginDto) {
+        this.loginDto=loginDto;
         f = new JFrame();
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(600, 800);
@@ -87,7 +92,7 @@ public class FirstPage {
     }
 
     private void initMidP() {
-        midP = new JPanel(new BorderLayout()); // 가운데
+        midP = new JPanel(); // 가운데
         midP.setBackground(new Color(40, 60, 79));
         midP.setBorder(BorderFactory.createEmptyBorder(50 , 0, 0 , 0)); // 여백(=padding)
 
@@ -120,8 +125,9 @@ public class FirstPage {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if(0<level){
+                    loginDto.getUser_Id
                 GamePage g = new GamePage(level);
-                    f.setVisible(false);
+                    f.setVisible(false,loginDto.getUser_Id);
 
                 }
                 else {
@@ -140,14 +146,12 @@ public class FirstPage {
         exitBtn.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(0<level){
-
+                
+                    
+                    GeneralUserAfterLoginHomePage home=GeneralUserAfterLoginHomePage(loginDto);
                     f.setVisible(false);
 
-                }
-                else {
-                    JOptionPane.showMessageDialog(f,"난이도를 선택하시오");
-                }
+               
             }
         });
         exitBtn.setBorderPainted(false);
