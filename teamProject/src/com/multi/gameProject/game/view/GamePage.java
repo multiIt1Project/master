@@ -360,7 +360,7 @@ public class GamePage extends JFrame {
         exitBtn.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                FirstPage s = new FirstPage();
+                FirstPage s = new FirstPage(loginDto);
                 Record record=usersService.selectHIGH_SCORE(id);
 
                 sum=record.getHigh_score();
