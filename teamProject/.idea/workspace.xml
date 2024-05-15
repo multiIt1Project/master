@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/793c921e19512a1053cd8fef1153aec4f733f20d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/793c921e19512a1053cd8fef1153aec4f733f20d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/teamProject/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/HJE/query.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/game/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/app/InvtRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/app/InvtRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/controller/InvtController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/controller/InvtController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/view/CoinInvt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/view/CoinInvtPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/view/ItemInvt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/view/ItemInvtPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/view/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/view/GeneralUserStorePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +36,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="AJY" />
-                    <option name="lastUsedInstant" value="1715753022" />
+                    <option name="lastUsedInstant" value="1715757542" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1715752962" />
+                    <option name="lastUsedInstant" value="1715753919" />
                   </RecentBranch>
                 </list>
               </option>
@@ -64,34 +58,34 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2g8QzTjwwibcvEaeMFWfH6H4Osy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.GamePage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GeneralUserRun.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserRun.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.multi.gameProject.app.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.multi.gameProject.users.page_swing.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.multi.page_swing.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sdsd.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20240515_0004&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GamePage.executor": "Run",
+    "Application.GeneralUserRun.executor": "Run",
+    "Application.Run.executor": "Run",
+    "Application.UserRun.executor": "Run",
+    "Application.com.multi.gameProject.app.Run.executor": "Run",
+    "Application.com.multi.gameProject.users.page_swing.Run.executor": "Run",
+    "Application.com.multi.page_swing.Run.executor": "Run",
+    "Application.sdsd.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.google.cloudcode.ide_session_index": "20240515_0007",
+    "git-widget-placeholder": "AJY",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dkswl/OneDrive/Documents/code_upload/백업/4. shop 버튼 추가 직전",
+    "onboarding.tips.debug.path": "C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\service" />
@@ -112,7 +106,7 @@
       <recent name="com.multi.gameProject.users.view" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.multi.gameProject.app.Run">
+  <component name="RunManager" selected="Application.GeneralUserRun">
     <configuration name="GamePage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.multi.page_swing.GamePage" />
       <module name="teamProject" />
@@ -180,8 +174,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.multi.gameProject.app.Run" />
         <item itemvalue="Application.GeneralUserRun" />
+        <item itemvalue="Application.com.multi.gameProject.app.Run" />
         <item itemvalue="Application.GamePage" />
         <item itemvalue="Application.sdsd" />
         <item itemvalue="Application.com.multi.page_swing.Run" />
@@ -198,11 +192,6 @@
       <updated>1713230649533</updated>
     </task>
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/../../../.." />
-    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
