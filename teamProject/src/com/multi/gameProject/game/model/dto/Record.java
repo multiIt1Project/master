@@ -1,4 +1,4 @@
-package com.multi.hdbc_h.dto;
+package com.multi.gameProject.game.model.dto;
 
 public class Record {
     private String user_ID;
