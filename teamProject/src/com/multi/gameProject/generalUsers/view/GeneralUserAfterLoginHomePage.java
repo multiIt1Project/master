@@ -145,6 +145,7 @@ public class GeneralUserAfterLoginHomePage {
 		headerP.setBackground(new Color(40, 60, 79));
 		headerP.setBorder(BorderFactory.createEmptyBorder(20, 0, 0, 0)); // 여백(=padding)
 		
+		// shopBtn 을 클릭했을 때 샵 뷰가 열리도록 만들기.. 생성자에 loginDto 담는 거 잊지 말기
 		myInfoBtn.setFont(font2);
 		shopBtn.setFont(font2);
 		BoardListBtn.setFont(font2);
@@ -204,6 +205,20 @@ public class GeneralUserAfterLoginHomePage {
 				f.setVisible(true);
 			}
 		});
+		
+		
+		// shopBtn 을 클릭했을 때 샵 뷰가 열리도록 만들기.. 생성자에 loginDto 담는 거 잊지 말기
+		shopBtn.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				
+			}
+		});
+		
+		
+		
+		
+		
 		
 		/*private JButton BoardListBtn = new JButton("게시판");
 		private JButton BoardRankingBtn = new JButton("랭킹");*/
