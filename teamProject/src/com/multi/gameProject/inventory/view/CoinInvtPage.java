@@ -1,5 +1,6 @@
 package com.multi.gameProject.inventory.view;
 
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 import com.multi.gameProject.inventory.controller.InvtController;
 
 import javax.swing.*;
@@ -7,8 +8,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class CoinInvt {
-    private String userId = "ID";
+public class CoinInvtPage {
+    private GeneralUserDto loginDto;
+    private String userId;
     private InvtController invtController = new InvtController();
     private JFrame f;
     private Font font2 = new Font("굴림", Font.BOLD, 30);
@@ -24,6 +26,10 @@ public class CoinInvt {
     private JLabel myScore2;
     private JButton menuBtn1;
     private JButton menuBtn2;
+
+    public CoinInvtPage(GeneralUserDto loginDto) {
+        userId = loginDto.getUser_Id();
+    }
 
     public void coinInvtView() {
         f = new JFrame();
@@ -64,7 +70,7 @@ public class CoinInvt {
             @Override
             public void actionPerformed(ActionEvent e) {
                 f.dispose();
-                new ItemInvt().ItemInvtView();
+                new ItemInvtPage(loginDto).ItemInvtView();
             }
         });
     }
@@ -208,7 +214,7 @@ public class CoinInvt {
             @Override
             public void actionPerformed(ActionEvent e) {
                 f.dispose();
-                new Store().storeView();
+                new GeneralUserStorePage(loginDto).storeView();
             }
         });
     }

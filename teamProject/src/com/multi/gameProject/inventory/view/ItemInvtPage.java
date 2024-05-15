@@ -1,7 +1,7 @@
 package com.multi.gameProject.inventory.view;
 
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 import com.multi.gameProject.inventory.controller.InvtController;
-import com.multi.gameProject.inventory.model.dao.InvtDao;
 import com.multi.gameProject.inventory.model.dto.InvtDto;
 import com.multi.gameProject.inventory.model.dto.ItemDto;
 
@@ -10,10 +10,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
-import java.util.List;
 
-public class ItemInvt {
-    private String userId = "ID";
+public class ItemInvtPage {
+    private GeneralUserDto loginDto;
+    private String userId = loginDto.getUser_Id();
     private InvtController invtController = new InvtController();
     private JFrame f;
     private Font font2 = new Font("굴림", Font.BOLD, 30);
@@ -21,6 +21,10 @@ public class ItemInvt {
     private JPanel headerP;
     private JPanel midP;
     private JPanel footerP;
+
+    public ItemInvtPage(GeneralUserDto loginDto) {
+        userId = loginDto.getUser_Id();
+    }
 
     public void ItemInvtView() {
         f = new JFrame();
@@ -61,7 +65,7 @@ public class ItemInvt {
             @Override
             public void actionPerformed(ActionEvent e) {
                 f.dispose();
-                new CoinInvt().coinInvtView();
+                new CoinInvtPage(loginDto).coinInvtView();
             }
         });
     }
@@ -114,7 +118,7 @@ public class ItemInvt {
             @Override
             public void actionPerformed(ActionEvent e) {
                 f.setVisible(false);
-                Store store = new Store();
+                GeneralUserStorePage store = new GeneralUserStorePage(loginDto);
                 store.storeView();
             }
         });

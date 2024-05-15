@@ -4,10 +4,8 @@ import com.multi.gameProject.common.InvtException;
 import com.multi.gameProject.inventory.model.dto.InvtDto;
 import com.multi.gameProject.inventory.model.dto.ItemDto;
 import com.multi.gameProject.inventory.service.InvtService;
-import com.multi.gameProject.inventory.view.CoinInvt;
-import com.multi.gameProject.inventory.view.ItemInvt;
-import com.multi.gameProject.inventory.view.Store;
 
+import javax.swing.*;
 import java.util.ArrayList;
 
 public class InvtController {
@@ -21,7 +19,7 @@ public class InvtController {
             coin = invtService.getUserCoin(userId);
 
         } catch (Exception e) {
-            new Store().showDialog("코인 조회 실패, 관리자에 문의하세요 ");
+            JOptionPane.showMessageDialog(null,"코인 조회 실패, 관리자에 문의하세요 ");
             e.printStackTrace();
         }
         return coin;
@@ -33,7 +31,7 @@ public class InvtController {
         try {
             score = invtService.getUserScore(userId);
         } catch (Exception e) {
-            new Store().showDialog("점수 조회 실패, 관리자에 문의하세요 ");
+            JOptionPane.showMessageDialog(null,"점수 조회 실패, 관리자에 문의하세요 ");
             e.printStackTrace();
         }
 
@@ -42,17 +40,16 @@ public class InvtController {
 
     public int getOutputCoin(String userId, int inputScore) {
         int outputCoin = 0;
-        CoinInvt coinInvt = new CoinInvt();
 
         if (inputScore <= getUserScore(userId)) {
             if (inputScore % 100 != 0) {
-                coinInvt.showDialog("100의 배수로 입력해주세요.");
+                JOptionPane.showMessageDialog(null,"100의 배수로 입력해주세요.");
 
             } else {
                 outputCoin = inputScore / 100;
             }
         } else {
-            coinInvt.showDialog("점수가 부족합니다.");
+            JOptionPane.showMessageDialog(null,"점수가 부족합니다.");
         }
 
         return outputCoin;
@@ -67,7 +64,7 @@ public class InvtController {
             try {
                 result = invtService.changeScoreToCoin(userId, inputScore);
             } catch (Exception e) {
-                new CoinInvt().showDialog("변환 실패, 관리자에 문의하세요 ");
+                JOptionPane.showMessageDialog(null,"변환 실패, 관리자에 문의하세요 ");
                 e.printStackTrace();
             }
 
@@ -80,12 +77,12 @@ public class InvtController {
         int result = 0;
         try {
             if (invtService.getUserCoin(invtDto.getUserId()) < invtService.getItemPrice(invtDto.getItemNo())) {
-                new Store().showDialog("코인이 부족합니다. ");
+                JOptionPane.showMessageDialog(null,"코인이 부족합니다. ");
             } else {
                 result = invtService.buyItem(invtDto);
             }
         } catch (Exception e) {
-            new Store().showDialog("아이템 구입 실패, 관리자에 문의하세요 ");
+            JOptionPane.showMessageDialog(null,"아이템 구입 실패, 관리자에 문의하세요 ");
             e.printStackTrace();
         }
 
@@ -97,7 +94,7 @@ public class InvtController {
         try {
             list = invtService.getItems();
         } catch (InvtException e) {
-            new Store().showDialog("아이템 불러오기 실패, 관리자에 문의하세요 ");
+            JOptionPane.showMessageDialog(null,"아이템 불러오기 실패, 관리자에 문의하세요 ");
             e.printStackTrace();
         }
 
@@ -109,7 +106,7 @@ public class InvtController {
         try {
             itemCount = invtService.getUserItemCount(invtDto);
         } catch (Exception e) {
-            new ItemInvt().showDialog("아이템 조회 실패, 관리자에 문의하세요 ");
+            JOptionPane.showMessageDialog(null,"아이템 조회 실패, 관리자에 문의하세요 ");
             e.printStackTrace();
         }
 

@@ -1,6 +1,7 @@
 package com.multi.gameProject.inventory.view;
 
-import com.multi.gameProject.game.FirstPage;
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
+import com.multi.gameProject.generalUsers.view.GeneralUserAfterLoginHomePage;
 import com.multi.gameProject.inventory.controller.InvtController;
 import com.multi.gameProject.inventory.model.dto.InvtDto;
 import com.multi.gameProject.inventory.model.dto.ItemDto;
@@ -12,8 +13,9 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 
-public class Store {
-    private static String userId = "ID";
+public class GeneralUserStorePage {
+    private GeneralUserDto loginDto;
+    private String userId;
     private InvtController invtController = new InvtController();
     private JFrame f;
     private Font font2 = new Font("굴림", Font.BOLD, 30);
@@ -22,6 +24,10 @@ public class Store {
     private JPanel midP;
     private JPanel footerP;
     private JLabel myCoin2;
+
+    public GeneralUserStorePage(GeneralUserDto loginDto) {
+        userId = loginDto.getUser_Id();
+    }
 
     public void storeView() {
         f = new JFrame();
@@ -127,7 +133,7 @@ public class Store {
             @Override
             public void actionPerformed(ActionEvent e) {
                 f.setVisible(false);
-                new FirstPage();
+                new GeneralUserAfterLoginHomePage(loginDto);
             }
         });
         goHomeBtn.setBorderPainted(false);
@@ -146,7 +152,7 @@ public class Store {
             @Override
             public void actionPerformed(ActionEvent e) {
                 f.setVisible(false);
-                CoinInvt coinInvt = new CoinInvt();
+                CoinInvtPage coinInvt = new CoinInvtPage(loginDto);
                 coinInvt.coinInvtView();
             }
         });
