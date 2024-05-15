@@ -18,7 +18,7 @@ public class AdminDao {
 
         try {
             prop = new Properties();
-            prop.load(new FileReader("resources/query.properties"));
+            prop.load(new FileReader("resources/KHC/query.properties"));
 
         } catch (IOException e) {
             // TODO Auto-generated catch block
