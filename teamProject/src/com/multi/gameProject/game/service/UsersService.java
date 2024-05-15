@@ -1,3 +1,8 @@
+package com.multi.gameProject.game.service;
+
+
+import com.multi.gameProject.common.MemberException;
+import com.multi.gameProject.game.model.dao.UsersDao;
 import com.multi.gameProject.game.model.dto.Recorduser;
 
 import java.sql.Connection;
