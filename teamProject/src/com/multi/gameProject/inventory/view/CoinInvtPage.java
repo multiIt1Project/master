@@ -28,6 +28,7 @@ public class CoinInvtPage {
     private JButton menuBtn2;
 
     public CoinInvtPage(GeneralUserDto loginDto) {
+        this.loginDto = loginDto;
         userId = loginDto.getUser_Id();
     }
 
@@ -213,8 +214,9 @@ public class CoinInvtPage {
         GoToStoreBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                f.dispose();
+                
                 new GeneralUserStorePage(loginDto).storeView();
+                f.dispose();
             }
         });
     }
