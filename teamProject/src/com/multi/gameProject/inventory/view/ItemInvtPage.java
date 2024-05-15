@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class ItemInvtPage {
     private GeneralUserDto loginDto;
-    private String userId = loginDto.getUser_Id();
+    private String userId;
     private InvtController invtController = new InvtController();
     private JFrame f;
     private Font font2 = new Font("굴림", Font.BOLD, 30);
