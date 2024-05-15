@@ -32,12 +32,14 @@ public class GamePage extends JFrame {
     private GameT gameT;
 
     private UsersController usersService;
-    public static String id="ID";//주석처리
-
+    private String id;//주석처리
+ private GeneralUserDto loginDto;
     //private Userdto userdto;//주석풀고 사용
     //private String id;//주석 풀고사용
-    public GamePage(int i) {
+    public GamePage(int i,GeneralUserDto loginDto) {
+        this.loginDto=loginDto;
         f = new JFrame("난이도" + lavel);
+        id=loginDto.getUser_Id;
         lavel = i;
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(600, 800);
@@ -358,7 +360,7 @@ public class GamePage extends JFrame {
         exitBtn.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                FirstPage s = new FirstPage();
+                FirstPage s = new FirstPage(loginDto);
                 Record record=usersService.selectHIGH_SCORE(id);
 
                 sum=record.getHigh_score();
