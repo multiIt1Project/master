@@ -1,0 +1,16 @@
+
+C
+java:S1604:"(Make this anonymous inner class a lambda(½Ÿûºùÿÿÿÿ
+C
+java:S1604B"(Make this anonymous inner class a lambda(¯šæØøÿÿÿÿ
+>
+java:S1604J"(Make this anonymous inner class a lambda(§Ùšá
+î
+java:S1598"ÒThis file "AdminView.java" should be located in "com\multi\miniProject\admin\view" directory, not in "C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\adminUsers\view".(çŒ°¡þÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çŒ°¡þÿÿÿÿ
+d
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ
+I
+java:S1068".Remove this unused "memberList" private field.(üÞÇºüÿÿÿÿ
+C
+java:S1068"-Remove this unused "listModel" private field.(…ƒˆ¢

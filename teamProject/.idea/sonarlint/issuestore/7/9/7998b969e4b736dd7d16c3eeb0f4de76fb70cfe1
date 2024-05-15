@@ -1,15 +1,15 @@
 
-‘	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨áŽáûÿÿÿÿJ$ee368f55-9df6-439d-88c4-6a3c635816c0
-‘	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…éÐéûÿÿÿÿJ$6d4a1c2f-8dac-4ca3-8832-71d7eed47628
-‘	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…éÐéûÿÿÿÿJ$2f50c7e6-4368-43a7-aeb2-50f666e956c9
+‘	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨áŽáûÿÿÿÿJ$ba497b83-94ab-4b30-94db-581a871f2960
+‘	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…éÐéûÿÿÿÿJ$77108c66-c8a0-4529-8938-11e588f23353
+‘	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…éÐéûÿÿÿÿJ$12e3ee25-649b-446f-8df6-64e9bfa3bca0
 
-java:S1598"ÓThis file "UsersController.java" should be located in "com\multi\hdbc_h\controller" directory, not in "C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\game\controller".(¦ØŽŒJ$e02bf950-db83-462f-b1cc-feb59a7515fe
-k	java:S106"+Replace this use of System.out by a logger.(í ÂõøÿÿÿÿJ$abd255b4-eefa-4cd9-b869-dec436f8ef8c
-‰	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¿Ù¢J$bf7c80f5-51a3-4eaa-a236-e162076b8ef2
+java:S1598"ÓThis file "UsersController.java" should be located in "com\multi\hdbc_h\controller" directory, not in "C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\game\controller".(¦ØŽŒJ$c257a42c-c845-4fe9-a987-40ea3470a561
+k	java:S106"+Replace this use of System.out by a logger.(í ÂõøÿÿÿÿJ$1d14c511-7370-4048-86e7-48764d7ccfa6
+‰	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¿Ù¢J$96fe3f5c-c035-47b0-b23e-27d4bf57fe5e
 {
-java:S6213":Rename this variable to not match a restricted identifier.(ü³‚‘ûÿÿÿÿJ$701183cc-eb15-4386-8378-ec7d0b674967
-k	java:S106 "+Replace this use of System.out by a logger.(í ÂõøÿÿÿÿJ$fe00fbd4-9d8d-4fb5-aaaa-7a8bbe04692f
-k	java:S106-"+Replace this use of System.out by a logger.(í ÂõøÿÿÿÿJ$6b81261f-3b9a-4694-8efb-d95f24031bd3
-Ž	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Û¡ŠýÿÿÿÿJ$ffa145bd-2546-4bd7-841b-c4bd7a6460f1
-i	java:S108>")Either remove or fill this block of code.(ˆˆ¦„þÿÿÿÿJ$e26725ca-7f61-433b-ad7c-35f6b9abbfd1
-i	java:S108K")Either remove or fill this block of code.(ˆˆ¦„þÿÿÿÿJ$49b222a7-1212-46f3-bad3-d6d114a7036f
+java:S6213":Rename this variable to not match a restricted identifier.(ü³‚‘ûÿÿÿÿJ$ec2c1a0a-34b9-4c59-9cd7-16812d9b60f9
+k	java:S106 "+Replace this use of System.out by a logger.(í ÂõøÿÿÿÿJ$53f51daa-9c0f-4917-aa90-bcf2ba9af5bc
+k	java:S106-"+Replace this use of System.out by a logger.(í ÂõøÿÿÿÿJ$3b317359-f7bf-41e0-90a5-b84811be872a
+Ž	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Û¡ŠýÿÿÿÿJ$76bbd733-de29-4143-a5d5-49dadc8ac60b
+i	java:S108>")Either remove or fill this block of code.(ˆˆ¦„þÿÿÿÿJ$e87c8d22-3272-481c-9e12-6bae27a81c64
+i	java:S108K")Either remove or fill this block of code.(ˆˆ¦„þÿÿÿÿJ$c39938f0-62d1-481c-8cd2-ec36ed42f453

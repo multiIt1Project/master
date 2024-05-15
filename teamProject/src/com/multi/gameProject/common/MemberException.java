@@ -1,4 +1,4 @@
-package com.multi.hdbc_h.common.exception;
+package com.multi.gameProject.common;
 
 public class MemberException extends Exception{
 

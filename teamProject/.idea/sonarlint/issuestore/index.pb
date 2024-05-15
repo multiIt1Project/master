@@ -75,3 +75,7 @@ t
 Dsrc/com/multi/gameProject/generalUsers/model/dto/GeneralUserDto.java,6\b\6b07038692e6788dec5cfd759f0fba4244a55ff3
 n
 >src/com/multi/gameProject/game/controller/UsersController.java,7\9\7998b969e4b736dd7d16c3eeb0f4de76fb70cfe1
+b
+2src/com/multi/gameProject/game/view/FirstPage.java,3\f\3fa741646ab71f0dbf14c5247e42a247848de373
+h
+8src/com/multi/gameProject/adminUsers/view/AdminView.java,2\8\28608ab5f51b0beaae44c7d11bf71ef37dfc8154
