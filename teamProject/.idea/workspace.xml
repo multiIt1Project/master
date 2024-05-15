@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/teamProject/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/HJE/query.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/game/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/app/InvtRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/app/InvtRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/controller/InvtController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/controller/InvtController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/view/CoinInvt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/view/CoinInvtPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/view/ItemInvt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/view/ItemInvtPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/view/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/inventory/view/GeneralUserStorePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +64,7 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2g8QzTjwwibcvEaeMFWfH6H4Osy" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -74,14 +82,14 @@
     &quot;Application.sdsd.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20240515_0004&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;AJY&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -190,6 +198,11 @@
       <updated>1713230649533</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../../.." />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
