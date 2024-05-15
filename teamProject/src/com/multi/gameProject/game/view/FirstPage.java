@@ -105,7 +105,7 @@ public class FirstPage {
         titleL.setBorder(BorderFactory.createEmptyBorder(0 , 0, 20 , 0)); // 여백(=padding)
         midP.add(titleL);
 
-        ImageIcon mainImg = new ImageIcon("img/img.png");
+        ImageIcon mainImg = new ImageIcon("img/img2.png");
         imgL = new JLabel();
         imgL.setIcon(mainImg);
         midP.add(imgL);
