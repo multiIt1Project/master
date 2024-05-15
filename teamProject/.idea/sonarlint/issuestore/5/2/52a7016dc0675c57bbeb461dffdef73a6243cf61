@@ -1,0 +1,16 @@
+
+‹
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ø²±Ôûÿÿÿÿ
+†
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ûß±œ
+‹
+java:S1319 "pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(š¸Þ…ÿÿÿÿÿ
+w
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "list".(¶Ö‡ùþÿÿÿÿ
+r
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "list".(Æ¾¦™
+r
+java:S1488""\Immediately return this expression instead of assigning it to the temporary variable "list".(ì¶½à
+ò
+java:S1598"ÛThis file "AdminService.java" should be located in "com\multi\miniProject\admin\service" directory, not in "C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\adminUsers\service".(î¡Ôõ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(î¡Ôõ
