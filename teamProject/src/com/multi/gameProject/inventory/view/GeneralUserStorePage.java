@@ -152,8 +152,8 @@ public class GeneralUserStorePage {
         goToInvt.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                f.setVisible(false);
                 CoinInvtPage coinInvt = new CoinInvtPage(loginDto);
+                f.setVisible(false);
                 coinInvt.coinInvtView();
             }
         });
