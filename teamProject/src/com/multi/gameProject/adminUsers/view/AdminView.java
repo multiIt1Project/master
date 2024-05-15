@@ -24,7 +24,7 @@ public class AdminView {
 
     public AdminView(GeneralUserDto dto) {
         
-        this.dto = dto;
+        this.dto= dto;
         
         
         f = new JFrame();
@@ -64,7 +64,7 @@ public class AdminView {
         menuBtn1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                adminController.selectAll();
+                adminController.selectAll(dto);
                 f.setVisible(false);
             }
         });
@@ -123,6 +123,13 @@ public class AdminView {
         logout.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         logout.setFont(font1);
         logout.setBackground(new Color(63,228,192));
+
+        logout.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
 
         footerP.add(logout);
         footerP.add(startBtn);
