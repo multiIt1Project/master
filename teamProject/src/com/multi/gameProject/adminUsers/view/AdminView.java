@@ -1,8 +1,10 @@
 package com.multi.gameProject.adminUsers.view;
 
 import com.multi.gameProject.adminUsers.controller.AdminController;
+import com.multi.gameProject.game.view.FirstPage;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 import com.multi.gameProject.generalUsers.view.GeneralUserAfterLoginRankingPage;
+import com.multi.gameProject.generalUsers.view.GeneralUserBeforeLoginPage;
 
 import javax.swing.*;
 import java.awt.*;
@@ -133,7 +135,16 @@ public class AdminView {
         logout.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                new GeneralUserBeforeLoginPage();
+                f.setVisible(false);
+            }
+        });
 
+        startBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new FirstPage(dto);
+                f.setVisible(false);
             }
         });
 
