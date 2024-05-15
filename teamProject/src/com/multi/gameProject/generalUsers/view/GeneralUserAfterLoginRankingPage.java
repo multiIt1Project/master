@@ -26,6 +26,10 @@ import java.util.Date;
 
 public class GeneralUserAfterLoginRankingPage {
 	
+	public static GeneralUserDto dto= new GeneralUserDto();
+	
+	
+	
 	private GeneralUserController controller = new GeneralUserController();
 	
 	// 생성자를 통해 로그인 정보를 받아서 초기화 할 것임. 업데이트나 삭제 시 값 변경됨
@@ -120,18 +124,18 @@ public class GeneralUserAfterLoginRankingPage {
 		
 		
 		f.add(headerP, BorderLayout.PAGE_START);
-		f.add(midHomeP);
+		f.add(midBoardRankingP, BorderLayout.CENTER);
 		f.add(footerP, BorderLayout.PAGE_END);
 		
 		myInfoBtn.setVisible(true);
 		shopBtn.setVisible(true);
 		BoardListBtn.setVisible(true);
 		BoardRankingBtn.setVisible(true);
-		logoutBtn.setVisible(true);
-		gameBtn.setVisible(true);
+		logoutBtn.setVisible(false);
+		gameBtn.setVisible(false);
 		
-		homeBtn.setVisible(false);
-		writeBtn.setVisible(false);
+		homeBtn.setVisible(true);
+		writeBtn.setVisible(true);
 		selectByIdBtn.setVisible(false);
 		edit2Btn.setVisible(false);
 		editBtn.setVisible(false);

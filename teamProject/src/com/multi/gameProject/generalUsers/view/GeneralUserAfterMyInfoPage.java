@@ -26,6 +26,7 @@ import java.util.Date;
 
 public class GeneralUserAfterMyInfoPage {
 	
+	
 	private GeneralUserController controller = new GeneralUserController();
 	
 	// 생성자를 통해 로그인 정보를 받아서 초기화 할 것임. 업데이트나 삭제 시 값 변경됨
@@ -120,7 +121,7 @@ public class GeneralUserAfterMyInfoPage {
 		
 		
 		f.add(headerP, BorderLayout.PAGE_START);
-		f.add(midHomeP);
+		f.add(midMyInfoP, BorderLayout.CENTER);
 		f.add(footerP, BorderLayout.PAGE_END);
 		
 		myInfoBtn.setVisible(true);
@@ -128,14 +129,14 @@ public class GeneralUserAfterMyInfoPage {
 		BoardListBtn.setVisible(true);
 		BoardRankingBtn.setVisible(true);
 		logoutBtn.setVisible(true);
-		gameBtn.setVisible(true);
+		gameBtn.setVisible(false);
 		
-		homeBtn.setVisible(false);
+		homeBtn.setVisible(true);
 		writeBtn.setVisible(false);
 		selectByIdBtn.setVisible(false);
 		edit2Btn.setVisible(false);
-		editBtn.setVisible(false);
-		deleteBtn.setVisible(false);
+		editBtn.setVisible(true);
+		deleteBtn.setVisible(true);
 		writeSaveBtn.setVisible(false);
 		
 		
