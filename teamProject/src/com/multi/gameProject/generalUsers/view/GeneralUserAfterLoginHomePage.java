@@ -780,6 +780,8 @@ public class GeneralUserAfterLoginHomePage {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, "게임 시작!!");
+				FirstPage F=new FirstPage(loginDto);
+				f.setVisible(false);
 			}
 		});
 		
