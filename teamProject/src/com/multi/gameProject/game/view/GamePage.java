@@ -2,6 +2,7 @@ package com.multi.gameProject.game.view;
 
 import com.multi.gameProject.game.controller.UsersController;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
+import com.multi.gameProject.game.model.dto.Record;
 
 
 import javax.swing.*;

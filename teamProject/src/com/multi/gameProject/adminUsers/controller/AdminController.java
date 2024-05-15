@@ -5,13 +5,16 @@ import com.multi.gameProject.adminUsers.service.AdminService;
 import com.multi.gameProject.adminUsers.view.BoardList;
 import com.multi.gameProject.adminUsers.view.ItemManagement;
 import com.multi.gameProject.adminUsers.view.MemberList;
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 
 import java.util.ArrayList;
 
 public class AdminController {
     private AdminService adminService = new AdminService();
+    GeneralUserDto dto;
 
-    public void selectAll() {
+    public void selectAll(GeneralUserDto dto) {
+        this.dto = dto;
 
         MemberList memberList = new MemberList();
         ArrayList<AdminDto> list;
@@ -20,7 +23,7 @@ public class AdminController {
             list = adminService.selectAll();
 
             if (!list.isEmpty()){
-                memberList.selectList();
+                memberList.selectList(dto);
             } else {
                 memberList.displayNoData();
             }
@@ -37,9 +40,9 @@ public class AdminController {
         list = adminService.storeManagement();
 
         if (!list.isEmpty()) {
-            itemManagement.ItemPageView();
+            itemManagement.ItemPageView(dto);
         } else {
-            itemManagement.ItemPageView();
+            itemManagement.ItemPageView(dto);
         }
     }
 
@@ -50,9 +53,9 @@ public class AdminController {
         list = adminService.boardList();
 
         if (!list.isEmpty()) {
-            boardList.BoardView();
+            boardList.BoardView(dto);
         } else {
-            boardList.BoardView();
+            boardList.BoardView(dto);
         }
     }
 
