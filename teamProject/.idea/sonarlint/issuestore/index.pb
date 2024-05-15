@@ -87,3 +87,9 @@ z
 Jsrc/com/multi/gameProject/generalUsers/model/dao/GeneralUserRecordDao.java,8\e\8ef41e91bdc9f0b49dcb250d067ae63c396153fd
 G
 resources/AJY/test2.txt,a\2\a266e9a6825942de1c08dbd34536dfe69d07ccdd
+j
+:src/com/multi/gameProject/inventory/model/dto/InvtDto.java,e\a\eaaa2ba24b5f79340100fbb7ae3b962449de5718
+N
+resources/AJY/test111ㅅㅌㅅ,1\5\15bd341072e786fba580f9059b6c668e83bafb84
+I
+resources/AJY/test555.txt,7\1\71e146ff425563e8bc8638d5df4e772caefa8787

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="" />
+    <list default="true" id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,12 +33,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1715707195" />
+                    <option name="branchName" value="AJY" />
+                    <option name="lastUsedInstant" value="1715753022" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="AJY" />
-                    <option name="lastUsedInstant" value="1715707105" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1715752962" />
                   </RecentBranch>
                 </list>
               </option>
@@ -59,28 +62,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GamePage.executor": "Run",
-    "Application.GeneralUserRun.executor": "Run",
-    "Application.Run.executor": "Run",
-    "Application.UserRun.executor": "Run",
-    "Application.com.multi.gameProject.app.Run.executor": "Run",
-    "Application.com.multi.gameProject.users.page_swing.Run.executor": "Run",
-    "Application.com.multi.page_swing.Run.executor": "Run",
-    "Application.sdsd.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20240515_0004",
-    "git-widget-placeholder": "AJY",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject",
-    "onboarding.tips.debug.path": "C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GamePage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GeneralUserRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.multi.gameProject.app.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.multi.gameProject.users.page_swing.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.multi.page_swing.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sdsd.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20240515_0004&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;AJY&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\service" />
