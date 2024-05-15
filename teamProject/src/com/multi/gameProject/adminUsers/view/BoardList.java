@@ -4,6 +4,7 @@ import com.multi.gameProject.adminUsers.controller.AdminController;
 import com.multi.gameProject.adminUsers.model.dto.AdminDto;
 import com.multi.gameProject.adminUsers.service.AdminService;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
+import com.multi.gameProject.generalUsers.view.GeneralUserAfterLoginRankingPage;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -65,6 +66,15 @@ public class BoardList {
             @Override
             public void actionPerformed(ActionEvent e) {
                 new ItemManagement().ItemPageView(dto);
+                panel.setVisible(false);
+                f.setVisible(false);
+            }
+        });
+
+        menuBtn4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new AdminRankingPage().AdminRankingPage(dto);
                 panel.setVisible(false);
                 f.setVisible(false);
             }

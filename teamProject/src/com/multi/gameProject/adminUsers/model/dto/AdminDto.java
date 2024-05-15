@@ -25,6 +25,59 @@ public class AdminDto {
     private String title;
     private String content;
 
+    private int rank;
+    private int highScore;
+    private int level;
+
+    @Override
+    public String toString() {
+        return "AdminDto{" +
+                "userId='" + userId + '\'' +
+                ", password='" + password + '\'' +
+                ", userName='" + userName + '\'' +
+                ", age=" + age +
+                ", tel='" + tel + '\'' +
+                ", email='" + email + '\'' +
+                ", SignUpDate=" + SignUpDate +
+                ", delAcc='" + delAcc + '\'' +
+                ", deleteAccDate=" + deleteAccDate +
+                ", itemNo=" + itemNo +
+                ", itemName='" + itemName + '\'' +
+                ", itemPrice=" + itemPrice +
+                ", No=" + No +
+                ", writeDate=" + writeDate +
+                ", title='" + title + '\'' +
+                ", content='" + content + '\'' +
+                ", rank=" + rank +
+                ", highScore=" + highScore +
+                ", level=" + level +
+                '}';
+    }
+
+    public int getRank() {
+        return rank;
+    }
+
+    public void setRank(int rank) {
+        this.rank = rank;
+    }
+
+    public int getHighScore() {
+        return highScore;
+    }
+
+    public void setHighScore(int highScore) {
+        this.highScore = highScore;
+    }
+
+    public int getLevel() {
+        return level;
+    }
+
+    public void setLevel(int level) {
+        this.level = level;
+    }
+
     public int getNo() {
         return No;
     }
@@ -153,18 +206,4 @@ public class AdminDto {
         this.deleteAccDate = deleteAccDate;
     }
 
-    @Override
-    public String toString() {
-        return "AdminDto{" +
-                "userId='" + userId + '\'' +
-                ", password='" + password + '\'' +
-                ", userName='" + userName + '\'' +
-                ", age=" + age +
-                ", tel='" + tel + '\'' +
-                ", email='" + email + '\'' +
-                ", SignUpDate=" + SignUpDate +
-                ", delAcc='" + delAcc + '\'' +
-                ", deleteAccDate=" + deleteAccDate +
-                '}';
-    }
 }

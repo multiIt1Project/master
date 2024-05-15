@@ -276,4 +276,36 @@ public class AdminDao {
         return result;
     }
 
+    public ArrayList<AdminDto> rankingList(Connection conn) {
+        ArrayList<AdminDto> list = null;
+        Statement st = null;
+        ResultSet rs = null;
+
+        try {
+            String sql = prop.getProperty("selectRank");
+            st = conn.createStatement();
+            rs = st.executeQuery(sql);
+
+            list = new ArrayList<>();
+
+            while(rs.next()) {
+
+                AdminDto adminDto = new AdminDto();
+
+                adminDto.setRank(rs.getInt("RANK"));
+                adminDto.setUserId(rs.getString("USER_ID"));
+                adminDto.setHighScore(rs.getInt("HIGH_SCORE"));
+                adminDto.setLevel(rs.getInt("LEVEL_NO"));
+
+                list.add(adminDto);
+            }
+        } catch (SQLException e) {
+            System.out.println("에러 발생");
+        } finally {
+            close(rs);
+            close(st);
+        }
+
+        return list;
+    }
 }

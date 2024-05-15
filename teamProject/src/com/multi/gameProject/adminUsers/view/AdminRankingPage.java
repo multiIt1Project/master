@@ -15,13 +15,13 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 
-public class MemberList {
+public class AdminRankingPage {
 
     private JFrame f = new JFrame();
-    private JTable table;
-    private JScrollPane scrollPane = null;
-    private String header[] = {"아이디", "최고 점수", "보유 코인", "생성일", "탈퇴여부", "탈퇴일자"};
     private JPanel panel;
+    private JScrollPane scrollPane = null;
+    private JTable table;
+    private String header[] = {"순위", "이름", "최고점수", "난이도"};
     private Font font1 = new Font("굴림", Font.BOLD, 50);
     private Font font2 = new Font("굴림", Font.BOLD, 20);
 
@@ -29,14 +29,15 @@ public class MemberList {
     private AdminService adminService = new AdminService();
     GeneralUserDto dto;
 
-    public void selectList(GeneralUserDto dto) {
+    public void AdminRankingPage(GeneralUserDto dto) {
+        this.dto = dto;
+
         f.setSize(600, 800);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         panel = new JPanel();
         f.getContentPane().add(panel, BorderLayout.CENTER);
 
-        panel.setSize(600, 800);
         panel.setBackground(new Color(40, 60, 79));
         panel.setBorder(BorderFactory.createEmptyBorder(20 , 0,  0, 0)); // 여백(=padding)
 
@@ -53,6 +54,14 @@ public class MemberList {
             panel.add(jButtons[i]);
         }
 
+        menuBtn1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                adminController.selectAll(dto);
+                f.setVisible(false);
+            }
+        });
+
         menuBtn2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -65,45 +74,20 @@ public class MemberList {
         menuBtn3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new AdminRankingPage().AdminRankingPage(dto);
-                f.setVisible(false);
-            }
-        });
-
-        menuBtn4.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                new GeneralUserAfterLoginRankingPage(dto);
-                panel.setVisible(false);
+                adminController.boardManagement();
                 f.setVisible(false);
             }
         });
 
 
-        JButton btnNewButton = new JButton("삭제");
+
         JButton btnNewButton2 = new JButton("홈으로");
 
         setListTable();
-        panel.add(btnNewButton);
+
         panel.add(btnNewButton2);
 
-        btnNewButton.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent arg0) {
-                panel.remove(scrollPane);
 
-                //클릭한 위치의 행번호
-                int rowNo = table.getSelectedRow();
-                Object value1 = (Object) table.getModel().getValueAt(rowNo, 0);
-                int result = adminService.deleteUser(value1.toString());
-                if (result == 1) {
-                    JOptionPane.showMessageDialog(f, "회원 삭제 성공");
-                } else {
-                    JOptionPane.showMessageDialog(f, "회원 삭제 실패");
-                }
-
-                setListTable();
-            }
-        });
 
         btnNewButton2.addActionListener(new ActionListener() {
             @Override
@@ -114,22 +98,19 @@ public class MemberList {
             }
         });
 
-
         f.setVisible(true);
     }
 
     public void setListTable() {
 
-        ArrayList<AdminDto> list = adminService.selectAll();
+        ArrayList<AdminDto> list = adminService.rankingList();
 
-        Object[][] all = new String[list.size()][6];
+        Object[][] all = new String[list.size()][5];
         for (int i = 0; i < all.length; i++) {
-            all[i][0] = list.get(i).getUserId();
-            all[i][1] = list.get(i).getPassword();
-            all[i][2] = list.get(i).getUserName();
-            all[i][3] = list.get(i).getTel();
-            all[i][4] = list.get(i).getDelAcc();
-            all[i][5] = list.get(i).getDeleteAccDate();
+            all[i][0] = String.valueOf(list.get(i).getRank());
+            all[i][1] = list.get(i).getUserId();
+            all[i][2] = String.valueOf(list.get(i).getHighScore());
+            all[i][3] = String.valueOf(list.get(i).getLevel());
         }
 
         DefaultTableModel model = new DefaultTableModel(all, header);
@@ -169,18 +150,10 @@ public class MemberList {
                 Object value2 = (Object) table.getModel().getValueAt(rowNo, 1);
                 Object value3 = (Object) table.getModel().getValueAt(rowNo, 2);
                 Object value4 = (Object) table.getModel().getValueAt(rowNo, 3);
-                Object value5 = (Object) table.getModel().getValueAt(rowNo, 4);
-                Object value6 = (Object) table.getModel().getValueAt(rowNo, 5);
-                System.out.println(value1 + " " + value2 + " " + value3 + " " + value4 + " " + value5 + " " + value6);
+                System.out.println(value1 + " " + value2 + " " + value3 + " " + value4 + " ");
             }
         });
 
-    }
-
-    public void displayNoData() {
-    }
-
-    public void displayError(String s) {
     }
 
 }

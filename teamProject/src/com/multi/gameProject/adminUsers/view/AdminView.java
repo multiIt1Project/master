@@ -2,6 +2,7 @@ package com.multi.gameProject.adminUsers.view;
 
 import com.multi.gameProject.adminUsers.controller.AdminController;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
+import com.multi.gameProject.generalUsers.view.GeneralUserAfterLoginRankingPage;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,9 +16,6 @@ public class AdminView {
     private JPanel headerP;
     private JPanel midP;
     private JPanel footerP;
-
-    private JList<String> memberList;
-    private DefaultListModel<String> listModel;
 
     private AdminController adminController = new AdminController();
     private GeneralUserDto dto;
@@ -81,6 +79,14 @@ public class AdminView {
             @Override
             public void actionPerformed(ActionEvent e) {
                 adminController.boardManagement();
+                f.setVisible(false);
+            }
+        });
+
+        menuBtn4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new AdminRankingPage().AdminRankingPage(dto);
                 f.setVisible(false);
             }
         });

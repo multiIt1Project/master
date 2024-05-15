@@ -75,4 +75,11 @@ public class AdminService {
         if (result > 0) commit(conn);
         else rollback(conn);
     }
+
+    public ArrayList<AdminDto> rankingList() {
+        Connection conn = getConnection();
+        ArrayList<AdminDto> list = adminDao.rankingList(conn);
+
+        return list;
+    }
 }
