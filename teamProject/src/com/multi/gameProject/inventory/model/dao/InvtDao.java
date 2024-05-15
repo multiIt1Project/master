@@ -23,7 +23,7 @@ public class InvtDao {
 
         try {
             prop = new Properties();
-            prop.load(new FileReader("resources/query.properties"));
+            prop.load(new FileReader("resources/invtquery.properties"));
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
