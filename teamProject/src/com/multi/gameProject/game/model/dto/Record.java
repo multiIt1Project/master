@@ -1,14 +1,14 @@
 package com.multi.gameProject.game.model.dto;
 
-public class Record {
+public class Recorduser {
     private String user_ID;
     private int high_score;
     private int level_no;;
     private int total_score;
 
-    public Record(){}
+    public Recorduser(){}
 
-    public Record(String user_ID, int high_score, int level_no, int total_score) {
+    public Recorduser(String user_ID, int high_score, int level_no, int total_score) {
         this.user_ID = user_ID;
         this.high_score = high_score;
         this.level_no = level_no;
@@ -57,3 +57,4 @@ public class Record {
                 '}';
     }
 }
+
