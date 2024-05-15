@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package com.multi.gameProject.adminUsers.run;
 
 import com.multi.gameProject.adminUsers.view.AdminView;
