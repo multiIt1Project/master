@@ -1,6 +1,6 @@
-package com.multi.gameProject.app.adminUsers.model.dao;
+package com.multi.gameProject.adminUsers.model.dao;
 
-import com.multi.gameProject.app.adminUsers.model.dto.AdminDto;
+import com.multi.gameProject.adminUsers.model.dto.AdminDto;
 
 import java.io.FileReader;
 import java.io.IOException;

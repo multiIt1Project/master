@@ -1,10 +1,10 @@
-package com.multi.gameProject.app.adminUsers.controller;
+package com.multi.gameProject.adminUsers.controller;
 
-import com.multi.gameProject.app.adminUsers.model.dto.AdminDto;
-import com.multi.gameProject.app.adminUsers.service.AdminService;
-import com.multi.gameProject.app.adminUsers.view.BoardList;
-import com.multi.gameProject.app.adminUsers.view.ItemManagement;
-import com.multi.gameProject.app.adminUsers.view.MemberList;
+import com.multi.gameProject.adminUsers.model.dto.AdminDto;
+import com.multi.gameProject.adminUsers.service.AdminService;
+import com.multi.gameProject.adminUsers.view.BoardList;
+import com.multi.gameProject.adminUsers.view.ItemManagement;
+import com.multi.gameProject.adminUsers.view.MemberList;
 
 import java.util.ArrayList;
 

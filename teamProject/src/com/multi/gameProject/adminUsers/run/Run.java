@@ -1,4 +1,4 @@
-package com.multi.gameProject.app.adminUsers.run;
+package com.multi.gameProject.adminUsers.run;
 
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 

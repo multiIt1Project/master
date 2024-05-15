@@ -1,8 +1,8 @@
-package com.multi.gameProject.app.adminUsers.view;
+package com.multi.gameProject.adminUsers.view;
 
-import com.multi.gameProject.app.adminUsers.controller.AdminController;
-import com.multi.gameProject.app.adminUsers.model.dto.AdminDto;
-import com.multi.gameProject.app.adminUsers.service.AdminService;
+import com.multi.gameProject.adminUsers.controller.AdminController;
+import com.multi.gameProject.adminUsers.model.dto.AdminDto;
+import com.multi.gameProject.adminUsers.service.AdminService;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -13,19 +13,20 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 
-public class ItemManagement {
+public class BoardList {
+
     private JFrame f = new JFrame();
     private JPanel panel;
     private JScrollPane scrollPane = null;
     private JTable table;
-    private String header[] = {"아이템 번호", "아이템 이름", "가격"};
+    private String header[] = {"번호", "작성자", "작성일", "제목", "내용"};
     private Font font1 = new Font("굴림", Font.BOLD, 50);
     private Font font2 = new Font("굴림", Font.BOLD, 20);
 
     private AdminController adminController = new AdminController();
     private AdminService adminService = new AdminService();
 
-    public void ItemPageView() {
+    public void BoardView() {
         f.setSize(600, 800);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -56,21 +57,22 @@ public class ItemManagement {
             }
         });
 
-        menuBtn3.addActionListener(new ActionListener() {
+        menuBtn2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                adminController.boardManagement();
+                new ItemManagement().ItemPageView();
+                panel.setVisible(false);
                 f.setVisible(false);
             }
         });
 
+
+
         JButton btnNewButton = new JButton("삭제");
-        JButton btnNewButton1 = new JButton("아이템 추가");
         JButton btnNewButton2 = new JButton("홈으로");
 
         setListTable();
         panel.add(btnNewButton);
-        panel.add(btnNewButton1);
         panel.add(btnNewButton2);
 
         btnNewButton.addActionListener(new ActionListener() {
@@ -80,25 +82,14 @@ public class ItemManagement {
                 //클릭한 위치의 행번호
                 int rowNo = table.getSelectedRow();
                 Object value1 = (Object) table.getModel().getValueAt(rowNo, 0);
-                int result = adminService.deleteItem(value1.toString());
+                int result = adminService.deleteUser(value1.toString());
                 if (result == 1) {
-                    JOptionPane.showMessageDialog(f, "아이템 삭제 성공");
+                    JOptionPane.showMessageDialog(f, "회원 삭제 성공");
                 } else {
-                    JOptionPane.showMessageDialog(f, "아이템 삭제 실패");
+                    JOptionPane.showMessageDialog(f, "회원 삭제 실패");
                 }
 
                 setListTable();
-            }
-        });
-
-        btnNewButton1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int itemNo = Integer.parseInt(JOptionPane.showInputDialog(null, "아이템 번호를 입력하세요."));
-                String itemName = JOptionPane.showInputDialog(null, "아이템 이름을 입력하세요.");
-                int itemPrice = Integer.parseInt(JOptionPane.showInputDialog(null, "아이템 가격을 입력하세요."));
-
-                adminController.addItem(itemNo, itemName, itemPrice);
             }
         });
 
@@ -111,17 +102,20 @@ public class ItemManagement {
             }
         });
 
-
         f.setVisible(true);
     }
-    public void setListTable() {
-        ArrayList<AdminDto> list = adminService.storeManagement();
 
-        Object[][] all = new String[list.size()][3];
+    public void setListTable() {
+
+        ArrayList<AdminDto> list = adminService.boardList();
+
+        Object[][] all = new String[list.size()][5];
         for (int i = 0; i < all.length; i++) {
-            all[i][0] = String.valueOf(list.get(i).getItemNo());
-            all[i][1] = list.get(i).getItemName();
-            all[i][2] = String.valueOf(list.get(i).getItemPrice());
+            all[i][0] = String.valueOf(list.get(i).getNo());
+            all[i][1] = list.get(i).getUserId();
+            all[i][2] = String.valueOf(list.get(i).getWriteDate());
+            all[i][3] = list.get(i).getTitle();
+            all[i][4] = list.get(i).getContent();
         }
 
         DefaultTableModel model = new DefaultTableModel(all, header);
@@ -160,9 +154,17 @@ public class ItemManagement {
                 Object value1 = (Object) table.getModel().getValueAt(rowNo, 0);
                 Object value2 = (Object) table.getModel().getValueAt(rowNo, 1);
                 Object value3 = (Object) table.getModel().getValueAt(rowNo, 2);
-                System.out.println(value1 + " " + value2 + " " + value3 + " ");
+                Object value4 = (Object) table.getModel().getValueAt(rowNo, 3);
+                Object value5 = (Object) table.getModel().getValueAt(rowNo, 4);
+                System.out.println(value1 + " " + value2 + " " + value3 + " " + value4 + " " + value5);
             }
         });
 
+    }
+
+    public void displayNoData() {
+    }
+
+    public void displayError(String s) {
     }
 }
