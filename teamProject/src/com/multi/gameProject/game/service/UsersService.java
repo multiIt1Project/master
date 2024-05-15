@@ -1,7 +1,4 @@
-package com.multi.gameProject.game.service;
-
-import com.multi.gameProject.common.MemberException;
-import com.multi.gameProject.game.model.dao.UsersDao;
+import com.multi.gameProject.game.model.dto.Recorduser;
 
 import java.sql.Connection;
 
@@ -22,7 +19,7 @@ public class UsersService {
         usersDao = new UsersDao();
     }
 
-    public int updateHIGH_SCORE(Record record) throws MemberException {
+    public int updateHIGH_SCORE(Recorduser record) throws  MemberException {
         Connection conn = getConnection();
         int result = usersDao.updateHIGH_SCORE(conn, record);
         return result;
@@ -36,9 +33,9 @@ public class UsersService {
         return num;
     }
 
-    public Record selectHIGH_SCORE(String id) throws MemberException {
+    public Recorduser selectHIGH_SCORE(String id) throws MemberException {
         Connection conn = getConnection();
-         Record record= usersDao.selectHIGH_SCORE(id,conn);
+         Recorduser record= usersDao.selectHIGH_SCORE(id,conn);
 
         return record;
     }
