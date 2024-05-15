@@ -86,11 +86,11 @@ public class BoardList {
                 //클릭한 위치의 행번호
                 int rowNo = table.getSelectedRow();
                 Object value1 = (Object) table.getModel().getValueAt(rowNo, 0);
-                int result = adminService.deleteUser(value1.toString());
+                int result = adminService.deleteBoard(value1.toString());
                 if (result == 1) {
-                    JOptionPane.showMessageDialog(f, "회원 삭제 성공");
+                    JOptionPane.showMessageDialog(f, "게시글 삭제 성공");
                 } else {
-                    JOptionPane.showMessageDialog(f, "회원 삭제 실패");
+                    JOptionPane.showMessageDialog(f, "게시글 삭제 실패");
                 }
 
                 setListTable();

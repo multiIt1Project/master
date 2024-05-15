@@ -198,6 +198,44 @@ public class AdminDao {
         return result;
     }
 
+
+    public int deleteBoard(Connection conn, String no) {
+        int result = 0;
+        PreparedStatement ps = null;
+
+        try {
+            String sql = prop.getProperty("deleteBoard");
+            ps = conn.prepareStatement(sql);
+            ps.setString(1, no);
+
+            result = ps.executeUpdate();
+
+            if(result > 0) {
+                conn.commit();
+            } else {
+                conn.rollback();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            try {
+                conn.rollback();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
+        } finally {
+            if (ps != null) {
+                try {
+                    ps.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+
+        return result;
+    }
+
     public int addItem(Connection conn, int itemNo, String itemName, int itemPrice) {
         int result = 0;
         PreparedStatement ps = null;
@@ -237,4 +275,5 @@ public class AdminDao {
 
         return result;
     }
+
 }

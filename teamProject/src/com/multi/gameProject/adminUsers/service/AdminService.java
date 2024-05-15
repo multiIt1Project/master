@@ -56,6 +56,16 @@ public class AdminService {
         return result;
     }
 
+    public int deleteBoard(String no) {
+        Connection conn = getConnection();
+        int result = adminDao.deleteBoard(conn, no);
+
+        if (result > 0) commit(conn);
+        else rollback(conn);
+
+        return result;
+    }
+
 
     public void addItem(int itemNo, String itemName, int itemPrice) {
         Connection conn = getConnection();
