@@ -148,7 +148,7 @@ public class FirstPage {
             public void actionPerformed(ActionEvent e) {
                 
                     
-                    GeneralUserAfterLoginHomePage home=GeneralUserAfterLoginHomePage(loginDto);
+                   new GeneralUserAfterLoginHomePage home=GeneralUserAfterLoginHomePage(loginDto);
                     f.setVisible(false);
 
                
