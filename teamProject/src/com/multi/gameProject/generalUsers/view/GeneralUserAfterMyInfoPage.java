@@ -27,6 +27,12 @@ import java.util.Date;
 public class GeneralUserAfterMyInfoPage {
 	
 	
+	
+	/*public static void main(String[] args) {
+		GeneralUserDto loginDto= new GeneralUserDto();
+		new GeneralUserAfterMyInfoPage(loginDto);
+	}
+	*/
 	private GeneralUserController controller = new GeneralUserController();
 	
 	// 생성자를 통해 로그인 정보를 받아서 초기화 할 것임. 업데이트나 삭제 시 값 변경됨
@@ -985,6 +991,7 @@ public class GeneralUserAfterMyInfoPage {
 				f.remove(midBoardWriteP);
 				f.remove(midMyInfoP);
 				
+				initHome();
 				
 				f.add(midHomeP);
 				
