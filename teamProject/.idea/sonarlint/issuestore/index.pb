@@ -33,16 +33,6 @@ _
 ,src/com/multi/gameProject/game/service/a.txt,e\e\ee7d69a7bad397a71431ef17fc85d3fe19baf5ac
 Y
 )src/com/multi/gameProject/game/view/a.txt,e\1\e1013015ecc135832d1866a46f8d3409001222fe
-a
-1src/com/multi/gameProject/record/controller/a.txt,f\8\f8cad36e1bfffdd94285e1b1b53e717c8e220297
-`
-0src/com/multi/gameProject/record/model/dao/a.txt,1\7\17b4e896ed6ed1e21ca7a63ca02debeea4037d61
-`
-0src/com/multi/gameProject/record/model/dto/a.txt,1\6\16b0039f6bcde207dce0b40e93b70d9b3959a888
-^
-.src/com/multi/gameProject/record/service/a.txt,3\3\3340294e9067a07e4444279603dbbc107b88e5d4
-[
-+src/com/multi/gameProject/record/view/a.txt,f\9\f98b343d3f76acd5a34a0e3323423c501542f499
 Y
 )src/com/multi/gameProject/store/app/a.txt,e\f\ef4e7a21c283c60cce22d44ca7f8fce9032ae8c4
 `
@@ -69,8 +59,6 @@ z
 Jsrc/com/multi/gameProject/generalUsers/model/dao/GeneralUserRecordDao.java,8\e\8ef41e91bdc9f0b49dcb250d067ae63c396153fd
 j
 :src/com/multi/gameProject/inventory/model/dto/InvtDto.java,e\a\eaaa2ba24b5f79340100fbb7ae3b962449de5718
-c
-3src/com/multi/gameProject/inventory/view/Store.java,7\7\7788d22e49b179a3135fd5663b9432a3cf41a1ef
 t
 Dsrc/com/multi/gameProject/generalUsers/model/dto/GeneralUserDto.java,6\b\6b07038692e6788dec5cfd759f0fba4244a55ff3
 n

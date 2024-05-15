@@ -1,19 +1,19 @@
 
-†	java:S112Q"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$a644303a-f074-4f04-bcb7-ddc3063cf3cb
-‘	java:S117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Î¯øÿÿÿÿJ$bb8a5902-cffe-4c4c-aaa5-379901d9f93e
+†	java:S112Q"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$e9f743b7-860d-4e96-ba56-d22d5ee1433d
+‘	java:S117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Î¯øÿÿÿÿJ$6d50720d-b339-48ae-9a6d-fcf801e8f655
 £
-java:S1488}"bImmediately return this expression instead of assigning it to the temporary variable "selectUser".(ğÁ÷•şÿÿÿÿJ$c9c17a34-5e41-4aae-8bd7-15e09f037809
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×ÉøÿÿÿÿJ$de378e8b-f0a7-43c2-b45f-25f20d730fa3
-Z
-java:S1854>"=Remove this useless assignment to local variable "adminView".( ™ ô8íïåÜ÷1
+java:S1488}"bImmediately return this expression instead of assigning it to the temporary variable "selectUser".(ğÁ÷•şÿÿÿÿJ$09c5f099-bf86-42d4-8ee8-3968a1da81dd
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×ÉøÿÿÿÿJ$d4de8adb-d695-4320-9754-1a79ccdef393
+€
+java:S1854>"=Remove this useless assignment to local variable "adminView".( ™ ô8íïåÜ÷1J$14e6f2a2-42fd-4c49-9514-413cb7066971
 t
-java:S1854E"8Remove this useless assignment to local variable "home".(×äıJ$95b10a8f-276c-4c9c-b858-888612e3affb
-k	java:S1068"+Replace this use of System.out by a logger.(şü“¡ûÿÿÿÿJ$438f5f7c-a8c0-4277-8b44-aa0d1a050023
-K
-java:S1481>".Remove this unused "adminView" local variable.( ™ ô8ïïåÜ÷1
+java:S1854E"8Remove this useless assignment to local variable "home".(×äıJ$0af86764-1b63-4a05-9cc7-d6e824faaf6d
+k	java:S1068"+Replace this use of System.out by a logger.(şü“¡ûÿÿÿÿJ$27eaa7f3-3afc-4e65-94ec-1736dcccd200
+q
+java:S1481>".Remove this unused "adminView" local variable.( ™ ô8ïïåÜ÷1J$3bf53428-c300-4590-bd15-9204f4deab19
 e
-java:S1481E")Remove this unused "home" local variable.(×äıJ$2c4657c1-472e-411a-bce6-4273efc09d9d
+java:S1481E")Remove this unused "home" local variable.(×äıJ$f0b1291f-c047-4322-a12b-055563994690
 u
-java:S1854"8Remove this useless assignment to local variable "home".(†ÛÃÚJ$b2af23d9-fad5-4c69-81ef-cad227f341ee
+java:S1854"8Remove this useless assignment to local variable "home".(†ÛÃÚJ$01190416-2d14-4e2a-ace7-482262e7c830
 f
-java:S1481")Remove this unused "home" local variable.(†ÛÃÚJ$8fe04812-aab2-4bb4-9e6d-0256a845fb48
+java:S1481")Remove this unused "home" local variable.(†ÛÃÚJ$e5f38604-4168-4357-acdf-ff61a71b262d
