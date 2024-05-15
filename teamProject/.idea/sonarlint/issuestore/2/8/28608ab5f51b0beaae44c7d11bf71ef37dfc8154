@@ -1,14 +1,14 @@
 
-C
-java:S1604:"(Make this anonymous inner class a lambda(½Ÿûºùÿÿÿÿ
-C
-java:S1604B"(Make this anonymous inner class a lambda(¯šæØøÿÿÿÿ
->
-java:S1604J"(Make this anonymous inner class a lambda(§Ùšá
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²¢ùôıÿÿÿÿ
-d
-java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ
-I
-java:S1068".Remove this unused "memberList" private field.(üŞÇºüÿÿÿÿ
-C
-java:S1068"-Remove this unused "listModel" private field.(…ƒˆ¢
+J
+java:S1604:"(Make this anonymous inner class a lambda(½Ÿûºùÿÿÿÿ8àòİ÷1
+J
+java:S1604B"(Make this anonymous inner class a lambda(¯šæØøÿÿÿÿ8àòİ÷1
+E
+java:S1604J"(Make this anonymous inner class a lambda(§Ùšá8àòİ÷1
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²¢ùôıÿÿÿÿJ$98178e7c-1ab7-45aa-bc96-8810bdb45b5b
+k
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ8€óİ÷1
+P
+java:S1068".Remove this unused "memberList" private field.(üŞÇºüÿÿÿÿ8óİ÷1
+J
+java:S1068"-Remove this unused "listModel" private field.(…ƒˆ¢8óİ÷1
