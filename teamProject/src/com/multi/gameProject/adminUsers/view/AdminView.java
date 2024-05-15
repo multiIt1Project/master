@@ -20,8 +20,13 @@ public class AdminView {
     private DefaultListModel<String> listModel;
 
     private AdminController adminController = new AdminController();
+    private GeneralUserDto dto;
 
     public AdminView(GeneralUserDto dto) {
+        
+        this.dto= dto;
+        
+        
         f = new JFrame();
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(600, 800);
@@ -59,7 +64,7 @@ public class AdminView {
         menuBtn1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                adminController.selectAll();
+                adminController.selectAll(dto);
                 f.setVisible(false);
             }
         });

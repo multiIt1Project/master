@@ -2,6 +2,7 @@ package com.multi.gameProject.game.view;
 
 import com.multi.gameProject.game.controller.UsersController;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
+import com.multi.gameProject.game.model.dto.Record;
 
 
 import javax.swing.*;
@@ -39,7 +40,7 @@ public class GamePage extends JFrame {
     public GamePage(int i, GeneralUserDto loginDto) {
         this.loginDto = loginDto;
         f = new JFrame("난이도" + lavel);
-        id = loginDto.getUser_Id;
+        id = loginDto.getUser_Id();
         lavel = i;
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(600, 800);

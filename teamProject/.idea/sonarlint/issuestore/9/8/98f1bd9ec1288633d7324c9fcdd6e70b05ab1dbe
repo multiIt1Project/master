@@ -1,12 +1,0 @@
-
-¸
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(œÈš–úÿÿÿÿ8†öçÅ÷1J$4f4cee4a-3c30-4197-9846-93247091fe76
-³
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ã‹€8‡öçÅ÷1J$35a54693-e01a-4165-b3f6-ad1058977dd8
-Ÿ
-java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "list".(ÜŒâÿ8‡öçÅ÷1J$ed1fcdaf-2d12-44b6-aeb1-333290191645
-Ÿ
-java:S1488 "\Immediately return this expression instead of assigning it to the temporary variable "list".(ÅÜ”ç8‡öçÅ÷1J$e6e1dbb6-9263-4823-aabe-2e2fb82d27a8
-£
-java:S1488K"`Immediately return this expression instead of assigning it to the temporary variable "boardDto".(ë¬Å»8æ’éÅ÷1J$62677d45-1726-4857-8e42-0e9d8e760040
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ïğüˆûÿÿÿÿ8ˆöçÅ÷1J$1169720a-035a-4829-af82-d168451b0b01

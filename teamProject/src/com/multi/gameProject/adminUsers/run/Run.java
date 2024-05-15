@@ -4,6 +4,6 @@ import com.multi.gameProject.adminUsers.view.AdminView;
 
 public class Run {
     public static void main(String[] args) {
-        AdminView adminView = new AdminView();
+//        AdminView adminView = new AdminView();
     }
 }

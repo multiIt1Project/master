@@ -3,6 +3,7 @@ package com.multi.gameProject.adminUsers.view;
 import com.multi.gameProject.adminUsers.controller.AdminController;
 import com.multi.gameProject.adminUsers.model.dto.AdminDto;
 import com.multi.gameProject.adminUsers.service.AdminService;
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -25,8 +26,11 @@ public class BoardList {
 
     private AdminController adminController = new AdminController();
     private AdminService adminService = new AdminService();
+    GeneralUserDto dto;
 
-    public void BoardView() {
+    public void BoardView(GeneralUserDto dto) {
+        this.dto = dto;
+
         f.setSize(600, 800);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -52,7 +56,7 @@ public class BoardList {
         menuBtn1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                adminController.selectAll();
+                adminController.selectAll(dto);
                 f.setVisible(false);
             }
         });
@@ -60,7 +64,7 @@ public class BoardList {
         menuBtn2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new ItemManagement().ItemPageView();
+                new ItemManagement().ItemPageView(dto);
                 panel.setVisible(false);
                 f.setVisible(false);
             }
@@ -96,7 +100,7 @@ public class BoardList {
         btnNewButton2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new AdminView();
+                new AdminView(dto);
                 panel.setVisible(false);
                 f.setVisible(false);
             }

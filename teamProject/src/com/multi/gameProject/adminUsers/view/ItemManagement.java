@@ -3,6 +3,7 @@ package com.multi.gameProject.adminUsers.view;
 import com.multi.gameProject.adminUsers.controller.AdminController;
 import com.multi.gameProject.adminUsers.model.dto.AdminDto;
 import com.multi.gameProject.adminUsers.service.AdminService;
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -24,8 +25,11 @@ public class ItemManagement {
 
     private AdminController adminController = new AdminController();
     private AdminService adminService = new AdminService();
+    GeneralUserDto dto;
 
-    public void ItemPageView() {
+    public void ItemPageView(GeneralUserDto dto) {
+        this.dto= dto;
+
         f.setSize(600, 800);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -51,7 +55,7 @@ public class ItemManagement {
         menuBtn1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                adminController.selectAll();
+                adminController.selectAll(dto);
                 f.setVisible(false);
             }
         });
@@ -105,7 +109,7 @@ public class ItemManagement {
         btnNewButton2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new AdminView();
+                new AdminView(dto);
                 panel.setVisible(false);
                 f.setVisible(false);
             }
