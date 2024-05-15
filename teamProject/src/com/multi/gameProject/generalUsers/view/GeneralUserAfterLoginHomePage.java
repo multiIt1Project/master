@@ -6,6 +6,7 @@ import com.multi.gameProject.generalUsers.model.dao.GeneralUserRecordDao;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserBoardDto;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserRecordDto;
+import com.multi.gameProject.inventory.view.GeneralUserStorePage;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -211,9 +212,10 @@ public class GeneralUserAfterLoginHomePage {
 		shopBtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-			
 				
-			
+				GeneralUserStorePage userStorePage = new GeneralUserStorePage(loginDto);
+				userStorePage.storeView();
+				System.out.println("hi");
 				
 			}
 		});

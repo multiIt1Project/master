@@ -1,5 +1,6 @@
 package com.multi.gameProject.generalUsers.controller;
 
+import com.multi.gameProject.adminUsers.view.AdminView;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 import com.multi.gameProject.generalUsers.service.GeneralUserService;
 import com.multi.gameProject.generalUsers.view.GeneralUserAfterLoginHomePage;
@@ -58,6 +59,10 @@ public class GeneralUserController {
 				if (loginDto.getUser_Id().length() >= 5) {
 					if (loginDto.getUser_Id().substring(0, 5).equals("ADMIN")) {
 						// 관리자 페이지 연결
+						AdminView adminView = new AdminView(loginDto);
+						
+						
+						
 					}
 					
 				} else {
