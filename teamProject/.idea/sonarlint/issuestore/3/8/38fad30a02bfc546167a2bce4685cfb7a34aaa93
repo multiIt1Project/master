@@ -1,24 +1,0 @@
-
-“
-java:S11927"WDefine a constant instead of duplicating this literal "updateMember ì—ëŸ¬ : " 5 times.(Ê“Æ”J$c528b24a-2870-49ca-a3fd-9e1b2dbf9066
-Œ	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù½òÄJ$690dc98a-a50e-4b0c-80d3-4f73f6dce823
-	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ìˆ†J$1e31b6f0-5168-4162-b7b5-9e39e459824c
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¨èııÿÿÿÿJ$be3e8d6e-f6c2-4b98-9443-7fefd010e8a1
-‰
-java:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ëóŒıÿÿÿÿJ$90569db5-a40f-4592-91a1-6c4a25174522
-w	java:S125"<This block of commented-out lines of code should be removed.(Ö‡¨˜J$033f6a13-8cfe-40c0-9e57-7ec9f8a5b7b3
-s
-java:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿJ$9ebe1d91-a2e4-44af-a380-9b50eb33e38f
-w	java:S1256"<This block of commented-out lines of code should be removed.(†€éˆJ$724775c2-5176-4aec-8a69-8bd59308304b
-	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ÀïÛúÿÿÿÿJ$61448bbf-7258-48bd-bd65-e0401dd0142e
-{
-java:S6213?":Rename this variable to not match a restricted identifier.(’ÀïÛúÿÿÿÿJ$8b3dc05d-e032-4d00-a708-47e3fa2b6a02
-w	java:S125S"<This block of commented-out lines of code should be removed.(†€éˆJ$c4ed10ea-55de-4423-9ef5-e179804ff57a
-‰	java:S100]"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œµ·‚J$d06b83f0-b5c4-4ed1-83ea-8d75dff5b700
-i
-java:S1481_"(Remove this unused "num" local variable.(†¬›ÄûÿÿÿÿJ$cfb1b86c-0d13-479f-887b-c478838d710b
-v
-java:S6213b":Rename this variable to not match a restricted identifier.(²˜¹úJ$16abc046-accc-495d-b40d-d1c433fbae38
-w	java:S125q"<This block of commented-out lines of code should be removed.(†€éˆJ$eb046050-1c78-41ef-8ebe-1dbb0de87b6c
-x	java:S125"<This block of commented-out lines of code should be removed.(†€éˆJ$63724e08-4c35-4da0-80b1-5340bb77eec2
-x	java:S125§"<This block of commented-out lines of code should be removed.(†€éˆJ$158cdb08-cfac-4841-875b-5a498254cb5f
