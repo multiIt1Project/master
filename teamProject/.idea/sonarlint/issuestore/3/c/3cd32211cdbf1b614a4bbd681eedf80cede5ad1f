@@ -1,0 +1,40 @@
+
+J
+java:S16048"(Make this anonymous inner class a lambda(½ϋΊωÿÿÿÿ8¤τίχ1
+J
+java:S1604@"(Make this anonymous inner class a lambda(―ζΨψÿÿÿÿ8¤τίχ1
+J
+java:S1604R"(Make this anonymous inner class a lambda(Μ­›ΰÿÿÿÿÿ8¥τίχ1
+J
+java:S1604d"(Make this anonymous inner class a lambda(νζτώÿÿÿÿ8¥τίχ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²Άωτύÿÿÿÿ8§τίχ1
+¤
+java:S1186©"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(όι—ϋÿÿÿÿ8Οτίχ1
+
+java:S1186¬"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Λ«αΙ8Οτίχ1
+L
+java:S1197"*Move the array designators [] to the type.(Ν‡ώÿÿÿÿ8Χτίχ1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΜΤΝχϊÿÿÿÿ8ήτίχ1
+k
+java:S3252#"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒΌ–χϊÿÿÿÿ8ΰτίχ1
+K
+java:S1905X")Remove this unnecessary cast to "Object".(Τ›ªΪÿÿÿÿÿ8ρτίχ1
+G	java:S106"+Replace this use of System.out by a logger.(¬Μ‰8ωτίχ1
+H	java:S106†"+Replace this use of System.out by a logger.(ΰ°„¨8„υίχ1
+G	java:S106‰"+Replace this use of System.out by a logger.(Ώσ’68„υίχ1
+G
+java:S1905")Remove this unnecessary cast to "Object".(ήμΎΞ8υίχ1
+M	java:S106›"+Replace this use of System.out by a logger.(‚ι€ήϋÿÿÿÿ8‰υίχ1
+L
+java:S1905")Remove this unnecessary cast to "Object".(Τ›ªΪÿÿÿÿÿ8‰υίχ1
+G
+java:S1905")Remove this unnecessary cast to "Object".(¥Ομ8υίχ1
+L
+java:S1905 ")Remove this unnecessary cast to "Object".(ώΡΔ°ψÿÿÿÿ8υίχ1
+L
+java:S1905΅")Remove this unnecessary cast to "Object".(ΦΔΞ‡όÿÿÿÿ8υίχ1
+L
+java:S1905Ά")Remove this unnecessary cast to "Object".(‰ΨΤτόÿÿÿÿ8‹υίχ1
+H	java:S106£"+Replace this use of System.out by a logger.(®ΰ­ο8υίχ1
+K
+java:S1068")Remove this unused "font1" private field.(Ττƒξϋÿÿÿÿ8υίχ1
