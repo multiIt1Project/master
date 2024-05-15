@@ -1,12 +1,12 @@
-package com.multi.miniProject.admin.service;
+package com.multi.gameProject.adminUsers.service;
 
-import com.multi.miniProject.admin.model.dao.AdminDao;
-import com.multi.miniProject.admin.model.dto.AdminDto;
+import com.multi.gameProject.adminUsers.model.dao.AdminDao;
+import com.multi.gameProject.adminUsers.model.dto.AdminDto;
 
 import java.sql.Connection;
 import java.util.ArrayList;
 
-import static com.multi.miniProject.common.JDBCTemplate.*;
+import static com.multi.gameProject.common.JDBCTemplate.*;
 
 public class AdminService {
     private final AdminDao adminDao;

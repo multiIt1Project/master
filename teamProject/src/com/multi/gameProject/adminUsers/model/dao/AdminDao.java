@@ -1,6 +1,6 @@
-package com.multi.miniProject.admin.model.dao;
+package com.multi.gameProject.adminUsers.model.dao;
 
-import com.multi.miniProject.admin.model.dto.AdminDto;
+import com.multi.gameProject.adminUsers.model.dto.AdminDto;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.Properties;
 
-import static com.multi.miniProject.common.JDBCTemplate.close;
+import static com.multi.gameProject.common.JDBCTemplate.close;
 
 
 public class AdminDao {
