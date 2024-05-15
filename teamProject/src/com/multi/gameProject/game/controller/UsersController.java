@@ -1,8 +1,9 @@
 package com.multi.gameProject.game.controller;
 
-
 import com.multi.gameProject.common.MemberException;
+import com.multi.gameProject.game.model.dto.Recorduser;
 import com.multi.gameProject.game.service.UsersService;
+
 
 public class UsersController {
 
@@ -22,9 +23,9 @@ public class UsersController {
         }
         return num;
     }
-    public Record selectHIGH_SCORE(String id) {
+    public Recorduser selectHIGH_SCORE(String id) {
 
-        Record record=null;
+        Recorduser record=null;
         int num=0;
         try {
             record = usersService.selectHIGH_SCORE(id);
@@ -53,7 +54,7 @@ public class UsersController {
 
 
 
-    public void updateHIGH_SCORE(Record member) {
+    public void updateHIGH_SCORE(Recorduser member) {
 
         int result = 0;
         try {

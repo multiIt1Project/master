@@ -1,5 +1,6 @@
 package com.multi.gameProject.generalUsers.view;
 
+import com.multi.gameProject.game.view.FirstPage;
 import com.multi.gameProject.generalUsers.controller.GeneralUserBoardController;
 import com.multi.gameProject.generalUsers.controller.GeneralUserController;
 import com.multi.gameProject.generalUsers.model.dao.GeneralUserRecordDao;
@@ -216,6 +217,7 @@ public class GeneralUserAfterLoginHomePage {
 				GeneralUserStorePage userStorePage = new GeneralUserStorePage(loginDto);
 				userStorePage.storeView();
 				System.out.println("hi");
+				f.dispose();
 				
 			}
 		});
@@ -780,6 +782,8 @@ public class GeneralUserAfterLoginHomePage {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, "게임 시작!!");
+				FirstPage f2 = new FirstPage(loginDto);
+				f.dispose();
 			}
 		});
 		
@@ -920,7 +924,7 @@ public class GeneralUserAfterLoginHomePage {
 				} else {
 					JOptionPane.showMessageDialog(null, "게시글 내용을 수정할 수 없습니다.");
 				}
-			
+				
 				currentBoardDto = boardController.selectOneBoard(no);
 				
 				// 수정한 내용으로 바꿈
