@@ -1,24 +1,0 @@
-
-t
-java:S11928"WDefine a constant instead of duplicating this literal "updateMember ì—ëŸ¬ : " 5 times.(Ê“Æ”8âœøŞ÷1
-Œ	java:S117{"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù½òÄJ$4604d553-ab25-4ed1-b2f2-1ff9e9e84b61
-	java:S117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ìˆ†J$d188219e-2fac-407f-88bd-799898ccbc41
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¨èııÿÿÿÿJ$267a1999-ee85-48c3-9426-f1f31ab384f5
-j
-java:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ëóŒıÿÿÿÿ8ìœøŞ÷1
-X	java:S125"<This block of commented-out lines of code should be removed.(Ö‡¨˜8ïœøŞ÷1
-T
-java:S1135 "2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ïœøŞ÷1
-~	java:S1257"<This block of commented-out lines of code should be removed.(†€éˆ8Ü²öŞ÷1J$d1ee2c4e-bb96-4e99-9128-5cc9564b0d10
-j	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Æ´8ñœøŞ÷1
-W
-java:S6213@":Rename this variable to not match a restricted identifier.(™Æ´8ñœøŞ÷1
-~	java:S125T"<This block of commented-out lines of code should be removed.(†€éˆ8Ì¨÷Ş÷1J$4b5bf911-f4e6-46b0-8acb-c980e257170b
-j	java:S100^"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤…Ÿ»8òœøŞ÷1
-J
-java:S1481`"(Remove this unused "num" local variable.(†¬›Äûÿÿÿÿ8òœøŞ÷1
-W
-java:S6213c":Rename this variable to not match a restricted identifier.(„êÕ8òœøŞ÷1
-~	java:S125r"<This block of commented-out lines of code should be removed.(†€éˆ8Í¨÷Ş÷1J$da8d1697-7ad3-41e0-88f8-5c13c401b197
-Y	java:S125"<This block of commented-out lines of code should be removed.(†€éˆ8ôœøŞ÷1
-Y	java:S125¨"<This block of commented-out lines of code should be removed.(†€éˆ8ôœøŞ÷1
