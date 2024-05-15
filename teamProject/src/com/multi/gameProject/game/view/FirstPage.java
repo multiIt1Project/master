@@ -125,7 +125,7 @@ public class FirstPage {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if(0<level){
-                    loginDto.getUser_Id
+                    loginDto.getUser_Id;
                 GamePage g = new GamePage(level);
                     f.setVisible(false,loginDto.getUser_Id);
 
