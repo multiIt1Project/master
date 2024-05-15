@@ -120,7 +120,6 @@ public class GeneralUserAfterLoginHomePage {
 		
 		
 		f.add(headerP, BorderLayout.PAGE_START);
-		f.add(midHomeP);
 		f.add(footerP, BorderLayout.PAGE_END);
 		
 		myInfoBtn.setVisible(true);
@@ -169,7 +168,7 @@ public class GeneralUserAfterLoginHomePage {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// 다른 미드 페이지들을 다 제거하고
-				
+				f.remove(midHomeP);
 				midMyInfoP.removeAll();
 				
 				
@@ -980,38 +979,9 @@ public class GeneralUserAfterLoginHomePage {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				
-				f.remove(midHomeP);
-				f.remove(midBoardListP);
-				f.remove(midBoardRankingP);
-				f.remove(midBoardEditP);
-				f.remove(midBoardWriteP);
-				f.remove(midMyInfoP);
+				GeneralUserAfterLoginHomePage homePage = new GeneralUserAfterLoginHomePage(loginDto);
 				
-				initHome();
-				
-				midMyInfoP.setVisible(false);
-				midHomeP.setVisible(true);
-				
-				homeBtn.setVisible(false);
-				gameBtn.setVisible(false);
-				logoutBtn.setVisible(false);
-				editBtn.setVisible(false);
-				edit2Btn.setVisible(false);
-				writeSaveBtn.setVisible(false);
-				BoardListBtn.setVisible(true);
-				BoardRankingBtn.setVisible(true);
-				shopBtn.setVisible(true);
-				myInfoBtn.setVisible(true);
-				selectByIdBtn.setVisible(false);
-				writeBtn.setVisible(false);
-				
-				
-				gameBtn.setVisible(true);
-				logoutBtn.setVisible(true);
-				
-				
-				f.setVisible(true);
-				
+				f.dispose();
 				
 			}
 		});

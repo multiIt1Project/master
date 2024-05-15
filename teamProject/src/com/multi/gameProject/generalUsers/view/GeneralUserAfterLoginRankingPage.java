@@ -983,37 +983,8 @@ public class GeneralUserAfterLoginRankingPage {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				
-				f.remove(midHomeP);
-				f.remove(midBoardListP);
-				f.remove(midBoardRankingP);
-				f.remove(midBoardEditP);
-				f.remove(midBoardWriteP);
-				f.remove(midMyInfoP);
-				
-				initHome();
-				
-				midMyInfoP.setVisible(false);
-				midHomeP.setVisible(true);
-				
-				homeBtn.setVisible(false);
-				gameBtn.setVisible(false);
-				logoutBtn.setVisible(false);
-				editBtn.setVisible(false);
-				edit2Btn.setVisible(false);
-				writeSaveBtn.setVisible(false);
-				BoardListBtn.setVisible(true);
-				BoardRankingBtn.setVisible(true);
-				shopBtn.setVisible(true);
-				myInfoBtn.setVisible(true);
-				selectByIdBtn.setVisible(false);
-				writeBtn.setVisible(false);
-				
-				
-				gameBtn.setVisible(true);
-				logoutBtn.setVisible(true);
-				
-				
-				f.setVisible(true);
+				GeneralUserAfterLoginHomePage home = new GeneralUserAfterLoginHomePage(loginDto);
+				f.dispose();
 				
 				
 			}
