@@ -28,6 +28,7 @@ public class CoinInvtPage {
     private JButton menuBtn2;
 
     public CoinInvtPage(GeneralUserDto loginDto) {
+        this.loginDto = loginDto;
         userId = loginDto.getUser_Id();
     }
 

@@ -23,6 +23,7 @@ public class ItemInvtPage {
     private JPanel footerP;
 
     public ItemInvtPage(GeneralUserDto loginDto) {
+        this.loginDto = loginDto;
         userId = loginDto.getUser_Id();
     }
 
