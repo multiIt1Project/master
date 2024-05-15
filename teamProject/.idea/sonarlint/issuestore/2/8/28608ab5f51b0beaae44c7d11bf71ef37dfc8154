@@ -1,14 +1,20 @@
 
-i
-java:S1604:"(Make this anonymous inner class a lambda(½ŸûºùÿÿÿÿJ$5672d02c-3027-4324-9dc3-61a5fca2dc20
-i
-java:S1604B"(Make this anonymous inner class a lambda(¯šæØøÿÿÿÿJ$7a276d2a-6f9f-4abc-8ce7-f21a2e4eaeac
-d
-java:S1604J"(Make this anonymous inner class a lambda(§ÙšáJ$26d6c434-f4d1-4172-8861-0a826f323ba4
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²¢ùôıÿÿÿÿJ$bd2046f8-16e0-478e-afb1-a2d6657f66d8
-Š
-java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿJ$3b719dc8-2bd1-45e7-b625-b4075c27ba67
-o
-java:S1068".Remove this unused "memberList" private field.(üŞÇºüÿÿÿÿJ$7cd9f624-603d-4fd1-a691-9027b27f8dbd
-i
-java:S1068"-Remove this unused "listModel" private field.(…ƒˆ¢J$9f022311-50ba-40f4-a6d6-45896a9f7701
+J
+java:S1604;"(Make this anonymous inner class a lambda(½Ÿûºùÿÿÿÿ8ÁÊÌÜ÷1
+J
+java:S1604C"(Make this anonymous inner class a lambda(¯šæØøÿÿÿÿ8ÁÊÌÜ÷1
+E
+java:S1604K"(Make this anonymous inner class a lambda(§Ùšá8ÁÊÌÜ÷1
+E
+java:S1604z"(Make this anonymous inner class a lambda(ùõù8ÁÊÌÜ÷1
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²¢ùôıÿÿÿÿJ$6e27065d-b8db-46e0-8ade-1c5de273d314
+G
+java:S1172"*Remove this unused method parameter "dto".(Õˆ¡Ä8ÔÊÌÜ÷1
+k
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ8ÖÊÌÜ÷1
+£
+java:S1186|"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼ Òşüÿÿÿÿ8İÊÌÜ÷1
+P
+java:S1068".Remove this unused "memberList" private field.(üŞÇºüÿÿÿÿ8ßÊÌÜ÷1
+J
+java:S1068"-Remove this unused "listModel" private field.(…ƒˆ¢8ßÊÌÜ÷1
