@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0ee4c25f0ef7d7071843ceeb124fa83c24638b50" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/436365cb928a929e18e1cfc4f45b29ad13fe6caf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49413f1b6cd2823c5b82a32b35eaa30c3cc7c52b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55324e8803601ac17c136b431272761bcf0df7b7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85dd31bfdd5b0161af2b79aeb66f92c4d919d3e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f771479c1327f7d83af35b1eff892ac755a0c75" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb3447b71478112bcf7129f98e9b93e63609f0f1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed2b7dff13f356c9582698215af523997417a821" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/793c921e19512a1053cd8fef1153aec4f733f20d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/793c921e19512a1053cd8fef1153aec4f733f20d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/e/0ee4c25f0ef7d7071843ceeb124fa83c24638b50" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/3/436365cb928a929e18e1cfc4f45b29ad13fe6caf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/9/49413f1b6cd2823c5b82a32b35eaa30c3cc7c52b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/5/55324e8803601ac17c136b431272761bcf0df7b7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/5/85dd31bfdd5b0161af2b79aeb66f92c4d919d3e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8f771479c1327f7d83af35b1eff892ac755a0c75" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/b/cb3447b71478112bcf7129f98e9b93e63609f0f1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/d/ed2b7dff13f356c9582698215af523997417a821" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/view/GeneralUserAfterLoginHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/view/GeneralUserAfterLoginHomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +36,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="AJY" />
-                    <option name="lastUsedInstant" value="1715754711" />
+                    <option name="lastUsedInstant" value="1715757542" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -94,7 +78,7 @@
     "com.google.cloudcode.ide_session_index": "20240515_0007",
     "git-widget-placeholder": "AJY",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject",
+    "last_opened_file_path": "C:/Users/dkswl/OneDrive/Documents/code_upload/백업/4. shop 버튼 추가 직전",
     "onboarding.tips.debug.path": "C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
