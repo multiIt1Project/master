@@ -1,4 +1,4 @@
-package com.multi.miniProject.admin.model.dto;
+package com.multi.gameProject.adminUsers.model.dto;
 
 import java.sql.Date;
 

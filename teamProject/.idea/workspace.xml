@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="">
+<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28608ab5f51b0beaae44c7d11bf71ef37dfc8154" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28608ab5f51b0beaae44c7d11bf71ef37dfc8154" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/record/app/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/record/controller/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/record/model/dao/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/record/model/dto/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/record/service/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/record/view/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/model/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/model/dao/AdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/view/AdminView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/view/AdminView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/view/BoardList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/view/BoardList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/view/ItemManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/view/ItemManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/view/MemberList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/adminUsers/view/MemberList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/app/GameRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/game/app/GameRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/game/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/model/dao/UsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/game/model/dao/UsersDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/model/dto/Item_invt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/game/model/dto/Item_invt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/model/dto/Levels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/game/model/dto/Levels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/model/dto/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/game/model/dto/Record.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/game/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/view/FirstPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/game/view/FirstPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/view/GamePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/game/view/GamePage.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +93,11 @@
     &quot;Application.sdsd.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20240515_0008&quot;,
+<<<<<<< Updated upstream
     &quot;git-widget-placeholder&quot;: &quot;AJY&quot;,
+=======
+    &quot;git-widget-placeholder&quot;: &quot;HJE&quot;,
+>>>>>>> Stashed changes
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java&quot;,

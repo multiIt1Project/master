@@ -1,6 +1,6 @@
-package com.multi.miniProject.admin.view;
+package com.multi.gameProject.adminUsers.view;
 
-import com.multi.miniProject.admin.Controller.AdminController;
+import com.multi.gameProject.adminUsers.controller.AdminController;
 
 import javax.swing.*;
 import java.awt.*;

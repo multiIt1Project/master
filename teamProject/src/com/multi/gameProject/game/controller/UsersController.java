@@ -1,10 +1,12 @@
 package com.multi.gameProject.game.controller;
 
-import com.multi.hdbc_h.dto.Record;
+
+import com.multi.gameProject.common.MemberException;
+import com.multi.gameProject.game.service.UsersService;
 
 public class UsersController {
 
-    private com.multi.hdbc_h.service.UsersService usersService = new com.multi.hdbc_h.service.UsersService();
+    private UsersService usersService = new UsersService();
 
     public int selectlevel(int level) {
 
