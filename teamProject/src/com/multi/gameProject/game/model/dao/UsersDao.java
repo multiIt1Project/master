@@ -117,6 +117,30 @@ public class UsersDao {
             close(ps);
         }
 
+        if(record.getUser_ID()==null){
+    int rset1 = 0;
+
+    PreparedStatement ps1 = null;
+    String sql1="INSERT  INTO  RECORD VALUES(?,0,1,0)";
+    record=new Recorduser();
+
+    try {
+        ps= conn.prepareStatement(sql1);
+        ps.setString(1, id);
+        
+        rset1 = ps.executeUpdate();
+        if(rset1>0){
+        conn.commit();}
+
+    } catch (SQLException e) {
+        //  e.printStackTrace();
+        throw new MemberException("updateMember 에러 : " + e.getMessage());
+    }finally {
+        close(ps);
+    }
+
+}
+
         return record;
     }
 
