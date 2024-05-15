@@ -1,6 +1,6 @@
 package com.multi.gameProject.generalUsers.controller;
 
-import com.multi.gameProject.adminUsers.view.AdminView;
+import com.multi.gameProject.app.adminUsers.view.AdminView;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 import com.multi.gameProject.generalUsers.service.GeneralUserService;
 import com.multi.gameProject.generalUsers.view.GeneralUserAfterLoginHomePage;

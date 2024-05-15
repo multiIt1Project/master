@@ -1,0 +1,40 @@
+
+C
+java:S16044"(Make this anonymous inner class a lambda(½Ÿûºùÿÿÿÿ
+C
+java:S1604<"(Make this anonymous inner class a lambda(¯šæØøÿÿÿÿ
+C
+java:S1604N"(Make this anonymous inner class a lambda(Ì­›àÿÿÿÿÿ
+C
+java:S1604`"(Make this anonymous inner class a lambda(íæôþÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š«ÃÎ
+
+java:S1186¥"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(üé—ûÿÿÿÿ
+˜
+java:S1186¨"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ë«áÉ
+E
+java:S1197"*Move the array designators [] to the type.(Íš‡þÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øã—õýÿÿÿÿ
+d
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ
+D
+java:S1905T")Remove this unnecessary cast to "Object".(Ô›ªÚÿÿÿÿÿ
+@	java:S106{"+Replace this use of System.out by a logger.(˜¬Ì‰
+A	java:S106‚"+Replace this use of System.out by a logger.(à°„¨
+@	java:S106…"+Replace this use of System.out by a logger.(¿ó’6
+@
+java:S1905–")Remove this unnecessary cast to "Object".(Þì¾Î
+F	java:S106—"+Replace this use of System.out by a logger.(‚é€Þûÿÿÿÿ
+E
+java:S1905š")Remove this unnecessary cast to "Object".(Ô›ªÚÿÿÿÿÿ
+@
+java:S1905›")Remove this unnecessary cast to "Object".(ž¥Ïì
+E
+java:S1905œ")Remove this unnecessary cast to "Object".(þÑÄ°øÿÿÿÿ
+E
+java:S1905")Remove this unnecessary cast to "Object".(ÖÄÎ‡üÿÿÿÿ
+E
+java:S1905ž")Remove this unnecessary cast to "Object".(‰ØÔôüÿÿÿÿ
+A	java:S106Ÿ"+Replace this use of System.out by a logger.(®à­ï
+D
+java:S1068")Remove this unused "font1" private field.(Ôôƒîûÿÿÿÿ
