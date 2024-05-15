@@ -1,0 +1,52 @@
+
+‹
+java:S1192s"JDefine a constant instead of duplicating this literal "ì ìˆ˜ : " 3 times.(Õ‘½—ÿÿÿÿÿJ$39b0e28f-a5c8-4861-8170-2f1e16df06bf
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ú­ÜJ$18c52b39-db42-4270-bca2-8414bab62e85
+€
+java:S1659"DDeclare "resultL" and all following declarations on a separate line.(óœŠ¬J$791d5eb5-2c35-4ffe-abf1-43bd2ac5d703
+|
+java:S1659"@Declare "sum" and all following declarations on a separate line.(¦È±ûJ$7da258e8-ef7b-438f-b5a3-3856edbd6f6f
+ƒ
+java:S1659"BDeclare "ietm2" and all following declarations on a separate line.(±ªºùÿÿÿÿJ$e6e55a08-b4a4-4f37-8c61-5eea062b7921
+ƒ
+java:S1659"GDeclare "ietmcount2" and all following declarations on a separate line.(ÎÅµJ$64a29e98-ac84-449c-82a7-f2e35b4df431
+c
+java:S1948 "'Make "gameT" transient or serializable.( š»ìJ$4b215d22-9128-4d10-ad40-9dd47407e1c4
+j
+java:S1948"".Make "usersService" transient or serializable.(ê¸ØéJ$e996bcfe-c147-4b94-b66c-7e7b1bd370c3
+f
+java:S1948$"*Make "loginDto" transient or serializable.(·Ä”úJ$effcb978-00ee-439e-a490-e4359e2c219f
+Š
+java:S3252-"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿJ$f203e5bf-0825-4fff-8fa5-eddf6fe8e20e
+	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶è§öşÿÿÿÿJ$dcd7832c-4e83-42cd-9f63-e8b3b588c654
+\	java:S131M""Add a default case to this switch.(ìúÇVJ$88598853-8fe6-4a55-9fab-8872e9c3c967
+
+java:S1450]"RRemove the "now" field and declare it as a local variable in the relevant methods.(™â‡‚J$1ec99386-6d73-4a4a-80e4-260c3bdd6e7b
+
+java:S1450\"TRemove the "start" field and declare it as a local variable in the relevant methods.(ç¥ûJ$9f3909c6-811f-403d-8493-97ea236de09a
+š
+java:S2142q"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€J$88c4fc73-a96a-4709-8495-6cd308c8dd66
+k	java:S106l"+Replace this use of System.out by a logger.(–¥İ˜ùÿÿÿÿJ$2ca87801-4465-4948-9f4d-aa67235da2be
+k	java:S106r"+Replace this use of System.out by a logger.(áçÎëúÿÿÿÿJ$64f2a4f6-3ffc-4e78-95e9-16804786fd90
+Š	java:S100‚"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àç¬àJ$dbaacc8f-377b-43f4-8897-50de4c2bb063
+[
+java:S2119ƒ"Save and re-use this "Random".(¡Å”¦J$c7ff8742-6cf1-47b8-85ff-fc8be4b09fab
+^	java:S131ˆ""Add a default case to this switch.(‡È®ÎJ$e07d0245-b058-4df7-81df-165f10236c44
+”
+java:S3776Ó"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(âĞ¥ÂÿÿÿÿÿJ$d48608e2-4ae0-4e48-baf1-9a024b15edd5
+e	java:S108á")Either remove or fill this block of code.(ô›ûîJ$40a90167-447c-4945-a4c7-3dc4fd138cda
+j	java:S108ñ")Either remove or fill this block of code.(´ÊëŠûÿÿÿÿJ$b75016ea-4100-4261-9fa7-03ba79a20aef
+j	java:S108ı")Either remove or fill this block of code.(êú±¥ıÿÿÿÿJ$ab70f6db-0b5e-41fb-88e5-c47cb41b0533
+l	java:S106ƒ"+Replace this use of System.out by a logger.(›¢Æ…ùÿÿÿÿJ$e005e41b-806e-4926-995b-5044e56b12bf
+l	java:S106À"+Replace this use of System.out by a logger.(Á‡û¾úÿÿÿÿJ$d5e0df80-f57d-4e99-bf9a-fa373fa6d57f
+w
+java:S1854ì"5Remove this useless assignment to local variable "s".(ÖÏ®ÚşÿÿÿÿJ$f75c5c4d-a153-4089-bddf-f0553a72c1e4
+r
+java:S1854ü"5Remove this useless assignment to local variable "i".(åà­J$12661ef8-371c-47e5-abd9-63dbe9726c88
+h
+java:S1481ì"&Remove this unused "s" local variable.(ÖÏ®ÚşÿÿÿÿJ$96644148-6750-4f22-b690-27774411f109
+w
+java:S6213í":Rename this variable to not match a restricted identifier.(ıØ³ÔJ$27aa6956-7804-46c0-bc36-756e82f688b3
+c
+java:S1481ü"&Remove this unused "i" local variable.(åà­J$e832381a-c230-4afb-b79a-f362b76c3540
+g	java:S106…"+Replace this use of System.out by a logger.(Â„çõJ$e4743e07-ac3b-4e97-bcc2-154693b40c98
