@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34591fbac871c091aff35b0dbdb6fc4b213e827c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34591fbac871c091aff35b0dbdb6fc4b213e827c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ee4f0f060e147f86c49ffa263d267662baf9f19" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ee4f0f060e147f86c49ffa263d267662baf9f19" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/8873a6ff066a2f8dcbc8c965ceaba62d778628e5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/8873a6ff066a2f8dcbc8c965ceaba62d778628e5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/98f1bd9ec1288633d7324c9fcdd6e70b05ab1dbe" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/98f1bd9ec1288633d7324c9fcdd6e70b05ab1dbe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db64e7c36c6ca65f3f597f1ccd5ef37055385afb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db64e7c36c6ca65f3f597f1ccd5ef37055385afb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fac3db76a92b3b19c259b6201fa0464717dfe60a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fac3db76a92b3b19c259b6201fa0464717dfe60a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/AJY/boardQuery.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/AJY/boardQuery.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/AJY/generlUsersQuery.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/AJY/generlUsersQuery.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/query.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/query.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/common/JDBCTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/common/JDBCTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/controller/GeneralUserBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/controller/GeneralUserBoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/controller/GeneralUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/controller/GeneralUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/dao/GeneralUserBoardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/dao/GeneralUserBoardDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/dao/GeneralUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/model/dao/GeneralUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/service/GeneralUserBoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/service/GeneralUserBoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/service/GeneralUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/service/GeneralUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/view/GeneralUserAfterLoginHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/view/GeneralUserAfterLoginHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/view/GeneralUserBeforeLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/view/GeneralUserBeforeLoginPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,28 +59,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.GamePage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GeneralUserRun.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserRun.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.multi.gameProject.app.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.multi.gameProject.users.page_swing.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.multi.page_swing.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sdsd.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20240515_0003&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GamePage.executor": "Run",
+    "Application.GeneralUserRun.executor": "Run",
+    "Application.Run.executor": "Run",
+    "Application.UserRun.executor": "Run",
+    "Application.com.multi.gameProject.app.Run.executor": "Run",
+    "Application.com.multi.gameProject.users.page_swing.Run.executor": "Run",
+    "Application.com.multi.page_swing.Run.executor": "Run",
+    "Application.sdsd.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.google.cloudcode.ide_session_index": "20240515_0004",
+    "git-widget-placeholder": "AJY",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject",
+    "onboarding.tips.debug.path": "C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\service" />
@@ -217,11 +195,6 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/multi/gameProject/generalUsers/view/GeneralUserAfterLoginHomePage.java</url>
-          <line>106</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -83,7 +83,7 @@ Dsrc/com/multi/gameProject/generalUsers/model/dao/GeneralUserDao.java,e\c\ec935
 Nsrc/com/multi/gameProject/generalUsers/view/GeneralUserAfterLoginHomePage.java,7\9\793c921e19512a1053cd8fef1153aec4f733f20d
 y
 Isrc/com/multi/gameProject/generalUsers/model/dao/GeneralUserBoardDao.java,9\7\97c2685384773397d1d72fb5fa5df3c84d909b53
-T
-$resources/AJY/recordQuery.properties,f\5\f5792998332c1cf70a65dbfd4e1468881c620e94
 z
 Jsrc/com/multi/gameProject/generalUsers/model/dao/GeneralUserRecordDao.java,8\e\8ef41e91bdc9f0b49dcb250d067ae63c396153fd
+G
+resources/AJY/test2.txt,a\2\a266e9a6825942de1c08dbd34536dfe69d07ccdd
