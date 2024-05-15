@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/6858c06f3dc2d636c736628426757be41f94c79a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/6858c06f3dc2d636c736628426757be41f94c79a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/793c921e19512a1053cd8fef1153aec4f733f20d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/793c921e19512a1053cd8fef1153aec4f733f20d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7998b969e4b736dd7d16c3eeb0f4de76fb70cfe1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7998b969e4b736dd7d16c3eeb0f4de76fb70cfe1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/8873a6ff066a2f8dcbc8c965ceaba62d778628e5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/8873a6ff066a2f8dcbc8c965ceaba62d778628e5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/view/FirstPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/game/view/FirstPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28608ab5f51b0beaae44c7d11bf71ef37dfc8154" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28608ab5f51b0beaae44c7d11bf71ef37dfc8154" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +33,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="AJY" />
-                    <option name="lastUsedInstant" value="1715757542" />
+                    <option name="lastUsedInstant" value="1715760601" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1715753919" />
+                    <option name="lastUsedInstant" value="1715759765" />
                   </RecentBranch>
                 </list>
               </option>
@@ -68,28 +61,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GamePage.executor": "Run",
-    "Application.GeneralUserRun.executor": "Run",
-    "Application.Run.executor": "Run",
-    "Application.UserRun.executor": "Run",
-    "Application.com.multi.gameProject.app.Run.executor": "Run",
-    "Application.com.multi.gameProject.users.page_swing.Run.executor": "Run",
-    "Application.com.multi.page_swing.Run.executor": "Run",
-    "Application.sdsd.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20240515_0008",
-    "git-widget-placeholder": "AJY",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject",
-    "onboarding.tips.debug.path": "C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GamePage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GeneralUserRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.multi.gameProject.app.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.multi.gameProject.users.page_swing.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.multi.page_swing.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sdsd.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20240515_0008&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;AJY&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\store\service" />

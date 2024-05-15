@@ -1,0 +1,17 @@
+
+ÿ
+java:S1598"¼This file "FirstPage.java" should be located in "com\multi\hdbc_h" directory, not in "C:\Users\dkswl\OneDrive\Documents\code_upload\master\teamProject\src\com\multi\gameProject\game\view".(œ‡÷~8ëÚ÷1J$8ff9a9ee-8c9c-4dac-b537-ccd502209107
+…
+java:S1659"BDeclare "blank" and all following declarations on a separate line.(ĞÆêÌ8ŸëÚ÷1J$8950a1e9-60db-4d0d-b81e-30cebdd94a4f
+˜
+java:S1450"URemove the "titleL" field and declare it as a local variable in the relevant methods.(ĞÆêÌ8¡ëÚ÷1J$271d2c1b-43d8-41dd-9fa0-1d76620fd21e
+‘
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ8§ëÚ÷1J$2833299e-6615-4f16-a211-026a40ad1760
+y
+java:S1854"5Remove this useless assignment to local variable "g".(Ïçã•8°ëÚ÷1J$e31bb28f-9e83-4efb-84a1-e8b6a4911ff9
+j
+java:S1481"&Remove this unused "g" local variable.(Ïçã•8±ëÚ÷1J$d7af8013-89ed-475a-94ff-3f323b2e8a19
+|
+java:S1854—"8Remove this useless assignment to local variable "home".(šŒà·8±ëÚ÷1J$5e6ea5d4-bc6d-4f47-a287-80d9ef7fc460
+m
+java:S1481—")Remove this unused "home" local variable.(šŒà·8³ëÚ÷1J$73c624d7-dd14-4374-a768-fcc652aad9e1
