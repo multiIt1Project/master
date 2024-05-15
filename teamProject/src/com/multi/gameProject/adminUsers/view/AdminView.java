@@ -23,6 +23,10 @@ public class AdminView {
     private GeneralUserDto dto;
 
     public AdminView(GeneralUserDto dto) {
+        
+        this.dto = dto;
+        
+        
         f = new JFrame();
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(600, 800);
