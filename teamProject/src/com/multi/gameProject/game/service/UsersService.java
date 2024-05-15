@@ -1,12 +1,12 @@
-package com.multi.hdbc_h.service;
+package com.multi.gameProject.game.service;
 
-import com.multi.hdbc_h.dao.UsersDao;
-import com.multi.hdbc_h.dto.Record;
-import com.multi.jdbc.common.exception.MemberException;
+import com.multi.gameProject.common.MemberException;
+import com.multi.gameProject.game.model.dao.UsersDao;
 
 import java.sql.Connection;
 
-import static com.multi.jdbc.common.JDBCTemplate.getConnection;
+import static com.multi.gameProject.common.JDBCTemplate.getConnection;
+
 
 /* Service 클래스에서 메소드 작성 방법
  * 1) Controller로 부터 인자를 전달받음
