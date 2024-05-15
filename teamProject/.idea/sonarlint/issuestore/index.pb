@@ -81,3 +81,5 @@ h
 8src/com/multi/gameProject/adminUsers/view/AdminView.java,2\8\28608ab5f51b0beaae44c7d11bf71ef37dfc8154
 n
 >src/com/multi/gameProject/adminUsers/service/AdminService.java,5\2\52a7016dc0675c57bbeb461dffdef73a6243cf61
+f
+6src/com/multi/gameProject/game/model/dao/UsersDao.java,3\8\38fad30a02bfc546167a2bce4685cfb7a34aaa93
