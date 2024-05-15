@@ -1,37 +1,0 @@
-
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¥Öº
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¥Öº
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¥Öº
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¥Öº
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¥Öº
-k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îšªÙüÿÿÿÿ
-k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îšªÙüÿÿÿÿ
-k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îšªÙüÿÿÿÿ
-k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îšªÙüÿÿÿÿ
-f	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èğ¯ô
-f	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îæ‰
-k	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÖÔÿÿÿÿÿ
-l	java:S117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡»èûÿÿÿÿ
-g	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ı÷‹
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öĞÁ¸ıÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÜÚ›×
-g	java:S116	"RRename this field "user_Id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•“»ï
-o	java:S116"URename this field "coin_Count" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â º¶úÿÿÿÿ
-p	java:S116"VRename this field "singup_Date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Á­Áùÿÿÿÿ
-l	java:S116"RRename this field "del_Acc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îä×ñıÿÿÿÿ
-o	java:S116"ZRename this field "delete_Acc_Date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùã•Ò
-k	java:S116"VRename this field "user_Pre_Id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù­Ş¿
-W	java:S107"BConstructor has 10 parameters, which is greater than 7 authorized.(Õ¥Öº
-[	java:S107-"AConstructor has 9 parameters, which is greater than 7 authorized.(îšªÙüÿÿÿÿ
-h	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ú¶ğÿÿÿÿÿ
-c	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èğ¯ô
-h	java:S100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±à«¬şÿÿÿÿ
-c	java:S100P"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îæ‰
-h	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Ãıÿşÿÿÿÿ
-h	java:S100p"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÖÔÿÿÿÿÿ
-b	java:S100|"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÒ½-
-i	java:S100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡»èûÿÿÿÿ
-i	java:S100„"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Š×½şÿÿÿÿ
-d	java:S100ˆ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ı÷‹
-i	java:S100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–¥µµùÿÿÿÿ
-i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öĞÁ¸ıÿÿÿÿ

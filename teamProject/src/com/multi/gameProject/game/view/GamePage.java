@@ -1,6 +1,7 @@
 package com.multi.gameProject.game.view;
 
 import com.multi.gameProject.game.controller.UsersController;
+import com.multi.gameProject.game.model.dto.Recorduser;
 import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
 import com.multi.gameProject.game.model.dto.Record;
 
@@ -20,6 +21,8 @@ public class GamePage extends JFrame {
     private JPanel footerP;
 
 
+
+
     private JLabel titleL, resultL, timeL, scoreL;
     private JTextArea textArea;
     private boolean gameout = false;
@@ -33,25 +36,28 @@ public class GamePage extends JFrame {
 
     private UsersController usersService;
     private String id;//주석처리
-    private GeneralUserDto loginDto;
-
+ private GeneralUserDto loginDto;
     //private Userdto userdto;//주석풀고 사용
     //private String id;//주석 풀고사용
-    public GamePage(int i, GeneralUserDto loginDto) {
-        this.loginDto = loginDto;
+    public GamePage(int i,GeneralUserDto loginDto) {
+        this.loginDto=loginDto;
         f = new JFrame("난이도" + lavel);
+<<<<<<< HEAD
         id = loginDto.getUser_Id();
+=======
+        id=loginDto.getUser_Id();
+>>>>>>> main
         lavel = i;
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(600, 800);
         f.setTitle("게임");
-        usersService = new UsersController();
-        soc = usersService.selectlevel(i);
+        usersService=new UsersController();
+        soc=usersService.selectlevel(i);
 
 
-        ietmcount1 = usersService.selectItem(id, 1);
-        ietmcount2 = usersService.selectItem(id, 2);
-        ietmcount3 = usersService.selectItem(id, 3);
+        ietmcount1=usersService.selectItem(id,1);
+        ietmcount2=usersService.selectItem(id,2);
+        ietmcount3=usersService.selectItem(id,3);
 
         gameT = new GameT();
 
@@ -221,45 +227,45 @@ public class GamePage extends JFrame {
         menuBtn1.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (ietmcount1 > 0) {
-                    if (ietm1 == 10) {
-                    } else {
-                        GameStart(lavel);//패스
-                        textArea.setVisible(false);
-                        textArea.setVisible(true);//textArea초기화및 표시
-                        textArea.setText("");
-                        ietm1 = 10;
-                    }
+                if(ietmcount1>0){
+                if (ietm1 == 10) {
+                } else {
+                    GameStart(lavel);//패스
+                    textArea.setVisible(false);
+                    textArea.setVisible(true);//textArea초기화및 표시
+                    textArea.setText("");
+                    ietm1 = 10;
+                }
                 }
             }
         });
         menuBtn2.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                usersService.selectItem("ID", 2);
-                if (ietmcount2 > 0) {
-                    if (ietm2 == 20) {
-                    } else {
-                        gametime = gametime + 10;//시간증가
-                        ietm2 = 20;
-                    }
+                usersService.selectItem("ID",2);
+                if(ietmcount2>0){
+                if (ietm2 == 20) {
+                } else {
+                    gametime = gametime + 10;//시간증가
+                    ietm2 = 20;
                 }
+            }
             }
         });
         menuBtn3.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (ietmcount3 > 0) {
-                    if (ietm3 == 30) {
-                    } else {
-                        count = count * 2;
-                        soc = soc * 2;
-                        scoreL.setText("점수 : " + count);
-                        ietm3 = 30;
-                        System.out.println(ietm3);
-                        usersService.updateItem(id, 3, --ietmcount3);
-                    }
+                if(ietmcount3>0){
+                if (ietm3 == 30) {
+                } else {
+                    count = count * 2;
+                    soc = soc * 2;
+                    scoreL.setText("점수 : " + count);
+                    ietm3 = 30;
+                    System.out.println(ietm3);
+                    usersService.updateItem(id,3,--ietmcount3);
                 }
+            }
             }
         });
         menuBtn1.setFont(font2);
@@ -299,7 +305,7 @@ public class GamePage extends JFrame {
         textArea.setLocation(400, 170);
 
 
-        midP.add(textArea);
+        midP.add(textArea );
         midP.add(titleL);
 
 
@@ -362,28 +368,26 @@ public class GamePage extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 FirstPage s = new FirstPage(loginDto);
-                Record record = usersService.selectHIGH_SCORE(id);
+                Recorduser record=usersService.selectHIGH_SCORE(id);
 
-                sum = record.getHigh_score();
-                if (sum < count) {
-                    sum = count;
-                }
-                int total = record.getTotal_score() + count;
-                Record record1 = new Record(id, sum, lavel, total);
+                sum=record.getHigh_score();
+                if(sum<count){sum=count;}
+                int total=record.getTotal_score()+count;
+                Recorduser record1=new Recorduser(id,sum,lavel,total);
                 usersService.updateHIGH_SCORE(record1);
 
 
-                JOptionPane.showMessageDialog(f, "최고점수" + sum + "\n" + "점수" + count);
+                JOptionPane.showMessageDialog(f, "최고점수"+sum+"\n"+"점수" + count);
                 gameT.interrupt();
                 textArea.setText("");
                 if (ietm1 == 10) {
-                    int i = usersService.selectItem(id, 1);
-                    usersService.updateItem(id, 1, --ietmcount1);
+                    int i=usersService.selectItem(id,1);
+                    usersService.updateItem(id,1,--ietmcount1);
                 }
                 if (ietm2 == 20) {//초기화
                     soc = soc / 2;
 
-                    usersService.updateItem(id, 2, --ietmcount2);
+                    usersService.updateItem(id,2,--ietmcount2);
                 }
                 if (ietm3 == 30) {
                     System.out.println(ietmcount3);

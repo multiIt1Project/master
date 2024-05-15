@@ -3,6 +3,7 @@ package com.multi.gameProject.game.model.dao;
 import com.multi.gameProject.common.MemberException;
 import com.multi.gameProject.game.model.dto.Item_invt;
 import com.multi.gameProject.game.model.dto.Levels;
+import com.multi.gameProject.game.model.dto.Recorduser;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -60,7 +61,7 @@ public class UsersDao {
         return num;
     }
 
-    public int updateHIGH_SCORE(Connection conn, Record record) throws MemberException {
+    public int updateHIGH_SCORE(Connection conn, Recorduser record) throws MemberException {
         int result = 0;
         PreparedStatement ps = null;
 
@@ -90,12 +91,12 @@ public class UsersDao {
         return result;
     }
 
-    public Record selectHIGH_SCORE(String id, Connection conn) throws MemberException {
+    public Recorduser selectHIGH_SCORE(String id, Connection conn) throws MemberException {
         ResultSet rset = null;
         int num=0;
         PreparedStatement ps = null;
         String sql="SELECT * FROM RECORD WHERE USER_ID=?";
-        Record record=new Record();
+        Recorduser record=new Recorduser();
 
         try {
             ps = conn.prepareStatement(sql);
