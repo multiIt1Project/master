@@ -1,4 +1,7 @@
-package com.multi.hdbc_h;
+package com.multi.gameProject.game.view;
+
+import com.multi.gameProject.generalUsers.model.dto.GeneralUserDto;
+import com.multi.gameProject.generalUsers.view.GeneralUserAfterLoginHomePage;
 
 import javax.swing.*;
 import java.awt.*;
@@ -148,7 +151,7 @@ public class FirstPage {
             public void actionPerformed(ActionEvent e) {
                 
                     
-                   new GeneralUserAfterLoginHomePage home=GeneralUserAfterLoginHomePage(loginDto);
+                    GeneralUserAfterLoginHomePage home= new GeneralUserAfterLoginHomePage(loginDto);
                     f.setVisible(false);
 
                
