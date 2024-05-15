@@ -73,7 +73,7 @@ public class MemberList {
         menuBtn4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new GeneralUserAfterLoginRankingPage(dto);
+                new AdminRankingPage().AdminRankingPage(dto);
                 panel.setVisible(false);
                 f.setVisible(false);
             }
