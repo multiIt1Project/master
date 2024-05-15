@@ -1,6 +1,6 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ö¯âÿÿÿÿÿ8À¬¿÷1
-Z
-java:S1854	"=Remove this useless assignment to local variable "firstPage".(Æ”‘†8Â¬¿÷1
-K
-java:S1481	".Remove this unused "firstPage" local variable.(Æ”‘†8Ã¬¿÷1
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ö¯âÿÿÿÿÿ8À¬¿÷1J$5ef7eb5e-7867-4196-90f2-2a2dab7c1b52
+€
+java:S1854	"=Remove this useless assignment to local variable "firstPage".(Æ”‘†8Â¬¿÷1J$a2f6428c-84f1-4d57-86c5-bd7739e72fb4
+q
+java:S1481	".Remove this unused "firstPage" local variable.(Æ”‘†8Ã¬¿÷1J$436e85e7-0161-44f6-87cd-784936988277

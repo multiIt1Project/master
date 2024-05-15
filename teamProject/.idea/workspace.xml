@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1ddc70-8c96-48ab-b7b4-136de0e48c8c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/6858c06f3dc2d636c736628426757be41f94c79a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/6858c06f3dc2d636c736628426757be41f94c79a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/793c921e19512a1053cd8fef1153aec4f733f20d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/793c921e19512a1053cd8fef1153aec4f733f20d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7998b969e4b736dd7d16c3eeb0f4de76fb70cfe1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7998b969e4b736dd7d16c3eeb0f4de76fb70cfe1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/8873a6ff066a2f8dcbc8c965ceaba62d778628e5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/8873a6ff066a2f8dcbc8c965ceaba62d778628e5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multi/gameProject/game/view/FirstPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multi/gameProject/game/view/FirstPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +79,10 @@
     "Application.com.multi.page_swing.Run.executor": "Run",
     "Application.sdsd.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20240515_0007",
+    "com.google.cloudcode.ide_session_index": "20240515_0008",
     "git-widget-placeholder": "AJY",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dkswl/OneDrive/Documents/code_upload/백업/4. shop 버튼 추가 직전",
+    "last_opened_file_path": "C:/Users/dkswl/OneDrive/Documents/code_upload/master/teamProject",
     "onboarding.tips.debug.path": "C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/teamProject/src/Main.java",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
@@ -106,7 +110,7 @@
       <recent name="com.multi.gameProject.users.view" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GeneralUserRun">
+  <component name="RunManager" selected="Application.com.multi.gameProject.app.Run">
     <configuration name="GamePage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.multi.page_swing.GamePage" />
       <module name="teamProject" />
@@ -174,8 +178,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GeneralUserRun" />
         <item itemvalue="Application.com.multi.gameProject.app.Run" />
+        <item itemvalue="Application.GeneralUserRun" />
         <item itemvalue="Application.GamePage" />
         <item itemvalue="Application.sdsd" />
         <item itemvalue="Application.com.multi.page_swing.Run" />
