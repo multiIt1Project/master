@@ -1,51 +1,51 @@
 
-	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(¬‡ áúÿÿÿÿ8éµ°Å÷1J$9a9cbf5b-5353-4d9e-9761-8a7401fc2436
-	java:S112r"FDefine and throw a dedicated exception instead of using a generic one.(¬‡ áúÿÿÿÿ8éµ°Å÷1J$77b0c602-8d90-4252-bdd7-3e92855d1dd4
-	java:S112§"FDefine and throw a dedicated exception instead of using a generic one.(¬‡ áúÿÿÿÿ8éµ°Å÷1J$9a530912-e9df-4fe9-8add-ac09c23d41a8
-	java:S112Ş"FDefine and throw a dedicated exception instead of using a generic one.(¬‡ áúÿÿÿÿ8¥µÅ÷1J$8a7b057a-43c0-48d5-914c-3740f2735646
-	java:S112œ"FDefine and throw a dedicated exception instead of using a generic one.(¬‡ áúÿÿÿÿ8êÜİÅ÷1J$8ed79dc6-9f37-43ca-a789-e57a9885b4b6
+	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(¬‡ áúÿÿÿÿ8éµ°Å÷1J$2d32ea92-5071-4148-bef0-f26362f52823
+	java:S112r"FDefine and throw a dedicated exception instead of using a generic one.(¬‡ áúÿÿÿÿ8éµ°Å÷1J$7aeaa7c8-efe1-4fb5-8050-52081918d0b8
+	java:S112§"FDefine and throw a dedicated exception instead of using a generic one.(¬‡ áúÿÿÿÿ8éµ°Å÷1J$3096ffaf-041e-4dfd-8c56-0d9a0a71ccb8
+	java:S112Ş"FDefine and throw a dedicated exception instead of using a generic one.(¬‡ áúÿÿÿÿ8¥µÅ÷1J$e5a73823-bae6-4ebc-aa67-8f592a83b976
+	java:S112œ"FDefine and throw a dedicated exception instead of using a generic one.(¬‡ áúÿÿÿÿ8êÜİÅ÷1J$a5882f06-5ef5-49ce-87a0-aaf7fa3f2993
 ¡
-java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜œÀ¶øÿÿÿÿ8êµ°Å÷1J$20aa6dae-f678-4993-b5aa-056c66a16672
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜œÀ¶øÿÿÿÿ8êµ°Å÷1J$020e300a-5f45-40cb-9d55-7d12d2d1b5e5
 ¡
-java:S2293Q"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜œÀ¶øÿÿÿÿ8êµ°Å÷1J$f82ca7b7-00f0-48bd-9436-f612f7db71fd
+java:S2293Q"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜œÀ¶øÿÿÿÿ8êµ°Å÷1J$98de6a18-97fa-4e30-b3ff-b1adb2c3c0b7
 
-java:S1192+"ZDefine a constant instead of duplicating this literal "sqlë¬¸ ì „ì†¡ ì„±ê³µ!! : " 4 times.(…É¨™8êµ°Å÷1J$2b6f2b67-0ccd-46b0-93fa-0d74cefef3c5
+java:S1192+"ZDefine a constant instead of duplicating this literal "sqlë¬¸ ì „ì†¡ ì„±ê³µ!! : " 4 times.(…É¨™8êµ°Å÷1J$9f942135-f61c-4622-b81d-dec0532b8c18
 ‹
-java:S11922"HDefine a constant instead of duplicating this literal "USER_ID" 3 times.(î¹Í¨8êµ°Å÷1J$fbfd47dc-fa3c-4e25-aeec-a370db0b4d66
+java:S11922"HDefine a constant instead of duplicating this literal "USER_ID" 3 times.(î¹Í¨8êµ°Å÷1J$6fc9eb77-b596-45b4-91d8-71892f20d7dd
 ©
-java:S1192:"aDefine a constant instead of duplicating this literal "sqlë¬¸ ì „ì†¡ ì„±ê³µ, ê²°ê³¼ >> " 3 times.(‡ş²¬ÿÿÿÿÿ8êµ°Å÷1J$fa6f8e82-976c-46e6-854c-15e4343d9400
+java:S1192:"aDefine a constant instead of duplicating this literal "sqlë¬¸ ì „ì†¡ ì„±ê³µ, ê²°ê³¼ >> " 3 times.(‡ş²¬ÿÿÿÿÿ8êµ°Å÷1J$ec3ae2f9-89d2-45c0-8b72-22b672d931f0
 ›
-java:S1192@"SDefine a constant instead of duplicating this literal "sqlì—ëŸ¬ ë°œìƒ!!" 4 times.(¬‡ áúÿÿÿÿ8êµ°Å÷1J$7473a86c-a09c-43b4-a5ed-5835855fce73
+java:S1192@"SDefine a constant instead of duplicating this literal "sqlì—ëŸ¬ ë°œìƒ!!" 4 times.(¬‡ áúÿÿÿÿ8êµ°Å÷1J$38e332b1-6043-4554-bcf1-0b18e10107ae
 
-java:S11923"KDefine a constant instead of duplicating this literal "WRITE_DATE" 3 times.(–Ö©8êµ°Å÷1J$d0c2f038-87ad-4583-8484-e226c1002bf2
+java:S11923"KDefine a constant instead of duplicating this literal "WRITE_DATE" 3 times.(–Ö©8êµ°Å÷1J$78bf3341-afd4-49fd-8dd2-f21ae3c31281
 ˆ
-java:S11924"FDefine a constant instead of duplicating this literal "TITLE" 3 times.(ÒÏù!8êµ°Å÷1J$3cdc3ce5-16bf-4bd9-bbe3-2ed22c829c71
+java:S11924"FDefine a constant instead of duplicating this literal "TITLE" 3 times.(ÒÏù!8êµ°Å÷1J$afbeb36f-8507-4d66-b5c2-16f922a9e7e8
 
-java:S11925"HDefine a constant instead of duplicating this literal "CONTENT" 3 times.(Ã«˜øÿÿÿÿ8êµ°Å÷1J$897eb86f-62a3-4682-94d1-51c625e193bf
+java:S11925"HDefine a constant instead of duplicating this literal "CONTENT" 3 times.(Ã«˜øÿÿÿÿ8êµ°Å÷1J$2941452e-a37e-4d02-b121-4db9e34b37c9
 ³
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(²±„8êµ°Å÷1J$040d0c78-8342-4cc8-983c-55a5dc5aef0e
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(²±„8êµ°Å÷1J$80567600-8f7b-45c9-9a01-c1dc573b6a79
 ¸
-java:S1319M"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(õ§àıÿÿÿÿ8êµ°Å÷1J$8bae5a72-ad7a-4249-950e-bf16cac2875f
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İâ‰š8ëµ°Å÷1J$9de6244e-c075-4070-8829-465c0f01e10c
-
-java:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ëóŒıÿÿÿÿ8Ä¶°Å÷1J$60c3b56b-a1ce-4be4-a20d-b8138080b5f9
-m	java:S106+"+Replace this use of System.out by a logger.(…É¨™8È¶°Å÷1J$a86f7613-8d88-41cc-a85c-c27054adec02
-r	java:S106:"+Replace this use of System.out by a logger.(‡ş²¬ÿÿÿÿÿ8È¶°Å÷1J$54523c9d-a021-4d80-b56a-023a58d3b97a
-ƒ	java:S125>"<This block of commented-out lines of code should be removed.(óğµÖøÿÿÿÿ8É¶°Å÷1J$fd6ac830-02c5-4825-9b29-fec658f746c6
-m	java:S106\"+Replace this use of System.out by a logger.(…É¨™8É¶°Å÷1J$7dc14a5c-c505-41ae-87eb-d0e7b2055a62
-r	java:S106k"+Replace this use of System.out by a logger.(‡ş²¬ÿÿÿÿÿ8Ë¶°Å÷1J$a7da7eee-48f8-40f6-aaf2-18c0f07ed818
-ƒ	java:S125o"<This block of commented-out lines of code should be removed.(óğµÖøÿÿÿÿ8Ë¶°Å÷1J$6870a61f-d8c5-4046-865f-29452d0172d7
-ƒ	java:S125t"<This block of commented-out lines of code should be removed.(û˜°îûÿÿÿÿ8Ë¶°Å÷1J$20170ba4-8ac1-4cb5-8882-5c4ceea57569
-„	java:S125–"<This block of commented-out lines of code should be removed.(·®—üıÿÿÿÿ8Ë¶°Å÷1J$e05deafb-2b02-471a-87cf-30554200bf2b
-„	java:S125¥"<This block of commented-out lines of code should be removed.(óğµÖøÿÿÿÿ8Ë¶°Å÷1J$98a948af-ee95-4571-8a51-08923939a98b
-„	java:S125©"<This block of commented-out lines of code should be removed.(ëº®×ıÿÿÿÿ8Ë¶°Å÷1J$abe9e9f2-8b31-4103-b9b4-18aa70e4362d
-n	java:S106Ë"+Replace this use of System.out by a logger.(…É¨™8Ì¶°Å÷1J$ee50f993-f62f-4c71-83e1-eec5a5bfe59b
-s	java:S106Ø"+Replace this use of System.out by a logger.(‡ş²¬ÿÿÿÿÿ8Í¶°Å÷1J$8ff31d59-90a5-4502-876e-5e596599a261
-„	java:S125Ü"<This block of commented-out lines of code should be removed.(óğµÖøÿÿÿÿ8ìâµÅ÷1J$ab95b17a-7799-44f0-89d2-0dd6103e0097
-„	java:S125à"<This block of commented-out lines of code should be removed.(û˜°îûÿÿÿÿ8Ãñ¶Å÷1J$7554487a-0b95-4f25-bead-6966ff7a0994
-	java:S125ê"<This block of commented-out lines of code should be removed.(½‘Ñ³8¦½·Å÷1J$8af319f7-f487-4b39-9ab0-602a6ff8e154
-n	java:S106ˆ"+Replace this use of System.out by a logger.(”Ïÿ´8Î¶°Å÷1J$b09a2168-0d68-4323-8cd0-930232bf11d1
-„	java:S125Œ"<This block of commented-out lines of code should be removed.(·®—üıÿÿÿÿ8ùÂ´Å÷1J$7f827beb-32f7-440f-a057-a6c8c61bed0a
-„	java:S125š"<This block of commented-out lines of code should be removed.(óğµÖøÿÿÿÿ8×±ŞÅ÷1J$1b997485-21ab-49e4-b2c1-5eca2a7783ca
-„	java:S125"<This block of commented-out lines of code should be removed.(û˜°îûÿÿÿÿ8ÍåŞÅ÷1J$9fea0213-5a1f-4e55-947f-5900a8b63bb3
-	java:S125«"<This block of commented-out lines of code should be removed.(½‘Ñ³8âçßÅ÷1J$387da7ae-c71a-4f3e-ad1f-77141f15df78
+java:S1319M"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(õ§àıÿÿÿÿ8êµ°Å÷1J$76d8af56-1db7-4386-a814-bb07e234262b
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İâ‰š8ëµ°Å÷1J$98bf4b03-5e9e-4115-a683-43ce83b41f1c
+‹
+java:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(Ô¤”Š8Ä¶°Å÷1J$6251a87d-900b-45cb-862f-ecc786ea9e45
+m	java:S106+"+Replace this use of System.out by a logger.(…É¨™8È¶°Å÷1J$4986e722-1b1c-4a3f-ae7b-aa8e0d6f85c6
+r	java:S106:"+Replace this use of System.out by a logger.(‡ş²¬ÿÿÿÿÿ8È¶°Å÷1J$0fdbba35-cf97-4c2e-92a9-0496f909e67e
+ƒ	java:S125>"<This block of commented-out lines of code should be removed.(óğµÖøÿÿÿÿ8É¶°Å÷1J$68d309ce-2fce-4506-bf93-5e3cd29e3ff1
+m	java:S106\"+Replace this use of System.out by a logger.(…É¨™8É¶°Å÷1J$2a7a0600-1f32-44eb-8602-3ce35f08d910
+r	java:S106k"+Replace this use of System.out by a logger.(‡ş²¬ÿÿÿÿÿ8Ë¶°Å÷1J$6e835e8a-009c-4074-95af-94651d46920b
+ƒ	java:S125o"<This block of commented-out lines of code should be removed.(óğµÖøÿÿÿÿ8Ë¶°Å÷1J$35900c45-aff2-4e64-9b2c-27fdf9a1a600
+ƒ	java:S125t"<This block of commented-out lines of code should be removed.(û˜°îûÿÿÿÿ8Ë¶°Å÷1J$a4237a92-269e-4bdc-a057-a29d01bd573a
+„	java:S125–"<This block of commented-out lines of code should be removed.(·®—üıÿÿÿÿ8Ë¶°Å÷1J$2ab7c0c2-153d-4b6b-8917-af46e91a8cfa
+„	java:S125¥"<This block of commented-out lines of code should be removed.(óğµÖøÿÿÿÿ8Ë¶°Å÷1J$d69075a3-f4ac-469b-bd61-a768d30047fc
+„	java:S125©"<This block of commented-out lines of code should be removed.(ëº®×ıÿÿÿÿ8Ë¶°Å÷1J$2274d120-08ed-474d-8877-7e61846ad92e
+n	java:S106Ë"+Replace this use of System.out by a logger.(…É¨™8Ì¶°Å÷1J$af7247f2-3159-42be-9782-be2a4983e5ab
+s	java:S106Ø"+Replace this use of System.out by a logger.(‡ş²¬ÿÿÿÿÿ8Í¶°Å÷1J$7d6b9b78-b7a1-4d68-9b0c-8a080f906a4d
+„	java:S125Ü"<This block of commented-out lines of code should be removed.(óğµÖøÿÿÿÿ8ìâµÅ÷1J$659c6801-c048-4f9d-934f-4198d5d943bf
+„	java:S125à"<This block of commented-out lines of code should be removed.(û˜°îûÿÿÿÿ8Ãñ¶Å÷1J$7bee120e-319a-4bfe-bd5a-cfa49a0b7c1a
+	java:S125ê"<This block of commented-out lines of code should be removed.(½‘Ñ³8¦½·Å÷1J$af0c97ca-5a20-40d5-b332-509817594930
+n	java:S106ˆ"+Replace this use of System.out by a logger.(”Ïÿ´8Î¶°Å÷1J$e16addce-3be0-4554-9fbe-5198a9b12268
+„	java:S125Œ"<This block of commented-out lines of code should be removed.(·®—üıÿÿÿÿ8ùÂ´Å÷1J$7c03e700-174c-4da9-b1c4-d06c548d96d7
+„	java:S125š"<This block of commented-out lines of code should be removed.(óğµÖøÿÿÿÿ8×±ŞÅ÷1J$cf6bf4a9-8415-4d34-8fb6-17531078fe85
+„	java:S125"<This block of commented-out lines of code should be removed.(û˜°îûÿÿÿÿ8ÍåŞÅ÷1J$de7a1a81-35e0-4480-96c9-38a0a6581687
+	java:S125«"<This block of commented-out lines of code should be removed.(½‘Ñ³8âçßÅ÷1J$0a017a0a-8175-4f8b-8021-f93c44a621c8
