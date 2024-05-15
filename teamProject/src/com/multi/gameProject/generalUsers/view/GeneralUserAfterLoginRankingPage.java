@@ -988,6 +988,7 @@ public class GeneralUserAfterLoginRankingPage {
 				f.remove(midBoardWriteP);
 				f.remove(midMyInfoP);
 				
+				initHome();
 				
 				f.add(midHomeP);
 				

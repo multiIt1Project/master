@@ -987,6 +987,7 @@ public class GeneralUserAfterMyBoardPage {
 				f.remove(midBoardWriteP);
 				f.remove(midMyInfoP);
 				
+				initHome();
 				
 				f.add(midHomeP);
 				
