@@ -1,70 +1,70 @@
 
-™	java:S117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óí€æÿÿÿÿÿ8ñÆÁÅ÷1J$2efe48c6-0172-4dea-83c0-270ce0e35267
-™	java:S117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÑÖ¹ÿÿÿÿÿ8òÆÁÅ÷1J$7ad9ce37-d6f8-4506-ad1b-b219a2284329
-™	java:S117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åü§÷úÿÿÿÿ8òÆÁÅ÷1J$a3efc47e-72bc-4585-a5dc-08c385aa5261
-“	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ¿–<8òÆÁÅ÷1J$82181f12-d6cf-4e49-ac61-ddbfa69ea2fc
-”	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÅÆô8òÆÁÅ÷1J$be8cce5c-b570-487b-8e50-6fc8ace79e7c
-™	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø˜ÕŠþÿÿÿÿ8òÆÁÅ÷1J$a5f2dd90-e928-466a-adf3-352f5e9b9461
-”	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÅÆô8òÆÁÅ÷1J$e5c05f34-f944-48d3-995f-ca85dd9960df
-™	java:S117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø˜ÕŠþÿÿÿÿ8òÆÁÅ÷1J$591e7161-e9a4-405d-93c6-d288b8601bc3
+™	java:S117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óí€æÿÿÿÿÿ8ñÆÁÅ÷1J$aa387d8e-bdac-4520-8b06-3eb6f1277346
+™	java:S117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÑÖ¹ÿÿÿÿÿ8òÆÁÅ÷1J$0b7df035-d296-4aab-8769-f9e1eba71a0c
+™	java:S117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åü§÷úÿÿÿÿ8òÆÁÅ÷1J$8e08dfdf-d09a-4b3d-a99e-562007820b30
+“	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ¿–<8òÆÁÅ÷1J$a636eec5-7b1a-473a-b1fb-04c3ac4cdd1a
+”	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÅÆô8òÆÁÅ÷1J$1dff71f9-ca1e-4f26-8ff4-ec9aa5b9eb3f
+™	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø˜ÕŠþÿÿÿÿ8òÆÁÅ÷1J$86163424-9e32-45f6-b3e6-2ef7820243f4
+”	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÅÆô8òÆÁÅ÷1J$64f04074-7eee-415e-bbf6-a7bc5ee60083
+™	java:S117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø˜ÕŠþÿÿÿÿ8òÆÁÅ÷1J$6028a32f-529a-41ba-84a3-da768d4280e5
 q
-java:S1604¦"(Make this anonymous inner class a lambda(øë°Áüÿÿÿÿ8òÆÁÅ÷1J$00805b2f-8536-4515-a570-f469c637050b
+java:S1604¦"(Make this anonymous inner class a lambda(øë°Áüÿÿÿÿ8òÆÁÅ÷1J$5360524c-4013-4813-bf82-6294b2483dc7
 q
-java:S1604Ó"(Make this anonymous inner class a lambda(•ñÁŽûÿÿÿÿ8òÆÁÅ÷1J$821154c6-c6fd-45f6-b22a-64627e6970d8
+java:S1604Ó"(Make this anonymous inner class a lambda(•ñÁŽûÿÿÿÿ8òÆÁÅ÷1J$edf665a2-f5a9-4ccb-96f1-3ef1def0730d
 l
-java:S1604æ"(Make this anonymous inner class a lambda(´¯¸ý8òÆÁÅ÷1J$7e454c0a-83e9-4fd0-aacb-f00c6fa3e7ed
+java:S1604æ"(Make this anonymous inner class a lambda(´¯¸ý8òÆÁÅ÷1J$b20c45f9-65a0-4795-b2ed-fd4b15b69771
 q
-java:S1604‘"(Make this anonymous inner class a lambda(Ü£îþÿÿÿÿ8òÆÁÅ÷1J$eff58554-24f9-478f-937d-cbdde93d48c9
+java:S1604‘"(Make this anonymous inner class a lambda(Ü£îþÿÿÿÿ8òÆÁÅ÷1J$b70b927e-1449-43c9-89a4-11645ba70218
 q
-java:S1604±"(Make this anonymous inner class a lambda(¬ÄÅ×úÿÿÿÿ8òÆÁÅ÷1J$101f3c19-100c-437c-a71e-d31aa227bdfe
+java:S1604±"(Make this anonymous inner class a lambda(¬ÄÅ×úÿÿÿÿ8òÆÁÅ÷1J$2f66a84b-59d0-483f-9080-37ab33a352f5
 l
-java:S1604Ð"(Make this anonymous inner class a lambda(×š¨Å8òÆÁÅ÷1J$475acd76-1729-4ee3-86d5-0ea9072810e8
+java:S1604Ð"(Make this anonymous inner class a lambda(×š¨Å8òÆÁÅ÷1J$19e3cee9-b3b8-4846-80e3-8bbde3372f9c
 q
-java:S1604ð"(Make this anonymous inner class a lambda(ü÷¨¯úÿÿÿÿ8òÆÁÅ÷1J$93e7ed2a-0b07-42ae-9519-4a34773c3f81
+java:S1604ð"(Make this anonymous inner class a lambda(ü÷¨¯úÿÿÿÿ8òÆÁÅ÷1J$d987d5bf-1dd0-4df7-921a-3cf98e5c2583
 k
-java:S1604‰"(Make this anonymous inner class a lambda(¡ÖŠK8òÆÁÅ÷1J$c550ef64-a12c-4c16-a8f0-e02dea94c250
+java:S1604‰"(Make this anonymous inner class a lambda(¡ÖŠK8òÆÁÅ÷1J$72791819-d0cf-403d-8bbb-39986146bf38
 l
-java:S1604š"(Make this anonymous inner class a lambda(øÕé¶8òÆÁÅ÷1J$c23f8f6a-2d6b-499d-9514-b9ccce3b3810
+java:S1604š"(Make this anonymous inner class a lambda(øÕé¶8òÆÁÅ÷1J$593aec70-68e6-4523-a766-dfc468d76ed7
 l
-java:S1604²"(Make this anonymous inner class a lambda(ÐÍ²8ƒ±æØ÷1J$7e86fcea-869e-4d9c-a662-a24945de1c22
+java:S1604²"(Make this anonymous inner class a lambda(ÐÍ²8ƒ±æØ÷1J$b838c4ee-ae84-479c-a19e-93028bc14436
 q
-java:S1604‰"(Make this anonymous inner class a lambda(ŸàšÝýÿÿÿÿ8¦¶êØ÷1J$2aad47d7-ca12-41bd-aa79-4326a1295bd0
+java:S1604‰"(Make this anonymous inner class a lambda(ŸàšÝýÿÿÿÿ8¦¶êØ÷1J$50fc0954-7076-4536-a17a-441377e723f6
 l
-java:S1604²"(Make this anonymous inner class a lambda(öíÒÿ8ó›¦Ù÷1J$c203aaf9-182e-479a-a87b-872aefcc7f81
+java:S1604²"(Make this anonymous inner class a lambda(öíÒÿ8ó›¦Ù÷1J$2bec2653-b96d-40bf-9a07-97f73e077441
 q
-java:S1604Ë"(Make this anonymous inner class a lambda(îûôùÿÿÿÿ8ó›¦Ù÷1J$94f55b9c-1b51-4768-834d-8dbee310d463
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òÔ¢ñùÿÿÿÿ8õÆÁÅ÷1J$3cb155a7-5f63-411c-b01c-32373bb5e291
-ž	java:S116("WRename this field "BoardListBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿­™¬üÿÿÿÿ8‹ÇÁÅ÷1J$ba38558c-026c-4e18-a92e-c6e2520b6228
-œ	java:S116)"ZRename this field "BoardRankingBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È´›8‹ÇÁÅ÷1J$402bbba0-b36c-41ac-842f-42ce529bf338
-œ	java:S116."ZRename this field "coin_CountField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÁÁ×8‹ÇÁÅ÷1J$02f0b72e-2ed4-449d-859b-c33e5a1aa991
+java:S1604Ë"(Make this anonymous inner class a lambda(îûôùÿÿÿÿ8ó›¦Ù÷1J$4e7ecdcb-7bfc-48a1-a0af-9c71f71993a1
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òÔ¢ñùÿÿÿÿ8õÆÁÅ÷1J$eaf5c8b0-3d7c-4278-bffa-0515f38c7a54
+ž	java:S116("WRename this field "BoardListBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿­™¬üÿÿÿÿ8‹ÇÁÅ÷1J$66071840-cf1b-4978-8ea2-151c271490fd
+œ	java:S116)"ZRename this field "BoardRankingBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È´›8‹ÇÁÅ÷1J$0fdd15ca-25e4-4023-acd6-e70a2ddca16d
+œ	java:S116."ZRename this field "coin_CountField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÁÁ×8‹ÇÁÅ÷1J$f90f361c-7385-41ed-b256-3f0db561b166
 r
-java:S1197W"*Move the array designators [] to the type.(Ãä…Éþÿÿÿÿ8‘ÇÁÅ÷1J$2ad5382d-657b-4867-b667-dc5589043cb7
+java:S1197W"*Move the array designators [] to the type.(Ãä…Éþÿÿÿÿ8‘ÇÁÅ÷1J$4ae6808d-2ac9-4102-aa4b-e113d65b93e8
 ‘
-java:S3252o"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ8‘ÇÁÅ÷1J$6ea39947-73eb-481d-893e-4679fa260971
+java:S3252o"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ8‘ÇÁÅ÷1J$61197880-fe85-4a0a-beca-773b3f90698d
 Ê
-java:S1186Õ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼ Òþüÿÿÿÿ8›œ¦Ù÷1J$640b8d5b-3f21-4258-ae77-e58725b9984a
-}	java:S125â"<This block of commented-out lines of code should be removed.(ýî38”ÇÁÅ÷1J$df8bf977-0f32-492b-bd72-87923263a0f4
-s	java:S106¿"+Replace this use of System.out by a logger.(Ôúôûÿÿÿÿ8šÇÁÅ÷1J$72285faa-e926-4878-92d8-037873ecdd2a
+java:S1186Õ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼ Òþüÿÿÿÿ8›œ¦Ù÷1J$bd1512f1-f494-4ee6-b74b-b7ba90ec0b19
+}	java:S125â"<This block of commented-out lines of code should be removed.(ýî38”ÇÁÅ÷1J$6fb3d35a-6d8c-4b66-aa6e-ea85f2d2e577
+s	java:S106¿"+Replace this use of System.out by a logger.(Ôúôûÿÿÿÿ8šÇÁÅ÷1J$1d855aee-7c52-48ab-8988-a9dfe4942e38
 k
-java:S1125Õ"'Remove the unnecessary boolean literal.(ò˜¦ó8›ÇÁÅ÷1J$d21f9be2-e48c-45d4-bac5-0a33e6fc97ba
-„	java:S125ê"<This block of commented-out lines of code should be removed.(ûÐ–ÿÿÿÿÿÿ8›ÇÁÅ÷1J$d0cb6350-7d65-4fe9-b672-f99a597d8b9c
-	java:S125†"<This block of commented-out lines of code should be removed.(Ç¡è»8ÇÁÅ÷1J$bce226f1-83c1-4c82-9817-72e11b9372ab
+java:S1125Õ"'Remove the unnecessary boolean literal.(ò˜¦ó8›ÇÁÅ÷1J$b7c7d898-a7f2-42de-984e-f6ecc33aedbb
+„	java:S125ê"<This block of commented-out lines of code should be removed.(ûÐ–ÿÿÿÿÿÿ8›ÇÁÅ÷1J$757986af-6d62-4209-9ed9-3ea3228dcd6b
+	java:S125†"<This block of commented-out lines of code should be removed.(Ç¡è»8ÇÁÅ÷1J$1025646d-6aea-4487-ab6c-a0beb652a2ba
 ‹
-java:S1117Š"GRename "boardListScrollPane" which hides the field declared at line 86.(œâºî8žÇÁÅ÷1J$7b7019ce-d7f1-4f91-b27f-cd57d280bf39
-n	java:S106"+Replace this use of System.out by a logger.(¶°î£8žÇÁÅ÷1J$f00c801f-222f-4136-b6d1-860b0d9c602b
-n	java:S106"+Replace this use of System.out by a logger.(·ªÌ¦8žÇÁÅ÷1J$cf3036e5-3073-414f-b698-c66fee45958b
-„	java:S125Ú"<This block of commented-out lines of code should be removed.(Ù¢´§üÿÿÿÿ8¤ÇÁÅ÷1J$09659556-0b7b-447d-af89-d64e2d6a4834
+java:S1117Š"GRename "boardListScrollPane" which hides the field declared at line 86.(œâºî8žÇÁÅ÷1J$ca9b8466-3382-4e6a-9333-60cf4f1d9f8f
+n	java:S106"+Replace this use of System.out by a logger.(¶°î£8žÇÁÅ÷1J$61a63a85-8a65-40ae-b95b-fccdfa988144
+n	java:S106"+Replace this use of System.out by a logger.(·ªÌ¦8žÇÁÅ÷1J$78a03fde-e00e-461e-b6d9-d279d489bbb0
+„	java:S125Ú"<This block of commented-out lines of code should be removed.(Ù¢´§üÿÿÿÿ8¤ÇÁÅ÷1J$811582f4-73ae-49fa-9b1b-8fc639c9f833
 }
-java:S1854ø"9Remove this useless assignment to local variable "login".(ûµ8¤ÇÁÅ÷1J$3a603d58-aeb1-49c3-acb6-cd793a374c17
+java:S1854ø"9Remove this useless assignment to local variable "login".(ûµ8¤ÇÁÅ÷1J$5821b0f8-8fd9-4a46-9434-19e347307461
 k
-java:S1125ô"'Remove the unnecessary boolean literal.(ò˜¦ó8¤ÇÁÅ÷1J$b6ac5397-42c4-4166-b724-6f3037c94f13
+java:S1125ô"'Remove the unnecessary boolean literal.(ò˜¦ó8¤ÇÁÅ÷1J$822d1583-590c-4e13-ac33-d7152acae956
 n
-java:S1481ø"*Remove this unused "login" local variable.(ûµ8¥ÇÁÅ÷1J$2493c793-53b7-4c9f-b31a-6d332e228bb5
-n	java:S106Ë"+Replace this use of System.out by a logger.(¶°î£8§ÇÁÅ÷1J$fb08d94a-e01b-4c5b-acc0-5a759cd14b5f
-n	java:S106Ì"+Replace this use of System.out by a logger.(·ªÌ¦8§ÇÁÅ÷1J$9905c1aa-a02b-400b-8c7f-6b625e43e3d2
-~	java:S125ù"<This block of commented-out lines of code should be removed.(¤Ö8¨ÇÁÅ÷1J$6d5b3a94-7cee-46db-91c1-fbd9067a9e82
-	java:S125§"<This block of commented-out lines of code should be removed.(œ¬Î8©ÇÁÅ÷1J$0ad5d13b-78fe-49b7-a80f-ba45af0f937c
+java:S1481ø"*Remove this unused "login" local variable.(ûµ8¥ÇÁÅ÷1J$6efb8255-0d1f-4466-880f-278d082acf0b
+n	java:S106Ë"+Replace this use of System.out by a logger.(¶°î£8§ÇÁÅ÷1J$e3adda9f-6882-4ad4-8790-65f730422d62
+n	java:S106Ì"+Replace this use of System.out by a logger.(·ªÌ¦8§ÇÁÅ÷1J$9a84ff80-0c88-4e41-89be-f9c5bd0f6bd6
+~	java:S125ù"<This block of commented-out lines of code should be removed.(¤Ö8¨ÇÁÅ÷1J$706eebb3-f997-4861-86c5-d6ca1acd824c
+	java:S125§"<This block of commented-out lines of code should be removed.(œ¬Î8©ÇÁÅ÷1J$99a25b60-fbd3-4e0b-854c-d6cda94842cd
 }
-java:S1854»":Remove this useless assignment to local variable "result".(¶˜ìy8úÐÆÅ÷1J$8b9dedd8-20e9-44d2-88f7-785dc018b01c
+java:S1854»":Remove this useless assignment to local variable "result".(¶˜ìy8úÐÆÅ÷1J$3f03bf45-04e2-42ce-ad2e-6399c2070675
 n
-java:S1481»"+Remove this unused "result" local variable.(¶˜ìy8úÐÆÅ÷1J$f105ee70-97f4-4c41-9ed0-1bbeba650094
+java:S1481»"+Remove this unused "result" local variable.(¶˜ìy8úÐÆÅ÷1J$bb079f73-a462-4c1b-aa92-1461eb2d97de
