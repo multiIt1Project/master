@@ -80,7 +80,7 @@ public class GeneralUserBoardDao {
 		ResultSet rset = null;
 		ArrayList<GeneralUserBoardDto> list = new ArrayList<GeneralUserBoardDto>();
 		
-		String sql = prop.getProperty("selectBoard");
+		String sql = prop.getProperty("selectList");
 		try {
 			
 			ps = con.prepareStatement(sql);
